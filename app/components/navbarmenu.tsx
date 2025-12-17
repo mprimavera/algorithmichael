@@ -19,8 +19,8 @@ import Link from "next/link";
 export function NavbarMenu() {
   const navItems = [
     {
-      name: "Resume",
-      link: "/comingSoon",
+      name: "Résumé",
+      link: "/resume",
     },
     {
       name: "Projects",
@@ -43,7 +43,7 @@ export function NavbarMenu() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
-    <div className="relative w-full">
+    <div className="relative w-full bg-neutral-950">
       <Navbar >
         {/* Desktop Navigation */}
         <NavBody>
@@ -53,13 +53,13 @@ export function NavbarMenu() {
           href="http://localhost:3000"
           className="relative z-20 mr-4 flex items-center space-x-2 px-2 py-1 text-sm font-normal text-black hover:-translate-y-0.5 transition-all duration-300"
         >
-          <img
-            src="/logo.png"
+          {/* <img
+            src=""
             alt="logo"
             width={50}
             height={50}
-          />
-          <span className="font-medium text-black dark:text-white">MikhaelRobotics.AI™</span>
+          /> */}
+          <span className="font-medium text-black dark:text-white">MikhaelRobotics™</span>
         </a>
 
 
@@ -85,15 +85,15 @@ export function NavbarMenu() {
         {/* Logo Link */}
         <a
           href="http://localhost:3000"
-          className="relative z-20 mr-4 flex items-center space-x-2 px-2 py-1 text-sm font-normal text-black"
+          className="relative z-20 mr-4 flex items-center space-x-2 px-2 py-1 text-sm font-normal text-black hover:-translate-y-0.5 transition-all duration-300"
         >
-          <img
-            src="/logo.png"
+          {/* <img
+            src=""
             alt="logo"
             width={50}
             height={50}
-          />
-          <span className="font-medium text-black dark:text-white">MikhaelRobotics.AI™</span>
+          /> */}
+          <span className="font-medium text-black dark:text-white">MikhaelRobotics™</span>
         </a>
 
             <MobileNavToggle
