@@ -29,12 +29,12 @@ export default function Resume() {
       </p>
 
       {/* Scrollable container */}
-      <div className="mb-8 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
+      {/* <div className="mb-8 max-h-40 sm:max-h-40 overflow-y-auto pr-2"> */}
         <p 
           className="mb-2 text-slate-500 break-all sm:break-normal max-w-full sm:text-2xl leading-10 tracking-tight">
           After convincing my boss to bring CNC production in-house, which substantially increased our profitability, I was eventually promoted to managing logistics. This involved streamlining deliveries, reorganizing the warehouse layout, and tracking parts in process both on paper and electronically. I also adjusted order frequency and quantities to reduce expenses, implemented digital scales to speed up inventory tracking, and held meetings with warehouse management to ensure all workers were aligned with the changes as they occurred.
         </p>
-      </div>
+      {/* </div> */}
     </div>
   ),
 },
@@ -52,7 +52,6 @@ export default function Resume() {
             Programmed and ran Epilog laser engravers, Hurco VM5 and VM10 mills, a Fanuc Robodrill, a Matsura MAM72-70V Mill, and operated a Mazak lathe. 
           </p>
          
-          <div className="h-40 sm:h-60 md:h-80 lg:h-6 xl:h-[0rem]" />
         </div>
       ),
     },
@@ -62,6 +61,8 @@ export default function Resume() {
   return (
     <div className="relative w-full overflow-clip">
       <Timeline data={data} />
+                <div className="h-40 sm:h-60 md:h-80 lg:h-200 xl:h-[28rem]" />
+
     </div>
     
   );

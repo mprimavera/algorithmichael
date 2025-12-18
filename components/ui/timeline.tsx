@@ -41,7 +41,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
         <h2 className="text-lg md:text-4xl mb-4 text-black dark:text-white max-w-4xl">
           My Résumé
         </h2>
-        <p className="text-neutral-700 dark:text-neutral-300 text-md md:text-base max-w-xl">
+        <p className="text-neutral-700 dark:text-neutral-300 lg:text-xl md:text-base max-w-xl">
           As I complete my education, I am seeking a role where I can contribute to innovative robotics projects, refine my technical expertise, and apply practical manufacturing insight to intelligent system design.
         </p>
 

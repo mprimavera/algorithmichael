@@ -32,7 +32,7 @@ export const TextHoverEffect = ({
       ref={svgRef}
       width="100%"
       height="100%"
-      viewBox="0 0 1000 200" // <-- increased viewBox for wider text
+      viewBox="0 0 1000 400" // <-- increased viewBox for wider text
       preserveAspectRatio="xMidYMid meet" // <-- ensures scaling and centering
       xmlns="http://www.w3.org/2000/svg"
       onMouseEnter={() => setHovered(true)}
