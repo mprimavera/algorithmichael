@@ -1,3 +1,5 @@
+'use client'
+
 import React from "react";
 import { Timeline } from "@/components/ui/timeline";
 import { Button } from "@/components/ui/button"
@@ -11,7 +13,10 @@ import {
 } from "@/components/ui/card"
 import { GlowingEffect } from "@/components/ui/glowing-effect";
 import { GridItem } from "../components/grid_item";
-import { Copyright } from "lucide-react";
+import { Copyright, Github, Linkedin,  } from "lucide-react";
+import { GridItem2 } from "../components/grid_item_2";
+import { IconBrandNextjs, IconBrandVscode } from "@tabler/icons-react";
+import Image from "next/image";
 
 export default function Resume() {
   const data = [
@@ -38,16 +43,149 @@ export default function Resume() {
   content: (
     <div>
       <p className="mb-2 sm:mb-6 text-slate-300  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
-        Built this portfolio from scratch
+        Developed this React project as a portfolio
       </p>
 
       {/* Scrollable container */}
       {/* <div className="mb-8 max-h-40 sm:max-h-40 overflow-y-auto pr-2"> */}
         <p 
           className="mb-2 text-slate-500  sm:break-normal max-w-full sm:text-2xl leading-10 tracking-tight">
-            I ...
+            I custom built this portfolio completely from scratch (no templates or tutorials). I used GitHub, VSCode, NEXT.JS with React and
+             route handling, TailwindCSS, Aceternity UI, ShadCN, Lucide, and ChatGPT. I purchased a domain and will use Vercel to host the site. 
         </p>
       {/* </div> */}
+      
+
+      <div className="w-full">
+        <div
+          className="
+            grid
+            gap-5
+            grid-cols-3
+            max-w-xl
+            mx-auto
+            justify-items-stretch
+          "
+        >
+
+          <GridItem2
+            icon={<Github className="h-6 w-6" />}
+            description="GitHub"
+            link="https://github.com"
+          />
+
+          <GridItem2
+            icon={<IconBrandNextjs className="h-6 w-6" />}
+            description="NEXT.JS"
+            link="https://nextjs.org/"
+          />
+
+          <GridItem2
+            icon={
+              <Image
+                src="/react.png"
+                alt="React"
+                width={24}
+                height={24}
+                className="object-contain"
+              />
+            }
+            description="React"
+            link="https://react.dev/"
+          />
+
+          <GridItem2
+            icon={
+                    <Image
+                src="/tailwindCSS.png"
+                alt="React"
+                width={24}
+                height={24}
+                className="object-contain"
+              />
+            }
+            description="TailwindCSS"
+            link="https://tailwindcss.com/"
+          />
+
+          <GridItem2
+            icon={
+                    <Image
+                src="/aceternityUI.png"
+                alt="React"
+                width={24}
+                height={24}
+                className="object-contain"
+              />
+            }
+            description="Aceternity UI"
+            link="https://ui.aceternity.com/"
+          />
+
+          <GridItem2
+            icon={
+                    <Image
+                src="/shadcn.png"
+                alt="React"
+                width={24}
+                height={24}
+                className="object-contain"
+              />
+            }      
+            description="Shadcn UI"
+            link="https://ui.shadcn.com/"
+          />
+
+          <GridItem2
+            icon={
+                    <Image
+                src="/lucide1.png"
+                alt="React"
+                width={24}
+                height={24}
+                className="object-contain"
+              />
+            } 
+            description="Lucide"
+            link="https://lucide.dev/"
+          />
+
+          <GridItem2
+            icon={
+                    <Image
+                src="/chatgpt1.png"
+                alt="React"
+                width={24}
+                height={24}
+                className="object-contain"
+              />
+            } 
+            description="ChatGPT"
+            link="https://chatgpt.com/"
+          />
+
+          <GridItem2
+            icon={
+                    <Image
+                src="/vercel2.png"
+                alt="React"
+                width={24}
+                height={24}
+                className="object-contain"
+              />
+            } 
+            description="Vercel"
+            link="https://vercel.com/home"
+          />
+
+
+        </div>
+
+      </div>
+
+
+
+        
     </div>
   ),
 },
@@ -212,7 +350,6 @@ export default function Resume() {
           In October of 2017 I had finished the final draft of part one on a trillogy that I wrote. I was determined to see it through to completion,
           and even though I never intended to become published, I hired an intellectual attourney to aid in securing my first piece of IP.
         </p>
-        {/* <Card className="w-full  flex items-center justify-center"> */}
 
         <GridItem
           area="auto"
@@ -225,7 +362,6 @@ export default function Resume() {
               Copyright for Mind
             </a>
           }
-
           description={null}
         />
 
@@ -283,3 +419,4 @@ export default function Resume() {
     
   );
 }
+
