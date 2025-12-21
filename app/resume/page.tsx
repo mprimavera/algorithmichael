@@ -92,7 +92,7 @@ export default function Resume() {
                 alt="React logo"
                 width={24}
                 height={24}
-                className="object-contain"
+                style={{ height: "auto", width: "auto" }}
               />
             }
             description="React"
@@ -106,7 +106,7 @@ export default function Resume() {
                 alt="Tailwindcss logo"
                 width={24}
                 height={24}
-                className="object-contain"
+                style={{ height: "auto", width: "auto" }}
               />
             }
             description="TailwindCSS"
@@ -120,7 +120,7 @@ export default function Resume() {
                 alt="Aceternity logo"
                 width={24}
                 height={24}
-                className="object-contain"
+                style={{ height: "auto", width: "auto" }}
               />
             }
             description="Aceternity UI"
@@ -134,7 +134,7 @@ export default function Resume() {
                 alt="Shadcn Logo"
                 width={24}
                 height={24}
-                className="object-contain"
+                style={{ height: "auto", width: "auto" }}
               />
             }      
             description="Shadcn UI"
@@ -148,7 +148,7 @@ export default function Resume() {
                 alt="Lucide logo"
                 width={24}
                 height={24}
-                className="object-contain"
+                style={{ height: "auto", width: "auto" }}
               />
             } 
             description="Lucide"
@@ -162,7 +162,7 @@ export default function Resume() {
                 alt="ChatGPT logo"
                 width={24}
                 height={24}
-                className="object-contain"
+                style={{ height: "auto", width: "auto" }}
               />
             } 
             description="ChatGPT"
@@ -176,7 +176,7 @@ export default function Resume() {
                 alt="Vercel logo"
                 width={24}
                 height={24}
-                className="object-contain"
+                style={{ height: "auto", width: "auto" }}
               />
             } 
             description="Vercel"
