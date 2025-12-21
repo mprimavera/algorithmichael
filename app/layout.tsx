@@ -38,7 +38,6 @@ export default function RootLayout({
         </p>
       </StickyBanner>
 
-
         <NavbarMenu />
 
         {/* Main content grows */}

@@ -59,7 +59,7 @@ export function NavbarMenu() {
             width={50}
             height={50}
           /> */}
-          <span className="font-medium text-white">MikhaelRobotics™</span>
+          <span className="font-medium font-semibold text-blue-500">MikhaelRobotics™</span>
         </a>
 
 
@@ -93,7 +93,7 @@ export function NavbarMenu() {
             width={50}
             height={50}
           /> */}
-          <span className="font-medium text-white">MikhaelRobotics™</span>
+          <span className="font-medium font-semibold text-blue-500">MikhaelRobotics™</span>
         </a>
 
             <MobileNavToggle
