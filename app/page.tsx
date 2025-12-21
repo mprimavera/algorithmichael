@@ -28,7 +28,7 @@ export default function Home() {
 
 
             {/* Main Heading */}
-            <h1 className="max-w-full text-4xl sm:text-6xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-300">
+            <h1 className="max-w-full text-4xl sm:text-6xl font-semibold leading-10 tracking-tight text-zinc-300">
               Michael Primavera
             </h1>
           </div>
@@ -36,11 +36,11 @@ export default function Home() {
             {/* Details */}
 
           <div className="flex flex-col items-center gap-6 text-center mt-10">
-            <p className="max-w-full text-sm sm:text-lg leading-10 tracking-tight text-black dark:text-zinc-300">
+            <p className="max-w-full text-sm sm:text-lg leading-10 tracking-tight text-zinc-300">
               B.S. in Robotics Engineering, Worcester Polytechnic Institute, December, 2025
             </p>
 
-            {/* <p className="max-w-full text-sm sm:text-lg leading-10 tracking-tight text-black dark:text-zinc-300">
+            {/* <p className="max-w-full text-sm sm:text-lg leading-10 tracking-tight text-zinc-300">
               M.S. in Artificial Intelligence, Johns Hopkins University, starting May, 2026
             </p> */}
             
@@ -50,7 +50,7 @@ export default function Home() {
 
           <Accordion type="single" collapsible className="w-full">
             <AccordionItem value="item-1">
-          <AccordionTrigger className="max-w-full justify-center text-sm sm:text-lg leading-10 tracking-tight text-black dark:text-zinc-300">
+          <AccordionTrigger className="max-w-full justify-center text-sm sm:text-lg leading-10 tracking-tight text-zinc-300">
             Learn More
           </AccordionTrigger>
             <AccordionContent className="max-h-50 overflow-y-auto px-2 bg-black/50">

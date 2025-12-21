@@ -403,7 +403,7 @@ export default function Resume() {
 
         <GridItem
           area="auto"
-          icon={<Copyright className="h-6 w-6 text-center text-black dark:text-neutral-400" />}
+          icon={<Copyright className="h-6 w-6 text-center text-neutral-400" />}
           title={
             <a
               href="https://publicrecords.copyright.gov/detailed-record/voyager_29808827"

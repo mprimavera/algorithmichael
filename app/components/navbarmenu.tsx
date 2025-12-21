@@ -59,7 +59,7 @@ export function NavbarMenu() {
             width={50}
             height={50}
           /> */}
-          <span className="font-medium text-black dark:text-white">MikhaelRobotics™</span>
+          <span className="font-medium text-white">MikhaelRobotics™</span>
         </a>
 
 
@@ -93,7 +93,7 @@ export function NavbarMenu() {
             width={50}
             height={50}
           /> */}
-          <span className="font-medium text-black dark:text-white">MikhaelRobotics™</span>
+          <span className="font-medium text-white">MikhaelRobotics™</span>
         </a>
 
             <MobileNavToggle
@@ -111,7 +111,7 @@ export function NavbarMenu() {
                 key={`mobile-link-${idx}`}
                 href={item.link}
                 onClick={() => setIsMobileMenuOpen(false)}
-                className="relative text-neutral-600 dark:text-neutral-300"
+                className="relative text-neutral-300"
               >
                 <span className="block">{item.name}</span>
               </a>

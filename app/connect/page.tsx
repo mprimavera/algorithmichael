@@ -18,7 +18,7 @@ export default function ConnectPage() {
         {/* Email direct */}
 <div className="w-full max-w-md mx-auto">
   <GridItem
-    icon={<Mail className="h-6 w-6 text-black dark:text-neutral-400" />}
+    icon={<Mail className="h-6 w-6 text-neutral-400" />}
     title={
       <a
         href="mailto:michael@mikhaelrobotics.ai"
@@ -33,7 +33,7 @@ export default function ConnectPage() {
 
 <div className="w-full max-w-md mx-auto">
   <GridItem
-    icon={<Linkedin className="h-6 w-6 text-black dark:text-neutral-400" />}
+    icon={<Linkedin className="h-6 w-6 text-neutral-400" />}
     title={
       <a
         href="https://linkedin.com/in/mikhaelrobotics"
@@ -52,7 +52,7 @@ export default function ConnectPage() {
         {/* Contact form */}
         {/* <GridItem
           area="auto"
-          icon={<MessageSquareText className="h-6 w-6 text-black dark:text-neutral-400" />}
+          icon={<MessageSquareText className="h-6 w-6 text-neutral-400" />}
           title={<span>Message</span>}
           description={
             <ContactForm

@@ -66,12 +66,12 @@ export const GridItem2 = ({
         {/* Icon + Title */}
         <div className="flex items-center justify-center w-full h-full text-blue-500">
           <div className="flex-shrink-0">{icon}</div>
-          <h3 className="text-xl font-semibold text-black dark:text-white text-center">
+          <h3 className="text-xl font-semibold text-white text-center">
           </h3>
         </div>
 
         {description && (
-          <div className="mt-3 text-sm text-black dark:text-neutral-400 text-center">
+          <div className="mt-3 text-sm text-neutral-400 text-center">
             {description}
           </div>
         )}
