@@ -118,7 +118,34 @@ export default function projects() {
 </div>
 
 
+<div className="w-full max-w-[400px] mx-auto">
+<BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-white dark:bg-zinc-900 flex flex-col items-center h-[500px]">    
+    {/* YouTube video */}
+    <div className="w-full aspect-video mb-4">
+      <iframe
+        className="w-full h-full rounded-lg"
+        src="https://www.youtube.com/embed/Cx7HpJapaZQ?si=XWw0iW-Nd3knbpQy"
+        title="Senior Design Project"
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      ></iframe>
+    </div>
 
+    <p className="text-base sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
+      Senior Design Project: Mini CNC Mill
+    </p>
+
+      <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
+
+    <p className="text-sm text-neutral-600 dark:text-neutral-400">
+      This is the final presentation video for our senior design project (MQP) at WPI. I narrated the video. It shows the vast
+      amount of CAD I was responsible for (SOLIDWORKS), as well as using MATLAB, and creating schematics with KiCad.
+    </p>
+      </div>
+
+  </BackgroundGradient>
+</div>
             
         </div>
     </div>
