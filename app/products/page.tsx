@@ -61,8 +61,8 @@ export default function products() {
           <div className="mb-8 max-h-50 sm:max-h-35 md:max-h-40 lg:max-h-50 overflow-y-auto pr-2">
 
             <p className="text-slate-500 lg:text-xl md:text-base max-w-3xl">
-                Over the years, I’ve learned that integrity is a primary key to success in business. I strive to be open and honest about my
-                achievements and intentions. While this approach may make some companies hesitant to hire someone with my capabilities,
+                Over the years, I’ve learned that integrity is a primary key to success in business; therefore, I strive to be open and
+                honest about my achievements and intentions. While this approach may make some companies hesitant to hire someone with my capabilities,
                 I believe that choosing the right path may open fewer doors but will create far more meaningful opportunities for both
                 myself and companies equally driven to excel.
             </p>
