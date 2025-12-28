@@ -31,7 +31,8 @@ const Slide = ({ slide, index, current, handleSlideClick }: SlideProps) => {
     <div className="[perspective:1200px] [transform-style:preserve-3d]">
       <li
         ref={slideRef}
-        className="flex flex-1 flex-col items-center justify-between relative text-center opacity-100 transition-all duration-300 ease-in-out w-[70vmin] h-[70vmin] mx-[4vmin] z-10"
+        className="flex flex-1 flex-col items-center justify-between relative text-center opacity-100 transition-all duration-300 ease-in-out
+         w-[70vmin] h-[70vmin] mx-[4vmin] z-10"
         onClick={() => handleSlideClick(index)}
         style={{
           transform: current !== index ? "scale(0.98) rotateX(8deg)" : "scale(1) rotateX(0deg)",
@@ -54,38 +55,40 @@ const Slide = ({ slide, index, current, handleSlideClick }: SlideProps) => {
           )}
         </div>
 
-        {/* Title at top */}
+        {/* Title at top */}a
         <h2
-          className={`absolute top-12 w-full font-semibold text-lg md:text-2xl lg:text-3xl ${
-            titleColor || "text-white"
+          className={`absolute top-12 left-1/2 -translate-x-1/2 font-semibold text-lg md:text-2xl lg:text-3xl ${
+          titleColor || "text-white"
           }`}
         >
-          {title}
+          <span className="inline-block rounded-md bg-black/30 backdrop-blur-md px-4 py-1">
+
+            {title}
+          </span>
         </h2>
 
-        {buttonText && buttonAction && (
-          <div className="absolute bottom-26 w-full flex justify-center">
-            <button
-              onClick={buttonAction}
-              className="px-4 py-2 bg-black/50 border-2 text-blue-500 border border-slate-700 rounded-2xl shadow transition hover:text-blue-300 cursor-pointer"
-            >
-              {buttonText}
-            </button>
-          </div>
-        )}
+{/* Bottom description + button */}
+{bottomDescription && (
+  <div className="absolute bottom-5 left-1/2 -translate-x-1/2 flex flex-col items-center space-y-2">
+    <p className={`text-center px-4 text-sm md:text-base lg:text-lg ${descriptionColor || "text-slate-300"}`}>
+      <span className="inline-block rounded-md bg-black/30 backdrop-blur-md px-3 py-1">
+        {bottomDescription}
+      </span>
+    </p>
+
+    {buttonText && buttonAction && (
+      <button
+        onClick={buttonAction}
+        className="px-4 py-2 bg-black/50 border-2 text-blue-500 border-slate-700 rounded-2xl shadow transition hover:text-blue-300 cursor-pointer"
+      >
+        {buttonText}
+      </button>
+    )}
+  </div>
+)}
 
 
 
-        {/* Bottom description */}
-        {bottomDescription && (
-          <p
-            className={`absolute bottom-5 w-full px-4 text-sm md:text-base lg:text-lg ${
-              descriptionColor || "text-slate-300"
-            }`}
-          >
-            {bottomDescription}
-          </p>
-        )}
       </li>
     </div>
   );
