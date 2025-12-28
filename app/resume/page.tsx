@@ -260,40 +260,8 @@ export default function Resume() {
                 Although I did make sales, the income wasn't steady enough to pursue it further.
             </p>
 
-
           </div>
-                
-          <Card className="w-full relative flex flex-col md:flex-row items-center md:items-start gap-4 p-4 ">
-            <GlowingEffect
-              spread={40}
-              glow={true}
-              disabled={false}
-              proximity={64}
-              inactiveZone={0.01}
-            />
 
-            <CardContent className="w-full md:w-1/2 flex justify-center">
-              <div className="w-full aspect-video">
-                <iframe
-                  className="w-full h-full rounded-lg"
-                  src="https://www.youtube.com/embed/ImnPgaXRYiE?si=rXmw1jVXKugv35bx"
-                  title="YouTube video player"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerPolicy="strict-origin-when-cross-origin"
-                  allowFullScreen
-                ></iframe>
-              </div>
-
-            </CardContent>
-
-            <CardHeader className="w-full md:w-1/2">
-              <CardTitle>Dynamic price modeling</CardTitle>
-              <CardDescription>
-              Go-to-market strategy for profitability.
-              </CardDescription>
-            </CardHeader>
-          </Card>
         </div>
       ),
     },
@@ -345,36 +313,6 @@ export default function Resume() {
             </p>
             </div>
 
-          <Card className="w-full relative flex flex-col md:flex-row items-center md:items-start gap-4 p-4 ">
-            <GlowingEffect
-              spread={40}
-              glow={true}
-              disabled={false}
-              proximity={64}
-              inactiveZone={0.01}
-            />
-
-            <CardContent className="w-full md:w-1/2 flex justify-center">
-              <div className="w-full aspect-video">
-                <iframe
-                  className="w-full h-full rounded-lg"
-                  src="https://www.youtube.com/embed/iZbmoNKK79Q?si=LcMVxB0FPoK9FB9I"
-                  title="YouTube video player"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerPolicy="strict-origin-when-cross-origin"
-                  allowFullScreen
-                ></iframe>
-              </div>
-            </CardContent>
-
-            <CardHeader className="w-full md:w-1/2">
-              <CardTitle>The first prototype for AlphaOmega LLC</CardTitle>
-              <CardDescription>
-                Cryptocurrency mining rig.
-              </CardDescription>
-            </CardHeader>
-          </Card>
         </div>
       ),
     },
@@ -394,20 +332,6 @@ export default function Resume() {
               In October of 2017 I had finished the final draft of part one on a trilogy that I wrote. I was determined to see it through to completion,
               and even though I never intended to become published, I hired an intellectual attorney to aid in securing my first piece of IP.
             </p>
-
-            <GridItem
-              area="auto"
-              icon={<Copyright className="h-6 w-6 text-center text-neutral-400" />}
-              title={
-                <a
-                  href="https://publicrecords.copyright.gov/detailed-record/voyager_29808827"
-                  target="_blank"  rel="noopener noreferrer"
-                  className="text-blue-500 text-center  sm:break-normal hover:text-blue-400">
-                  Copyright for Mind
-                </a>
-              }
-              description={null}
-            />
 
         </div>
       ),
