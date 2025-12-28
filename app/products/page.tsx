@@ -24,7 +24,7 @@ export default function Products() {
     {
       title: "Π: Digital Contact Cards",
       src: "/pi_moreColors.jpg",
-      bottomDescription: "These are more color options. The v-card info embedded in the QR code is outdated contact info (if you scan this image with a phone now).",
+      bottomDescription: "These are more color options. The vCard info embedded in the QR code is outdated contact info (if you scan this image with a phone now).",
       titleColor: "text-pink-200/70",
       descriptionColor: "text-pink-200/70"
     },
@@ -32,7 +32,7 @@ export default function Products() {
     {
       title: "Π: Digital Contact Cards",
       src: "/pi_scanHere.jpg",
-      bottomDescription: "This image was created to show customers how the contact card works. The v-card info embedded in the QR code is outdated contact info (if you scan this image with a phone now).",
+      bottomDescription: "This image was created to show customers how the contact card works. The vCard info embedded in the QR code is outdated contact info (if you scan this image with a phone now).",
       titleColor: "text-pink-200/70",
       descriptionColor: "text-pink-200/70"
     },
@@ -48,7 +48,7 @@ export default function Products() {
     {
       title: "Π: Digital Contact Cards",
       src: "/pi_back.jpg",
-      bottomDescription: "This was an example template of the back for customers during checkout. The v-card info embedded in the QR code is outdated contact info (if you scan this image with a phone now).",
+      bottomDescription: "This was an example template of the back for customers during checkout. The vCard info embedded in the QR code is outdated contact info (if you scan this image with a phone now).",
       titleColor: "text-pink-200/70 bg-black/20 rounded-md",
       descriptionColor: "text-pink-200/70 bg-black/20 rounded-md"
     },
@@ -168,7 +168,7 @@ export default function Products() {
                 Products
             </h2>
 
-          <div className="mb-8 max-h-50 sm:max-h-35 md:max-h-40 lg:max-h-50 overflow-y-auto pr-2">
+          <div className="mb-8 max-h-50 sm:max-h-35 md:max-h-40 lg:max-h-40 overflow-y-auto pr-2">
 
             <p className="text-slate-500 lg:text-xl md:text-base max-w-3xl">
               Over the years, I’ve learned that integrity is a primary key to success in business; therefore, I remain open about the

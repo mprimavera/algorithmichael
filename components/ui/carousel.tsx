@@ -40,7 +40,7 @@ const Slide = ({ slide, index, current, handleSlideClick }: SlideProps) => {
           transformOrigin: "bottom",
         }}
       >
-        <div className="absolute top-0 left-0 w-full h-full bg-black rounded-[1%] overflow-hidden">
+        <div className="absolute top-0 left-0 w-full h-full bg-black/0 rounded-[1%] overflow-hidden">
           {src && (
             <img
               className="absolute inset-0 w-full h-full object-contain mx-auto my-auto transition-opacity duration-600 ease-in-out"
@@ -51,11 +51,11 @@ const Slide = ({ slide, index, current, handleSlideClick }: SlideProps) => {
           )}
 
           {current === index && (
-            <div className="absolute inset-0 bg-black/10 transition-all duration-1000 pointer-events-none" />
+            <div className="absolute inset-0 transition-all duration-1000 pointer-events-none" />
           )}
         </div>
 
-        {/* Title at top */}a
+        {/* Title at top */}
         <h2
           className={`absolute top-12 left-1/2 -translate-x-1/2 font-semibold text-lg md:text-2xl lg:text-3xl ${
           titleColor || "text-white"
