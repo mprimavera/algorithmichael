@@ -7,7 +7,7 @@ export default function Projects() {
     <div className="">
       <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
         <h2 className="text-lg md:text-4xl mb-4 text-white max-w-full">
-          My Projects (More coming over the next few days)
+          My Projects
         </h2>
         <p className="text-slate-500 lg:text-xl md:text-base max-w-3xl">
           I’ve included videos showing some of the projects I’ve worked on to demonstrate the technical skills I’ve developed. This is not a comprehensive list. At Milara, I was not permitted to take photos or videos of the sorters I worked on. During my time there, I performed field service engineering as part of their software team at cleanroom semiconductor fabrication facilities.

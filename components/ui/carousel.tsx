@@ -57,21 +57,24 @@ const Slide = ({ slide, index, current, handleSlideClick }: SlideProps) => {
 
         {/* Title at top */}
         <h2
-          className={`absolute top-12 left-1/2 -translate-x-1/2 font-semibold text-lg md:text-2xl lg:text-3xl ${
-          titleColor || "text-white"
-          }`}
+          className={`absolute left-1/2 -translate-x-1/2 font-semibold text-lg sm:text-xl md:text-2xl lg:text-3xl
+            ${titleColor || "text-white"} 
+            top-2 sm:top-2 md:top-8 lg:top-12`}
         >
           <span className="inline-block rounded-md bg-black/30 backdrop-blur-md px-4 py-1">
-
             {title}
           </span>
         </h2>
 
-
         {/* Bottom description + button */}
         {bottomDescription && (
-          <div className="absolute bottom-5 left-1/2 -translate-x-1/2 flex flex-col items-center space-y-2 w-[90%] max-w-[70vmin]">
-            <p className={`text-center text-sm md:text-base lg:text-lg ${descriptionColor || "text-slate-300"}`}>
+          <div
+            className={`absolute left-1/2 -translate-x-1/2 flex flex-col items-center space-y-2 w-[90%] max-w-[70vmin]
+              bottom-2 sm:bottom-2 md:bottom-8 lg:bottom-12`} // same as top title
+          >
+            <p
+              className={`text-center text-sm md:text-base lg:text-lg ${descriptionColor || "text-slate-300"}`}
+            >
               <span className="inline-block rounded-md bg-black/30 backdrop-blur-md px-3 py-1">
                 {bottomDescription}
               </span>
@@ -87,9 +90,6 @@ const Slide = ({ slide, index, current, handleSlideClick }: SlideProps) => {
             )}
           </div>
         )}
-
-
-
 
       </li>
     </div>

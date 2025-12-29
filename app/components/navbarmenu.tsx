@@ -32,7 +32,7 @@ export function NavbarMenu() {
     },
     {
       name: "Machines",
-      link: "/comingSoon",
+      link: "/machines",
     },
     {
       name: "IP",
