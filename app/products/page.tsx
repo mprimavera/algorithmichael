@@ -76,7 +76,7 @@ export default function Products() {
     {
       title: "ζ: Custom Thumb Screws",
       src: "/zeta_green.jpg",
-      bottomDescription: "Other colors: green anodize",
+      bottomDescription: "Other colors: green anodize.",
       titleColor: "text-pink-200/70",
       descriptionColor: "text-pink-200/70"
     },
@@ -85,7 +85,7 @@ export default function Products() {
     {
       title: "ζ: Custom Thumb Screws",
       src: "/zeta_purple.jpg",
-      bottomDescription: "Other colors: purple anodize",
+      bottomDescription: "Other colors: purple anodize.",
       titleColor: "text-pink-200/70",
       descriptionColor: "text-pink-200/70"
     },
@@ -93,7 +93,7 @@ export default function Products() {
     {
       title: "ζ: Custom Thumb Screws",
       src: "/zeta_orange.jpg",
-      bottomDescription: "Other colors: orange anodize",
+      bottomDescription: "Other colors: orange anodize.",
       titleColor: "text-pink-200/70",
       descriptionColor: "text-pink-200/70"
     },
@@ -101,7 +101,7 @@ export default function Products() {
     {
       title: "ζ: Custom Thumb Screws",
       src: "/zeta_clearCoat.jpg",
-      bottomDescription: "Other colors: clear-coat anodize",
+      bottomDescription: "Other colors: clear-coat anodize.",
       titleColor: "text-pink-200/70",
       descriptionColor: "text-pink-200/70"
     },
@@ -171,16 +171,15 @@ export default function Products() {
           <div className="mb-8 max-h-50 sm:max-h-35 md:max-h-40 lg:max-h-40 overflow-y-auto pr-2">
 
             <p className="text-slate-500 lg:text-xl md:text-base max-w-3xl">
-              Over the years, I’ve learned that integrity is a primary key to success in business; therefore, I remain open about the
-              entrepreneurial experience, network, and resources I’ve built. While this approach may result in fewer opportunities, it
-              ensures alignment with a company seeking my exact skill set, character, and drive—creating an optimal outcome for both parties.
+              Over the years, I’ve learned that integrity is key to success in business; therefore, I remain transparent about my
+              entrepreneurial experience, network, and resources. Although this may limit opportunities, it ensures alignment with
+              companies seeking my exact skill set, character, and drive—creating an optimal outcome for both parties.
             </p>
 
-
             <p className="text-slate-500 lg:text-xl md:text-base max-w-3xl">
-              These are the products I designed, manufactured, marketed, and sold through my e-commerce store. After closing the business due
-              to inconsistent income, I strategically shifted my focus toward strengthening my technical foundation—earning a B.S. in Robotics
-              Engineering and currently pursuing an M.S. in Artificial Intelligence.
+              These are the products I designed, manufactured, marketed, and sold through my e-commerce store. After closing the
+              business due to inconsistent income, I strategically shifted my focus toward strengthening my technical foundation,
+              earning a B.S. in Robotics Engineering and now pursuing an M.S. in Artificial Intelligence.
             </p>
 
             </div>

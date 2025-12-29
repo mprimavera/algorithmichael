@@ -26,7 +26,7 @@ export default function Machines() {
     {
       title: "Hurco VM10i Mill",
       src: "/hurcoVM10.jpg", // <-- replace this with your actual image
-      bottomDescription: "This is a verticle mill with a rotary axis option. (1 of 3)",
+      bottomDescription: "This is a vertical mill with a rotary axis option. (1 of 3)",
       titleColor: "text-pink-200/85",
       descriptionColor: "text-pink-200/85"
     },
@@ -34,7 +34,7 @@ export default function Machines() {
     {
       title: "Hurco VM5i Mill",
       src: "/hurcoVM5i1.jpg", // <-- replace this with your actual image
-      bottomDescription: "This is a verticle mill (2 of 3).",
+      bottomDescription: "This is a vertical mill (2 of 3).",
       titleColor: "text-pink-200/85",
       descriptionColor: "text-pink-200/85"
     },
@@ -42,7 +42,7 @@ export default function Machines() {
         {
       title: "Hurco VM5i Mill",
       src: "/hurcoVM5i2.jpg", // <-- replace this with your actual image
-      bottomDescription: "This is a verticle mill (3 of 3)).",
+      bottomDescription: "This is a vertical mill (3 of 3).",
       titleColor: "text-pink-200/85",
       descriptionColor: "text-pink-200/85"
     },
@@ -51,7 +51,7 @@ export default function Machines() {
     {
       title: "Epilog Mini Laser",
       src: "/laser1.jpg", // <-- replace this with your actual image
-      bottomDescription: "This is an Epilog Mini, 50-watt C02 laser with a rotary add-on. (1 of 2)",
+      bottomDescription: "This is an Epilog Mini, 50-watt CO₂ laser with a rotary add-on. (1 of 2)",
       titleColor: "text-pink-200/85",
       descriptionColor: "text-pink-200/85"
     },
@@ -59,7 +59,7 @@ export default function Machines() {
     {
       title: "Epilog Mini Laser",
       src: "/laser2.jpg", // <-- replace this with your actual image
-      bottomDescription: "This is an Epilog Mini, 50-watt C02 laser with a rotary add-on. (2 of 2)",
+      bottomDescription: "This is an Epilog Mini, 50-watt CO₂ laser with a rotary add-on. (2 of 2)",
       titleColor: "text-pink-200/85",
       descriptionColor: "text-pink-200/85"
     },
@@ -68,7 +68,7 @@ export default function Machines() {
     {
       title: "Miller SyncroWave 250 DX",
       src: "/welder1.jpg", // <-- replace this with your actual image
-      bottomDescription: "This is a TIG welder for metals",
+      bottomDescription: "This is a TIG welder for metals.",
       titleColor: "text-pink-200/85",
       descriptionColor: "text-pink-200/85"
     },
@@ -77,7 +77,7 @@ export default function Machines() {
     {
       title: "Atek Bantam Press Brake",
       src: "/brake.jpg", // <-- replace this with your actual image
-      bottomDescription: "This is a press brake for bending metals",
+      bottomDescription: "This is a press brake for bending metals.",
       titleColor: "text-pink-200/85",
       descriptionColor: "text-pink-200/85"
     },
@@ -110,12 +110,12 @@ export default function Machines() {
               Machines
           </h2>
           <p className="text-slate-500 lg:text-xl md:text-base max-w-3xl">
-            Over the years, I’ve learned that integrity is a primary key to success in business; therefore, I remain open about the
-            entrepreneurial experience, network, and resources I’ve built. While this approach may result in fewer opportunities, it
-            ensures alignment with a company seeking my exact skill set, character, and drive—creating an optimal outcome for both parties.
+            Over the years, I’ve learned that integrity is key to success in business; therefore, I remain transparent about my
+            entrepreneurial experience, network, and resources. Although this may limit opportunities, it ensures alignment with
+            companies seeking my exact skill set, character, and drive—creating an optimal outcome for both parties.
           </p>
           <p className="text-slate-500 lg:text-xl md:text-base max-w-3xl">
-            These are the machines I currently have in my shop.
+            Here are the machines currently in my shop.
           </p>
       </div>
           

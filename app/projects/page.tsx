@@ -10,11 +10,12 @@ export default function Projects() {
           My Projects
         </h2>
         <p className="text-slate-500 lg:text-xl md:text-base max-w-3xl">
-          I’ve included videos showing some of the projects I’ve worked on to demonstrate the technical skills I’ve developed. This is not a comprehensive list. At Milara, I was not permitted to take photos or videos of the sorters I worked on. During my time there, I performed field service engineering as part of their software team at cleanroom semiconductor fabrication facilities.
+          I’ve included videos showing some of the projects I’ve worked on to demonstrate the technical skills I’ve developed. This
+          is not a comprehensive list. At Milara, I was not permitted to take photos or videos of the sorters I worked on. During my time there, I performed field service engineering as part of their software team at cleanroom semiconductor fabrication facilities.
         </p>
       </div>
 
-      <div className="min-h-screen flex flex-wrap justify-center gap-x-16 gap-y-20 mt-10 px-25 lg:px-50">
+      <div className="min-h-screen flex flex-wrap justify-center gap-x-16 gap-y-20 mt-10 px-24 lg:px-52">
 
         {/* Industrial Robotics */}
         <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
@@ -60,7 +61,9 @@ export default function Projects() {
 
             <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
               <p className="text-sm text-neutral-400">
-                On a team of three, we programmed the robot using MATLAB. We used the MATLAB Computer Vision Toolbox, and libraries for powering the servo motors. All trajectory planning was written from scratch using both forward and inverse kinematics. (The video was not intended for a presentation, just for personal reflection.)
+                On a team of three, we programmed the robot using MATLAB. We used the MATLAB Computer Vision Toolbox, and libraries
+                for powering the servo motors. All trajectory planning was written from scratch using both forward and inverse
+                kinematics. (The video was not intended for a presentation, just for personal reflection.)
               </p>
             </div>
           </BackgroundGradient>
@@ -141,7 +144,7 @@ export default function Projects() {
             <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
               <p className="text-sm text-neutral-400">
                 This video is a presentation of the finalized R&D phase for the mechanical bed leveling I designed for the MQP (major qualifying
-                project) as a senior at WPI. This video illustrates the real-world application of engineering pricipals and proceedures I was
+                project) as a senior at WPI. This video illustrates the real-world application of engineering principles and procedures I was
                 responsible for. A few of the following videos on this page show the successful implementation of the engineering.
               </p>
               <p className="text-sm text-neutral-400">
@@ -258,8 +261,8 @@ export default function Projects() {
               <p className="text-sm text-neutral-400">
                 This video is a presentation of the issues with space for the add-ons our team were attempting to include in the mini CNC mill.
                 I created a box in SOLIDWORKS that represented the reachable work area, and used acrylic as the material so the box was visible
-                while transparent. I then placed the add-ons into the assembly—the tool-changer magazine and vise—and using the assembly I
-                showed that the conductive tool probe would not have anywhere to go.
+                while transparent. I then placed the add-ons into the assembly—the tool-changer magazine and vise—and, using the assembly, I
+                showed I showed that the conductive tool probe would not have anywhere to go.
               </p>
               <p className="text-sm text-neutral-400">
                 This was the determining factor that resulted in our team
@@ -370,7 +373,9 @@ export default function Projects() {
 
             <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
               <p className="text-sm text-neutral-400">
-                I created a voltmeter using a Raspberry Pi Pico 2 W microcontroller, potentiometer, and 7-segment 4-digit LED display. Besides the SDK library, all code was written from scratch. The display runs on a timer interrupt, and output is based on the ADC reading of the potentiometer's wiper pin.
+                I created a voltmeter using a Raspberry Pi Pico 2 W microcontroller, potentiometer, and 7-segment 4-digit LED display.
+                Apart from the SDK library, all code was written from scratch. The display runs on a timer interrupt, and output is
+                based on the ADC reading of the potentiometer's wiper pin.
               </p>
             </div>
           </BackgroundGradient>
@@ -452,12 +457,12 @@ export default function Projects() {
 
             <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
               <p className="text-sm text-neutral-400">
-                I created dynmaic price modeling, which was based on the fixed and variable costs of the products I was selling.
+                I created dynamic price modeling, which was based on the fixed and variable costs of the products I was selling.
               </p>
 
               <p className="text-sm text-neutral-400">
                 After creating expense spreadsheets in Excel, I used the fixed and variable costs to create a formula where the
-                intersection of a level plane with a 3D curve yeilded the price at which to sell the variable quantity to achieve the desired
+                intersection of a level plane with a 3D curve yielded the price at which to sell the variable quantity to achieve the desired
                 constant profit rate.
               </p>
 
