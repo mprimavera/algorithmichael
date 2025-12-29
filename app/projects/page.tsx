@@ -86,7 +86,8 @@ export default function Projects() {
 
             <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
               <p className="text-sm text-neutral-400">
-                Using Linux OS and the Pico SDK library, all code was written from scratch. This included the display code, as well as encoder-based proportional and derivative control. Integral control was used in other projects.
+                Using Linux OS and the Pico SDK library, all code was written from scratch. This included the display code, as well as encoder-based
+                proportional and derivative control. Integral control was used in other projects.
               </p>
             </div>
           </BackgroundGradient>
@@ -99,7 +100,7 @@ export default function Projects() {
               <iframe
                 className="w-full h-full rounded-lg"
                 src="https://www.youtube.com/embed/Cx7HpJapaZQ?si=XWw0iW-Nd3knbpQy"
-                title="Senior Design Project"
+                title="Major Qualifying Project"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
@@ -107,12 +108,44 @@ export default function Projects() {
             </div>
 
             <p className="text-base sm:text-xl mt-4 mb-2 text-neutral-200">
-              Senior design project: mini CNC mill
+              Major Qualifying Project (MQP): mini CNC mill
             </p>
 
             <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
               <p className="text-sm text-neutral-400">
-                This is the final presentation video for our eleven-student senior design project (MQP) at WPI. I narrated the video and demonstrated my CAD (SOLIDWORKS), MATLAB work, and KiCad schematic creation.
+                This is the final presentation video for our eleven-student major qualifying project (MQP) at WPI. I narrated the video and demonstrated
+                my CAD (SOLIDWORKS), MATLAB work, and KiCad schematic creation.
+              </p>
+            </div>
+          </BackgroundGradient>
+        </div>
+
+        {/* MQP mini CNC mill: presentation of finalized R&D phase */}
+        <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
+          <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
+            <div className="w-full aspect-video mb-4">
+              <iframe
+                className="w-full h-full rounded-lg"
+                src="https://www.youtube.com/embed/4MgPYenIZXw?si=HAi-hV11wRllbVWy"
+                title="MQP mini CNC mill: presentation of finalized R&D phase"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
+
+            <p className="text-base sm:text-xl mt-4 mb-2 text-neutral-200">
+              MQP mini CNC mill: presentation of finalized R&D phase
+            </p>
+
+            <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
+              <p className="text-sm text-neutral-400">
+                This video is a presentation of the finalized R&D phase for the mechanical bed leveling I designed for the MQP (major qualifying
+                project) as a senior at WPI. This video illustrates the real-world application of engineering pricipals and proceedures I was
+                responsible for. A few of the following videos on this page show the successful implementation of the engineering.
+              </p>
+              <p className="text-sm text-neutral-400">
+                This was created as an update for my MQP advisor, while he was away at a conference.
               </p>
             </div>
           </BackgroundGradient>
@@ -138,7 +171,9 @@ export default function Projects() {
 
             <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
               <p className="text-sm text-neutral-400">
-                This video shows successful testing of the helicoil’s ability to withstand the torque needed to fasten the mini CNC mill’s work plate to the linear rails and ball screw (200 inch-lbs). The test was performed on scrap materials before machining the actual work plate, keeping the project within budget.
+                This video shows successful testing of the helicoil’s ability to withstand the torque needed to fasten the mini CNC mill’s
+                work plate to the linear rails and ball screw (200 inch-lbs). The test was performed on scrap materials before machining the
+                actual work plate, keeping the project within budget.
               </p>
             </div>
           </BackgroundGradient>
@@ -164,7 +199,74 @@ export default function Projects() {
 
             <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
               <p className="text-sm text-neutral-400">
-                This video shows the mechanical bed leveling I engineered, successfully integrated into a mini CNC mill. The bed could be leveled within ±0.127 µm across the length and width of the work plate that held the vice for machining parts.
+                This video shows the mechanical bed leveling I engineered, successfully integrated into a mini CNC mill. The bed could be
+                leveled within ±0.127 µm across the length and width of the work plate that held the vice for machining parts.
+              </p>
+            </div>
+          </BackgroundGradient>
+        </div>
+
+        {/* MQP mini CNC mill: presentation of FEMA analysis for a tool probing concept */}
+        <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
+          <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
+            <div className="w-full aspect-video mb-4">
+              <iframe
+                className="w-full h-full rounded-lg"
+                src="https://www.youtube.com/embed/-mwcSxoPo5E?si=tWpsAsEATLx_ic8H"
+                title="MQP mini CNC mill: presentation of finalized R&D phase"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
+
+            <p className="text-base sm:text-xl mt-4 mb-2 text-neutral-200">
+              MQP mini CNC mill: presentation of FEMA analysis for a tool probing concept
+            </p>
+
+            <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
+              <p className="text-sm text-neutral-400">
+                This video is a presentation of the FEMA analysis I did for a tool probing device I proposed to the MQP team. The idea was
+                to implement tool probing with a laser instead of a conductive plate, for the reasons I explain in the video.
+              </p>
+              <p className="text-sm text-neutral-400">
+                This was created as an update for my MQP advisor, while he was away at a conference.
+              </p>
+            </div>
+          </BackgroundGradient>
+        </div>
+
+        {/* MQP mini CNC mill: presentation of space restrictions for add-ons */}
+        <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
+          <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
+            <div className="w-full aspect-video mb-4">
+              <iframe
+                className="w-full h-full rounded-lg"
+                src="https://www.youtube.com/embed/gQxDrpg8AZk?si=MbQkz4IWz_AYlgvJ"
+                title="MQP mini CNC mill: presentation of finalized R&D phase"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
+
+            <p className="text-base sm:text-xl mt-4 mb-2 text-neutral-200">
+              MQP mini CNC mill: presentation of space restrictions for add-ons
+            </p>
+
+            <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
+              <p className="text-sm text-neutral-400">
+                This video is a presentation of the issues with space for the add-ons our team were attempting to include in the mini CNC mill.
+                I created a box in SOLIDWORKS that represented the reachable work area, and used acrylic as the material so the box was visible
+                while transparent. I then placed the add-ons into the assembly—the tool-changer magazine and vise—and using the assembly I
+                showed that the conductive tool probe would not have anywhere to go.
+              </p>
+              <p className="text-sm text-neutral-400">
+                This was the determining factor that resulted in our team
+                changing the design from a conductive tool probe to a laser probe.
+              </p>
+              <p className="text-sm text-neutral-400">
+                This was created as an update for the other students on my MQP team.
               </p>
             </div>
           </BackgroundGradient>
@@ -323,7 +425,45 @@ export default function Projects() {
 
             <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
               <p className="text-sm text-neutral-400">
-                This video demonstrates prototyping with additive manufacturing. It is more cost-effective to develop ideas in CAD, then produce parts on a 3D printer, before final manufacturing.
+                This video demonstrates my experience prototyping with additive manufacturing. It is more cost-effective to develop ideas in
+                CAD, then produce parts on a 3D printer, before final manufacturing.
+              </p>
+            </div>
+          </BackgroundGradient>
+        </div>
+
+        {/* Dynamic Price Modeling */}
+        <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
+          <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
+            <div className="w-full aspect-video mb-4">
+              <iframe
+                className="w-full h-full rounded-lg"
+                src="https://www.youtube.com/embed/ImnPgaXRYiE?si=qbOXJHOjimXK0Olx"
+                title="Dynamic Price Modeling"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
+
+            <p className="text-base sm:text-xl mt-4 mb-2 text-neutral-200">
+              Dynamic price modeling using MATLAB and multivariable calculus
+            </p>
+
+            <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
+              <p className="text-sm text-neutral-400">
+                I created dynmaic price modeling, which was based on the fixed and variable costs of the products I was selling.
+              </p>
+
+              <p className="text-sm text-neutral-400">
+                After creating expense spreadsheets in Excel, I used the fixed and variable costs to create a formula where the
+                intersection of a level plane with a 3D curve yeilded the price at which to sell the variable quantity to achieve the desired
+                constant profit rate.
+              </p>
+
+              <p className="text-sm text-neutral-400">
+                This modeling resulted in significant cost savings for larger quantities, driving sales
+                further than pricing without taking variable costs into consideration.
               </p>
             </div>
           </BackgroundGradient>
