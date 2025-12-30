@@ -98,7 +98,7 @@ export default function Machines() {
       titleColor: "text-pink-200/85",
       descriptionColor: "text-pink-200/85"
     },
-    
+
   ];
 
   return (
@@ -113,7 +113,7 @@ export default function Machines() {
             entrepreneurial experience, network, and resources. Although this may limit opportunities, it ensures alignment with
             companies seeking my exact skill set, character, and drive—creating an optimal outcome for both parties.
           </p>
-          <p className="mb-6">
+          <p className="">
             That being said, here are the machines currently in my shop.
           </p>
         </div>
