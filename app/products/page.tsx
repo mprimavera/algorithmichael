@@ -17,40 +17,40 @@ export default function Products() {
       buttonText: "Watch Video",
       buttonAction: () => window.open("https://youtu.be/SDK4FM9hwQk?si=jGM9AAmJBe8BWb_u", "_blank"),
       bottomDescription: "This was my first software-driven product. I developed a custom Python script to generate QR codes optimized for smartphone scanning.",
-      titleColor: "text-pink-200/85",
-      descriptionColor: "text-pink-200/85"
+      titleColor: "text-blue-300/85",
+      descriptionColor: "text-blue-300/85"
     },
 
     {
       title: "Π: Digital Contact Cards",
       src: "/pi_moreColors.jpg",
       bottomDescription: "These are more color options. The vCard information embedded in the QR code is outdated (if you scan this image with a phone now).",
-      titleColor: "text-pink-200/85",
-      descriptionColor: "text-pink-200/85"
+      titleColor: "text-blue-300/85",
+      descriptionColor: "text-blue-300/85"
     },
 
     {
       title: "Π: Digital Contact Cards",
       src: "/pi_scanHere.jpg",
       bottomDescription: "This image was created to show customers how the contact card works. The vCard information embedded in the QR code is outdated (if you scan this image with a phone now).",
-      titleColor: "text-pink-200/85",
-      descriptionColor: "text-pink-200/85"
+      titleColor: "text-blue-300/85",
+      descriptionColor: "text-blue-300/85"
     },
 
     {
       title: "Π: Digital Contact Cards",
       src: "/pi_front.jpg",
       bottomDescription: "This was an example template of the front for customers during checkout.",
-      titleColor: "text-pink-200/85",
-      descriptionColor: "text-pink-200/85"
+      titleColor: "text-blue-300/85",
+      descriptionColor: "text-blue-300/85"
     },
 
     {
       title: "Π: Digital Contact Cards",
       src: "/pi_back.jpg",
       bottomDescription: "This was an example template of the back for customers during checkout. The vCard information embedded in the QR code is outdated (if you scan this image with a phone now).",
-      titleColor: "text-pink-200/85",
-      descriptionColor: "text-pink-200/85"
+      titleColor: "text-blue-300/85",
+      descriptionColor: "text-blue-300/85"
     },
 
 
@@ -61,24 +61,24 @@ export default function Products() {
       title: "ζ: Custom Thumb Screws",
       src: "/zeta_rwb.jpg",
       bottomDescription: "This became my top-selling product.",
-      titleColor: "text-pink-200/85",
-      descriptionColor: "text-pink-200/85"
+      titleColor: "text-blue-300/85",
+      descriptionColor: "text-blue-300/85"
     },
 
     {
       title: "ζ: Custom Thumb Screws",
       src: "/zeta_size.jpg",
       bottomDescription: "This photo was created to give customers a sense of the size.",
-      titleColor: "text-pink-200/85",
-      descriptionColor: "text-pink-200/85"
+      titleColor: "text-blue-300/85",
+      descriptionColor: "text-blue-300/85"
     },
 
     {
       title: "ζ: Custom Thumb Screws",
       src: "/zeta_green.jpg",
       bottomDescription: "Other colors: green anodize.",
-      titleColor: "text-pink-200/85",
-      descriptionColor: "text-pink-200/85"
+      titleColor: "text-blue-300/85",
+      descriptionColor: "text-blue-300/85"
     },
 
 
@@ -86,32 +86,32 @@ export default function Products() {
       title: "ζ: Custom Thumb Screws",
       src: "/zeta_purple.jpg",
       bottomDescription: "Other colors: purple anodize.",
-      titleColor: "text-pink-200/85",
-      descriptionColor: "text-pink-200/85"
+      titleColor: "text-blue-300/85",
+      descriptionColor: "text-blue-300/85"
     },
 
     {
       title: "ζ: Custom Thumb Screws",
       src: "/zeta_orange.jpg",
       bottomDescription: "Other colors: orange anodize.",
-      titleColor: "text-pink-200/85",
-      descriptionColor: "text-pink-200/85"
+      titleColor: "text-blue-300/85",
+      descriptionColor: "text-blue-300/85"
     },
 
     {
       title: "ζ: Custom Thumb Screws",
       src: "/zeta_clearCoat.jpg",
       bottomDescription: "Other colors: clear-coat anodize.",
-      titleColor: "text-pink-200/85",
-      descriptionColor: "text-pink-200/85"
+      titleColor: "text-blue-300/85",
+      descriptionColor: "text-blue-300/85"
     },
 
     {
       title: "ζ: Custom Thumb Screws",
       src: "/zeta_ad.jpg",
       bottomDescription: "This CAD drawing was created to show customers the precise dimensions.",
-      titleColor: "text-pink-200/85",
-      descriptionColor: "text-pink-200/85"
+      titleColor: "text-blue-300/85",
+      descriptionColor: "text-blue-300/85"
     },
 
 
@@ -122,40 +122,40 @@ export default function Products() {
       title: "Ξ: Acrylic Cable Combs",
       src: "/xi_carousel.jpg",
       bottomDescription: "I used a specialized acrylic compound, making these combs significantly stronger than competing products.",
-      titleColor: "text-pink-200/85",
-      descriptionColor: "text-pink-200/85"
+      titleColor: "text-blue-300/85",
+      descriptionColor: "text-blue-300/85"
     },
 
     {
       title: "Ξ: Acrylic Cable Combs",
       src: "/xi_24pin.png",
       bottomDescription: "24-pin cable comb",
-      titleColor: "text-pink-200/85",
-      descriptionColor: "text-pink-200/85"
+      titleColor: "text-blue-300/85",
+      descriptionColor: "text-blue-300/85"
     },
 
     {
       title: "Ξ: Acrylic Cable Combs",
       src: "/xi_5pinSata.png",
       bottomDescription: "5-pin SATA cable comb",
-      titleColor: "text-pink-200/85",
-      descriptionColor: "text-pink-200/85"
+      titleColor: "text-blue-300/85",
+      descriptionColor: "text-blue-300/85"
     },
 
     {
       title: "Ξ: Acrylic Cable Combs",
       src: "/xi_set.jpg",
       bottomDescription: "This is the full set of sizes I offered.",
-      titleColor: "text-pink-200/85",
-      descriptionColor: "text-pink-200/85"
+      titleColor: "text-blue-300/85",
+      descriptionColor: "text-blue-300/85"
     },
 
     {
       title: "Ξ: Acrylic Cable Combs",
       src: "/xi_eaglePitcher.png",
       bottomDescription: "This CAD drawing was created to show customers the precise dimensions. I developed this comb for a company that was using them in satellites (I did not request permission to use their name here).",
-      titleColor: "text-pink-200/85",
-      descriptionColor: "text-pink-200/85"
+      titleColor: "text-blue-300/85",
+      descriptionColor: "text-blue-300/85"
     },
   ];
 
