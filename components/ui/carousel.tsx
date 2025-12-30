@@ -61,7 +61,7 @@ const Slide = ({ slide, index, current, handleSlideClick }: SlideProps) => {
             ${titleColor || "text-white"} 
             top-2 sm:top-2 md:top-8 lg:top-12`}
         >
-          <span className="inline-block rounded-md bg-black/30 backdrop-blur-md px-4 py-1">
+          <span className="inline-block rounded-md bg-black/50 backdrop-blur-md px-4 py-1">
             {title}
           </span>
         </h2>
@@ -75,7 +75,7 @@ const Slide = ({ slide, index, current, handleSlideClick }: SlideProps) => {
             <p
               className={`text-center text-sm md:text-base lg:text-lg ${descriptionColor || "text-slate-300"}`}
             >
-              <span className="inline-block rounded-md bg-black/30 backdrop-blur-md px-3 py-1">
+              <span className="inline-block rounded-md bg-black/50 backdrop-blur-md px-3 py-1">
                 {bottomDescription}
               </span>
             </p>
