@@ -22,6 +22,10 @@ export function NavbarMenu() {
       name: "Résumé",
       link: "/resume",
     },
+    // {
+    //   name: "Robotics Engineering",
+    //   link: "/robotics_engineering",
+    // },
     {
       name: "Projects",
       link: "/projects",
@@ -30,10 +34,10 @@ export function NavbarMenu() {
       name: "Products",
       link: "/products",
     },
-    // {
-    //   name: "Machines",
-    //   link: "/machines",
-    // },
+    {
+      name: "Machines",
+      link: "/machines",
+    },
     {
       name: "IP",
       link: "/ip",

@@ -57,7 +57,7 @@ const Slide = ({ slide, index, current, handleSlideClick }: SlideProps) => {
 
         {/* Title at top */}
         <h2
-          className={`absolute left-1/2 -translate-x-1/2 font-semibold text-lg sm:text-xl md:text-2xl lg:text-3xl
+          className={`absolute left-1/2 -translate-x-1/2 font-semibold text-lg sm:text-xl md:text-2xl lg:text-3xl w-[90%] max-w-[70vmin]
             ${titleColor || "text-white"} 
             top-2 sm:top-2 md:top-8 lg:top-12`}
         >

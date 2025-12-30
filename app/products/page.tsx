@@ -24,7 +24,7 @@ export default function Products() {
     {
       title: "Π: Digital Contact Cards",
       src: "/pi_moreColors.jpg",
-      bottomDescription: "These are more color options. The vCard info embedded in the QR code is outdated contact info (if you scan this image with a phone now).",
+      bottomDescription: "These are more color options. The vCard information embedded in the QR code is outdated (if you scan this image with a phone now).",
       titleColor: "text-pink-200/70",
       descriptionColor: "text-pink-200/70"
     },
@@ -32,7 +32,7 @@ export default function Products() {
     {
       title: "Π: Digital Contact Cards",
       src: "/pi_scanHere.jpg",
-      bottomDescription: "This image was created to show customers how the contact card works. The vCard info embedded in the QR code is outdated contact info (if you scan this image with a phone now).",
+      bottomDescription: "This image was created to show customers how the contact card works. The vCard information embedded in the QR code is outdated (if you scan this image with a phone now).",
       titleColor: "text-pink-200/70",
       descriptionColor: "text-pink-200/70"
     },
@@ -48,7 +48,7 @@ export default function Products() {
     {
       title: "Π: Digital Contact Cards",
       src: "/pi_back.jpg",
-      bottomDescription: "This was an example template of the back for customers during checkout. The vCard info embedded in the QR code is outdated contact info (if you scan this image with a phone now).",
+      bottomDescription: "This was an example template of the back for customers during checkout. The vCard information embedded in the QR code is outdated (if you scan this image with a phone now).",
       titleColor: "text-pink-200/70 bg-black/20 rounded-md",
       descriptionColor: "text-pink-200/70 bg-black/20 rounded-md"
     },
@@ -68,7 +68,7 @@ export default function Products() {
     {
       title: "ζ: Custom Thumb Screws",
       src: "/zeta_size.jpg",
-      bottomDescription: "This photo was created to give customers perspective of the size.",
+      bottomDescription: "This photo was created to give customers a sense of the size.",
       titleColor: "text-pink-200/70",
       descriptionColor: "text-pink-200/70"
     },
@@ -153,41 +153,29 @@ export default function Products() {
     {
       title: "Ξ: Acrylic Cable Combs",
       src: "/xi_eaglePitcher.png",
-      bottomDescription: "This CAD drawing was created to show customers the precise dimensions. I developed this comb for a company that was using them in satellites (I didn't ask for permission to use their name here).",
+      bottomDescription: "This CAD drawing was created to show customers the precise dimensions. I developed this comb for a company that was using them in satellites (I did not request permission to use their name here).",
       titleColor: "text-pink-200/70 bg-black/20 rounded-md",
       descriptionColor: "text-pink-200/70 bg-black/20 rounded-md"
     },
-
   ];
 
   return (
-
-        <div className="">
-        <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
-            <h2 className="text-lg md:text-4xl mb-4 text-white max-w-full">
-                Products
-            </h2>
-
-          <div className="mb-8 max-h-50 sm:max-h-35 md:max-h-40 lg:max-h-40 overflow-y-auto pr-2">
-
-            <p className="text-slate-500 lg:text-xl md:text-base max-w-3xl">
-              Over the years, I’ve learned that integrity is key to success in business; therefore, I remain transparent about my
-              entrepreneurial experience, network, and resources. Although this may limit opportunities, it ensures alignment with
-              companies seeking my exact skill set, character, and drive—creating an optimal outcome for both parties.
-            </p>
-
-            <p className="text-slate-500 lg:text-xl md:text-base max-w-3xl">
-              These are the products I designed, manufactured, marketed, and sold through my e-commerce store. After closing the
-              business due to inconsistent income, I strategically shifted my focus toward strengthening my technical foundation,
-              earning a B.S. in Robotics Engineering and now pursuing an M.S. in Artificial Intelligence.
-            </p>
-
-            </div>
+    <div className="">
+      <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
+        <h2 className="text-lg md:text-4xl mb-12 text-white">
+          Products
+        </h2>
+        <div className="text-slate-500 lg:text-xl md:text-base max-w-2xl lg:max-w-4xl leading-relaxed">
+          <p className="">
+            These are the products I designed, manufactured, marketed, and sold through my e-commerce store. After closing the
+            business due to inconsistent income, I strategically shifted my focus toward strengthening my technical foundation,
+            earning a B.S. in Robotics Engineering and now pursuing an M.S. in Artificial Intelligence.
+          </p>
         </div>
-        
-    <div className="relative overflow-hidden w-full h-full py-20">
-      <Carousel slides={slideData} />
-    </div>
+      </div>
+      <div className="relative overflow-hidden w-full h-full py-20">
+        <Carousel slides={slideData} />
+      </div>
     </div>
   );
 }

@@ -17,20 +17,24 @@ export default function Ip() {
         <div className="text-slate-500 lg:text-xl md:text-base max-w-2xl lg:max-w-4xl leading-relaxed">
           <p className="mb-6">
             After our family business handled manufacturing and engineering for one company for nearly 20 years, the owners
-            decided to move production to China. Our machine shop was left empty. Reality hit as hard and cold as the metals
-            we manufactured: the bottom line drives modern business.
+            decided to move production to China. Our machine shop was left empty.
           </p>
 
           <p className="mb-6">
-            We were left with nothing because we allowed the company we worked with to secure all the IP, trusting they would remain loyal. After consulting lawyers, I realized it is imperative for a company’s survival to own its IP.
+            We were left with nothing because we allowed the company we worked with to secure all the IP, trusting they would
+            remain loyal. The silver lining to the situation is that I experienced firsthand the importance of IP.
           </p>
 
           <p className="mb-6">
-            After hiring an IP attorney to secure a copyright for part one of a trilogy I wrote, I learned how to apply for trademarks. I applied for “AlphaOmega” in the computer industry but was denied because another company, Alpha Omega Solutions, which made automotive software, already held the trademark. I hired an attorney to dispute the United States Patent and Trademark Office’s decision, but I lost.
+            As time progressed, I ended up hiring an IP attorney to secure a copyright for Part One of a trilogy I wrote. Later, I
+            learned how to file for trademarks. I applied for “AlphaOmega” in the computer hardware industry but was denied because
+            another company, Alpha Omega Solutions, held a trademark in a similar industry. I hired an attorney to dispute the United
+            States Patent and Trademark Office’s decision, and ultimately did not win.
           </p>
 
           <p className="mb-6">
-            I now work with IP attorneys whenever I need to sign a contract. I understand the importance of IP both from my perspective as an employee and from that of the employer.
+            As someone who understands the importance of IP both as an engineer and as an employer, I now work with an IP attorney
+            whenever I need to sign a contract.
           </p>
         </div>
       </div>

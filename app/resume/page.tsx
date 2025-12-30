@@ -229,7 +229,7 @@ export default function Resume() {
             <p 
               className="mb-2 text-slate-500  sm:break-normal max-w-full sm:text-2xl leading-10 tracking-tight">
                 After Milara offered to pay my tuition to earn my degree, I applied to WPI and got accepted with a substantial scholarship. I had to make
-                a major life decision, return to college full time or stay at the job I had secured. It was one of the best decisions I've ever made.
+                a major life decision, return to college full-time or stay at the job I had secured. It was one of the best decisions I've ever made.
             </p>
             
           </div>
@@ -251,8 +251,7 @@ export default function Resume() {
             <p 
               className="mb-2 text-slate-500  sm:break-normal max-w-full sm:text-2xl leading-10 tracking-tight">
                 Building on previous experience in logistics management, I decided to manufacture products and sell them directly to customers.
-                I formed an LLC, and dealt with everything from developing price modeling, to product photos and web development, to customer service
-                and setting up automated shipping nexuses in each state.
+                I formed an LLC, dealing with everything from price modeling and product photography to web development and customer service.
             </p>
 
             <p 
@@ -307,7 +306,7 @@ export default function Resume() {
           <div className="mb-8 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
             <p 
               className="mb-2 text-slate-500 sm:break-normal max-w-full sm:text-2xl leading-10 tracking-tight">
-              I began the eight-year journey towards algorithmic trading as a result of the spike in Bitcoin in November of 2017. It was my
+              I began an eight-year journey into algorithmic trading as a result of the spike in Bitcoin in November of 2017. It was my
               first time "investing", and it ultimately led to me taking five online courses, listening to over a dozen audiobooks, reading
               a few more books, then watching every microeconomic, macroeconomic, finance, capital markets, and accounting video on Khan Academy.
             </p>
@@ -329,8 +328,8 @@ export default function Resume() {
           {/* <div className="mb-8 max-h-40 sm:max-h-40 overflow-y-auto pr-2"> */}
             <p 
               className="mb-2 text-slate-500  sm:break-normal max-w-full sm:text-2xl leading-10 tracking-tight">
-              In October of 2017 I had finished the final draft of part one on a trilogy that I wrote. I was determined to see it through to completion,
-              and even though I never intended to become published, I hired an intellectual attorney to aid in securing my first piece of IP.
+              In October of 2017, I had finished the final draft of part one of a trilogy that I wrote. I was determined to see it through to completion,
+              and even though I never intended to become published, I hired an intellectual property attorney to aid in securing my first piece of IP.
             </p>
 
         </div>
@@ -350,7 +349,7 @@ export default function Resume() {
             <p 
               className="mb-2 text-slate-500  sm:break-normal max-w-full sm:text-2xl leading-10 tracking-tight">
               After convincing my boss to bring CNC production in-house, which substantially increased our profitability, I was eventually promoted
-              to managing logistics. Profitability increased by threefold once I was put in this position.
+              to managing logistics. Profitability increased threefold once I assumed this position.
             </p>
           {/* </div> */}
         </div>
@@ -378,7 +377,19 @@ export default function Resume() {
 
   ];
   return (
+
     <div className="relative w-full overflow-clip">
+      <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
+        <h2 className="text-lg md:text-4xl mb-12 text-white">
+          My Résumé
+        </h2>
+        <div className="text-slate-500 lg:text-xl md:text-base max-w-2xl lg:max-w-4xl leading-relaxed">
+          <p className="mb-6">
+            As I complete my education, I am seeking a role where I can contribute to innovative robotics projects, refine my
+            technical expertise, and apply practical manufacturing insight to intelligent system design.
+          </p>
+        </div>
+      </div>
       <Timeline data={data} />
                 <div className="h-40 sm:h-60 md:h-80 lg:h-200 xl:h-[28rem]" />
 

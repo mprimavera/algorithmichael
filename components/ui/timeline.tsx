@@ -37,17 +37,6 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
       className="w-full bg-neutral-950 font-sans md:px-10"
       ref={containerRef}
     >
-      <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
-        <h2 className="text-lg md:text-4xl mb-4 text-white max-w-4xl">
-          My Résumé
-        </h2>
-        <p className="text-slate-500 lg:text-xl md:text-base max-w-xl">
-          As I complete my education, I am seeking a role where I can contribute to innovative robotics projects, refine my technical expertise, and apply practical manufacturing insight to intelligent system design.
-        </p>
-
-        
-      </div>
-
       <div ref={ref} className="relative max-w-7xl mx-auto pb-20">
         {data.map((item, index) => (
           <div
