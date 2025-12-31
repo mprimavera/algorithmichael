@@ -24,15 +24,24 @@ export default function Resume() {
       title: "Future: 2026",
       content: (
         <div>
-          <p className="mb-2 sm:mb-6 font-normal text-slate-300  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
+          <p className="mb-2 sm:mb-6 font-normal text-slate-400  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
             Applying for M.S. in Artificial Intelligence (online), Johns Hopkins University, starting May 2026
           </p>
-          <a href="https://ep.jhu.edu/programs/artificial-intelligence/"
-            target="_blank"  rel="noopener noreferrer"
-            className="mb-8 font-normal text-blue-500 hover:text-blue-400  sm:break-normal max-w-full sm:text-2xl leading-10 tracking-tight">
-            Artificial Intelligence Master's Program Online
-          </a>
-         
+
+          {/* Centered button */}
+          <div className="flex justify-center">
+            <a
+              href="https://ep.jhu.edu/programs/artificial-intelligence/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="px-4 py-2 bg-black/50 border-2 text-blue-300/75 border-slate-700 rounded-2xl shadow transition
+              hover:-translate-y-0.5 transition-all duration-300 cursor-pointer">
+                Artificial Intelligence Master's Program Online
+              </button>
+            </a>
+          </div>
+    
         </div>
       ),
     },
@@ -41,7 +50,7 @@ export default function Resume() {
       title: "12/2025",
       content: (
         <div>
-          <p className="mb-2 sm:mb-6 text-slate-300  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
+          <p className="mb-2 sm:mb-6 text-slate-400  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
             Developed this React project as a portfolio
           </p>
           {/* Scrollable container */}
@@ -190,7 +199,7 @@ export default function Resume() {
       title: "12/2025",
       content: (
         <div>
-          <p className="mb-2 sm:mb-6 text-slate-300  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
+          <p className="mb-2 sm:mb-6 text-slate-400  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
             Graduated with a B.S. in Robotics Engineering from WPI with a 3.92 GPA
           </p>
           {/* Scrollable container */}
@@ -208,7 +217,7 @@ export default function Resume() {
       title: "2022-2023",
       content: (
         <div>
-          <p className="mb-2 sm:mb-6 text-slate-300  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
+          <p className="mb-2 sm:mb-6 text-slate-400  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
             Robotics: Field service engineering and system integration at Milara Inc.
           </p>
           {/* Scrollable container */}
@@ -232,7 +241,7 @@ export default function Resume() {
       title: "2018-2022",
       content: (
         <div>
-          <p className="mb-2 sm:mb-6 text-slate-300  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
+          <p className="mb-2 sm:mb-6 text-slate-400  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
             Founder: Owned and operated an e-commerce store
           </p>
           {/* Scrollable container */}
@@ -257,7 +266,7 @@ export default function Resume() {
       title: "2018-2022",
       content: (
         <div>
-          <p className="mb-2 sm:mb-6 text-slate-300  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
+          <p className="mb-2 sm:mb-6 text-slate-400  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
             Designed and manufactured custom products in CNC machines
           </p>
           {/* Scrollable container */}
@@ -283,7 +292,7 @@ export default function Resume() {
       title: "11/2017",
       content: (
         <div>
-          <p className="mb-2 sm:mb-6 text-slate-300  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
+          <p className="mb-2 sm:mb-6 text-slate-400  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
             Algorithmic Trading
           </p>
 
@@ -292,7 +301,7 @@ export default function Resume() {
             <p 
               className="mb-2 text-slate-500 sm:break-normal max-w-full sm:text-2xl leading-10 tracking-tight">
               I began an eight-year journey into algorithmic trading as a result of the spike in Bitcoin in November of 2017. It was my
-              first time "investing", and it ultimately led to me taking five online courses, listening to over a dozen audiobooks, reading
+              first time 'investing', and it ultimately led to me taking five online courses, listening to over a dozen audiobooks, reading
               a few more books, then watching every microeconomic, macroeconomic, finance, capital markets, and accounting video on Khan Academy.
             </p>
             </div>
@@ -305,7 +314,7 @@ export default function Resume() {
       title: "10/2017",
       content: (
         <div>
-          <p className="mb-2 sm:mb-6 text-slate-300  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
+          <p className="mb-2 sm:mb-6 text-slate-400  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
             Copyright on Mind: Part I of a trilogy
           </p>
 
@@ -325,7 +334,7 @@ export default function Resume() {
       title: "2008-2018",
       content: (
         <div>
-          <p className="mb-2 sm:mb-6 text-slate-300  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
+          <p className="mb-2 sm:mb-6 text-slate-400  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
             Logistics Manager at MetalProUSA Inc.
           </p>
 
@@ -345,7 +354,7 @@ export default function Resume() {
     title: "1998-2008",
     content: (
       <div>
-        <p className="mb-2 sm:mb-6 font-normal text-slate-300  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
+        <p className="mb-2 sm:mb-6 font-normal text-slate-400  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
           CNC Machinist at MetalProUSA Inc.
         </p>
         <p 

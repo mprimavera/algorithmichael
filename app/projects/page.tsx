@@ -6,7 +6,7 @@ export default function Projects() {
   return (
     <div className="">
       <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
-        <h2 className="text-lg md:text-4xl mb-12 text-white">
+        <h2 className="text-lg md:text-4xl mb-12 text-slate-400 font-semibold">
           My Projects
         </h2>
         <div className="text-slate-500 lg:text-xl md:text-base max-w-2xl lg:max-w-4xl leading-relaxed">
@@ -33,11 +33,11 @@ export default function Projects() {
               ></iframe>
             </div>
 
-            <p className="text-base sm:text-xl mt-4 mb-2 text-neutral-200">
+            <p className="text-base sm:text-xl mt-4 mb-2 text-slate-400">
               Automation line featuring a Fanuc M-1iA and UR5e, integrated with conveyors and sensors.
             </p>
 
-            <p className="text-sm text-neutral-400">
+            <p className="text-sm text-slate-500">
               My primary responsibility was programming the central UR5e, after selecting it to control the system via the PLC. I also handled the video editing.
             </p>
           </BackgroundGradient>
@@ -57,12 +57,12 @@ export default function Projects() {
               ></iframe>
             </div>
 
-            <p className="text-base sm:text-xl mt-4 mb-2 text-neutral-200">
+            <p className="text-base sm:text-xl mt-4 mb-2 text-slate-400">
               Using MATLAB and vision sensors to locate, grasp, and sort balls by color.
             </p>
 
             <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
-              <p className="text-sm text-neutral-400">
+              <p className="text-sm text-slate-500">
                 On a team of three, we programmed the robot using MATLAB. We used the MATLAB Computer Vision Toolbox, and libraries
                 for powering the servo motors. All trajectory planning was written from scratch using both forward and inverse
                 kinematics. (The video was not intended for a presentation, just for personal reflection.)
@@ -85,12 +85,12 @@ export default function Projects() {
               ></iframe>
             </div>
 
-            <p className="text-base sm:text-xl mt-4 mb-2 text-neutral-200">
+            <p className="text-base sm:text-xl mt-4 mb-2 text-slate-400">
               Embedded programming of proportional-derivative (PD) control in C
             </p>
 
             <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
-              <p className="text-sm text-neutral-400">
+              <p className="text-sm text-slate-500">
                 Using Linux OS and the Pico SDK library, all code was written from scratch. This included the display code, as well as encoder-based
                 proportional and derivative control. Integral control was used in other projects.
               </p>
@@ -112,12 +112,12 @@ export default function Projects() {
               ></iframe>
             </div>
 
-            <p className="text-base sm:text-xl mt-4 mb-2 text-neutral-200">
+            <p className="text-base sm:text-xl mt-4 mb-2 text-slate-400">
               Major Qualifying Project (MQP): mini CNC mill
             </p>
 
             <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
-              <p className="text-sm text-neutral-400">
+              <p className="text-sm text-slate-500">
                 This is the final presentation video for our eleven-student major MQP at WPI. I narrated the video and demonstrated
                 my CAD (SOLIDWORKS), MATLAB work, and KiCad schematic creation.
               </p>
@@ -139,16 +139,16 @@ export default function Projects() {
               ></iframe>
             </div>
 
-            <p className="text-base sm:text-xl mt-4 mb-2 text-neutral-200">
+            <p className="text-base sm:text-xl mt-4 mb-2 text-slate-400">
               MQP mini CNC mill: presentation of finalized R&D phase
             </p>
 
             <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
-              <p className="text-sm text-neutral-400">
+              <p className="text-sm text-slate-500">
                 This video is a presentation of the finalized R&D phase for the mechanical bed leveling I designed for the MQP as a senior at WPI. This video illustrates the real-world application of engineering principles and procedures I was
                 responsible for. A few of the following videos on this page show the successful implementation of the engineering.
               </p>
-              <p className="text-sm text-neutral-400">
+              <p className="text-sm text-slate-500">
                 This was created as an update for my MQP advisor, while he was away at a conference.
               </p>
             </div>
@@ -169,12 +169,12 @@ export default function Projects() {
               ></iframe>
             </div>
 
-            <p className="text-base sm:text-xl mt-4 mb-2 text-neutral-200">
+            <p className="text-base sm:text-xl mt-4 mb-2 text-slate-400">
               MQP mini CNC mill: successful bed leveling torque test
             </p>
 
             <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
-              <p className="text-sm text-neutral-400">
+              <p className="text-sm text-slate-500">
                 This video shows successful testing of the helicoil’s ability to withstand the torque needed to fasten the mini CNC mill’s
                 work plate to the linear rails and ball screw (200 inch-lbs). The test was performed on scrap materials before machining the
                 actual work plate, keeping the project within budget.
@@ -197,12 +197,12 @@ export default function Projects() {
               ></iframe>
             </div>
 
-            <p className="text-base sm:text-xl mt-4 mb-2 text-neutral-200">
+            <p className="text-base sm:text-xl mt-4 mb-2 text-slate-400">
               MQP mini CNC mill: successful bed leveling implementation
             </p>
 
             <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
-              <p className="text-sm text-neutral-400">
+              <p className="text-sm text-slate-500">
                 This video shows the mechanical bed leveling I engineered, successfully integrated into a mini CNC mill. The bed could be
                 leveled within ±0.127 µm across the length and width of the work plate that held the vice for machining parts.
               </p>
@@ -224,16 +224,16 @@ export default function Projects() {
               ></iframe>
             </div>
 
-            <p className="text-base sm:text-xl mt-4 mb-2 text-neutral-200">
+            <p className="text-base sm:text-xl mt-4 mb-2 text-slate-400">
               MQP mini CNC mill: presentation of FMEA analysis for a tool probing concept
             </p>
 
             <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
-              <p className="text-sm text-neutral-400">
+              <p className="text-sm text-slate-500">
                 This video is a presentation of the FMEA analysis I did for a tool probing device I proposed to the MQP team. The idea was
                 to implement tool probing with a laser instead of a conductive plate, for the reasons I explain in the video.
               </p>
-              <p className="text-sm text-neutral-400">
+              <p className="text-sm text-slate-500">
                 This was created as an update for my MQP advisor, while he was away at a conference.
               </p>
             </div>
@@ -254,22 +254,22 @@ export default function Projects() {
               ></iframe>
             </div>
 
-            <p className="text-base sm:text-xl mt-4 mb-2 text-neutral-200">
+            <p className="text-base sm:text-xl mt-4 mb-2 text-slate-400">
               MQP mini CNC mill: presentation of space restrictions for add-ons
             </p>
 
             <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
-              <p className="text-sm text-neutral-400">
+              <p className="text-sm text-slate-500">
                 This video is a presentation of the issues with space for the add-ons our team was attempting to include in the mini CNC mill.
                 I created a box in SOLIDWORKS that represented the reachable work area, and used acrylic as the material so the box was visible
                 while transparent. I then placed the add-ons into the assembly—the tool-changer magazine and vise—and, using the assembly,
                 I showed that the conductive tool probe would not have anywhere to go.
               </p>
-              <p className="text-sm text-neutral-400">
+              <p className="text-sm text-slate-500">
                 This was the determining factor that resulted in our team
                 changing the design from a conductive tool probe to a laser probe.
               </p>
-              <p className="text-sm text-neutral-400">
+              <p className="text-sm text-slate-500">
                 This was created as an update for the other students on my MQP team.
               </p>
             </div>
@@ -290,12 +290,12 @@ export default function Projects() {
               ></iframe>
             </div>
 
-            <p className="text-base sm:text-xl mt-4 mb-2 text-neutral-200">
+            <p className="text-base sm:text-xl mt-4 mb-2 text-slate-400">
               MQP mini CNC mill: stepper motor and driver calibration
             </p>
 
             <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
-              <p className="text-sm text-neutral-400">
+              <p className="text-sm text-slate-500">
                 This video shows the successful calibration of the stepper motor's driver. The movement is smooth and controlled.
               </p>
             </div>
@@ -316,12 +316,12 @@ export default function Projects() {
               ></iframe>
             </div>
 
-            <p className="text-base sm:text-xl mt-4 mb-2 text-neutral-200">
+            <p className="text-base sm:text-xl mt-4 mb-2 text-slate-400">
               MQP mini CNC mill: successful e-stop testing
             </p>
 
             <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
-              <p className="text-sm text-neutral-400">
+              <p className="text-sm text-slate-500">
                 This video shows the successful testing of the e-stop system developed for the mini CNC mill. Our team designed the e-stop to be normally closed, cutting power to the motor drivers while preserving CNC computer status and control. (The rattling sound in the background is the room heater.)
               </p>
             </div>
@@ -342,12 +342,12 @@ export default function Projects() {
               ></iframe>
             </div>
 
-            <p className="text-base sm:text-xl mt-4 mb-2 text-neutral-200">
+            <p className="text-base sm:text-xl mt-4 mb-2 text-slate-400">
               Embedded programming in C: adjustable duty cycle
             </p>
 
             <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
-              <p className="text-sm text-neutral-400">
+              <p className="text-sm text-slate-500">
                 I used a potentiometer with an ADC module to adjust the duty cycle output of a PWM pin on a Raspberry Pi Pico 2 W microcontroller. The code was written in C using a Linux environment. An oscilloscope verified correct operation within ±2.5%.
               </p>
             </div>
@@ -368,12 +368,12 @@ export default function Projects() {
               ></iframe>
             </div>
 
-            <p className="text-base sm:text-xl mt-4 mb-2 text-neutral-200">
+            <p className="text-base sm:text-xl mt-4 mb-2 text-slate-400">
               Embedded programming in C: ADC voltmeter
             </p>
 
             <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
-              <p className="text-sm text-neutral-400">
+              <p className="text-sm text-slate-500">
                 I created a voltmeter using a Raspberry Pi Pico 2 W microcontroller, potentiometer, and 7-segment 4-digit LED display.
                 Apart from the SDK library, all code was written from scratch. The display runs on a timer interrupt, and output is
                 based on the ADC reading of the potentiometer's wiper pin.
@@ -396,15 +396,15 @@ export default function Projects() {
               ></iframe>
             </div>
 
-            <p className="text-base sm:text-xl mt-4 mb-2 text-neutral-200">
+            <p className="text-base sm:text-xl mt-4 mb-2 text-slate-400">
               AlphaOmega LLC's first prototype: cryptocurrency mining rig
             </p>
 
             <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
-              <p className="text-sm text-neutral-400">
+              <p className="text-sm text-slate-500">
                 After the Bitcoin price spike in late 2017, I built an Ethereum mining rig. At the time, rigs sold for $10,000–$20,000 online. I built mine for ~$1,200, realizing a large potential profit.
               </p>
-              <p className="text-sm text-neutral-400">
+              <p className="text-sm text-slate-500">
                 After a few months of establishing a legal entity and e-commerce store, the price crashed and the product was no longer feasible. This marked the beginning of AlphaOmega LLC.
               </p>
             </div>
@@ -425,12 +425,12 @@ export default function Projects() {
               ></iframe>
             </div>
 
-            <p className="text-base sm:text-xl mt-4 mb-2 text-neutral-200">
+            <p className="text-base sm:text-xl mt-4 mb-2 text-slate-400">
               Additive manufacturing prototyping of a new ergonomic thumb screw design
             </p>
 
             <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
-              <p className="text-sm text-neutral-400">
+              <p className="text-sm text-slate-500">
                 This video demonstrates my experience prototyping with additive manufacturing. It is more cost-effective to develop ideas in
                 CAD, then produce parts on a 3D printer, before final manufacturing.
               </p>
@@ -452,22 +452,22 @@ export default function Projects() {
               ></iframe>
             </div>
 
-            <p className="text-base sm:text-xl mt-4 mb-2 text-neutral-200">
+            <p className="text-base sm:text-xl mt-4 mb-2 text-slate-400">
               Dynamic price modeling using MATLAB and multivariable calculus
             </p>
 
             <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
-              <p className="text-sm text-neutral-400">
+              <p className="text-sm text-slate-500">
                 I created a dynamic pricing model based on the fixed and variable costs of the products I was selling.
               </p>
 
-              <p className="text-sm text-neutral-400">
+              <p className="text-sm text-slate-500">
                 After creating expense spreadsheets in Excel, I used the fixed and variable costs to create a formula where the
                 intersection of a level plane with a 3D curve yielded the price at which to sell the variable quantity to achieve the desired
                 constant profit rate.
               </p>
 
-              <p className="text-sm text-neutral-400">
+              <p className="text-sm text-slate-500">
                 This modeling resulted in significant cost savings for larger quantities, driving sales
                 further than pricing without taking variable costs into consideration.
               </p>

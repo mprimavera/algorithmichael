@@ -45,17 +45,16 @@ export function NavbarMenu() {
   ];
 
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-
   return (
     <div className="relative w-full bg-neutral-950">
       <Navbar >
         {/* Desktop Navigation */}
         <NavBody>
-        
         {/* Logo Link */}
         <a
           href="https://mikhaelrobotics.vercel.app/"
-          className="relative z-20 mr-4 flex items-center space-x-2 px-2 py-1 text-sm font-normal text-black hover:-translate-y-0.5 transition-all duration-300"
+          className="relative z-20 mr-4 flex items-center space-x-2 px-2 py-1 text-sm font-normal hover:-translate-y-0.5 transition-all
+           duration-300"
         >
           {/* <img
             src=""
@@ -63,33 +62,31 @@ export function NavbarMenu() {
             width={50}
             height={50}
           /> */}
-          <span className="font-medium font-semibold text-blue-500">MikhaelRobotics™</span>
+          <span className="font-medium font-semibold text-blue-300/75">MikhaelRobotics™</span>
         </a>
-
-
           <NavItems items={navItems} />
           <div className="flex items-center gap-4">
-
             <Link href="/connect">
-              <button className="relative inline-flex h-12 overflow-hidden rounded-full p-[3px] focus:outline-none active:outline-none hover:-translate-y-0.5 transition-all duration-300">
-                <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
-                <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl">
+              <button className="relative inline-flex h-12 overflow-hidden rounded-full p-[3px] focus:outline-none
+              active:outline-none hover:-translate-y-0.5 transition-all duration-300">
+                <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite]
+                bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
+                <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-3
+                py-1 text-sm font-medium text-slate-400 backdrop-blur-3xl">
                   Connect
                 </span>
               </button>
             </Link>
-
           </div>
         </NavBody>
-
         {/* Mobile Navigation */}
         <MobileNav>
           <MobileNavHeader>
-
         {/* Logo Link */}
         <a
           href="https://mikhaelrobotics.vercel.app/"
-          className="relative z-20 mr-4 flex items-center space-x-2 px-2 py-1 text-sm font-normal text-black hover:-translate-y-0.5 transition-all duration-300"
+          className="relative z-20 mr-4 flex items-center space-x-2 px-2 py-1 text-sm font-normal hover:-translate-y-0.5
+          transition-all duration-300"
         >
           {/* <img
             src=""
@@ -97,15 +94,13 @@ export function NavbarMenu() {
             width={50}
             height={50}
           /> */}
-          <span className="font-medium font-semibold text-blue-500">MikhaelRobotics™</span>
+          <span className="font-medium font-semibold text-blue-300/75">MikhaelRobotics™</span>
         </a>
-
             <MobileNavToggle
               isOpen={isMobileMenuOpen}
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             />
           </MobileNavHeader>
-
           <MobileNavMenu
             isOpen={isMobileMenuOpen}
             onClose={() => setIsMobileMenuOpen(false)}
@@ -115,25 +110,24 @@ export function NavbarMenu() {
                 key={`mobile-link-${idx}`}
                 href={item.link}
                 onClick={() => setIsMobileMenuOpen(false)}
-                className="relative text-neutral-300"
+                className="relative text-slate-400"
               >
                 <span className="block">{item.name}</span>
               </a>
             ))}
             <div className="flex w-full flex-col gap-4">
-
               <Link href="/connect"
                onClick={() => setIsMobileMenuOpen(false)}>
-              <button className="relative inline-flex h-12 w-full overflow-hidden rounded-full p-[2px] hover:p-[3px] transition-all duration-300 focus:outline-none active:outline-none">
-                  <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
-                  <span className="inline-flex h-full w-full items-center justify-center rounded-full bg-slate-950 px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl">
+              <button className="relative inline-flex h-12 w-full overflow-hidden rounded-full p-[2px] hover:p-[3px] transition-all
+              duration-300 focus:outline-none active:outline-none">
+                  <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite]
+                  bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
+                  <span className="inline-flex h-full w-full items-center justify-center rounded-full bg-slate-950 px-3 py-1 text-sm
+                  font-medium text-slate-400 backdrop-blur-3xl">
                     Connect
                   </span>
                 </button>
               </Link>
-
-
-
             </div>
           </MobileNavMenu>
         </MobileNav>

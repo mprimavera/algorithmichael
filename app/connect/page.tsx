@@ -22,7 +22,7 @@ export default function ConnectPage() {
     title={
       <a
         href="mailto:michael@mikhaelrobotics.ai"
-        className="text-blue-500 text-center break-all sm:break-normal hover:text-blue-400"
+        className="text-center break-all sm:break-normal"
       >
         michael@mikhaelrobotics.ai
       </a>
@@ -39,7 +39,7 @@ export default function ConnectPage() {
         href="https://linkedin.com/in/mikhaelrobotics"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-blue-500 text-center break-all sm:break-normal hover:text-blue-400"
+        className="text-center break-all sm:break-normal"
       >
         Michael Primavera on LinkedIn
       </a>

@@ -1,6 +1,7 @@
 'use client'
 
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react"
+
 type AccordionItem = {
   title: string
   content: React.ReactNode
@@ -12,86 +13,107 @@ type AccordionProps = {
 }
 
 export function Accordion({ items }: AccordionProps) {
-  // Track which item is open
-  const [openIndex, setOpenIndex] = useState<number | null>(
-    items.findIndex(item => item.defaultOpen) ?? null
-  );
+  const [openIndex, setOpenIndex] = useState<number | null>(() => {
+    const i = items.findIndex(item => item.defaultOpen)
+    return i !== -1 ? i : null
+  })
 
   return (
     <div className="mx-auto max-w-lg">
-      <div className="space-y-0 border border-slate-400/50 rounded-lg overflow-hidden">
-        {items.map((item, index) => {
-          const contentRef = useRef<HTMLDivElement>(null);
-          const isOpen = openIndex === index;
-
-          return (
-            <div
-              key={index}
-              className={`group backdrop-blur-md px-3 py-1
-                ${index === 0 ? "rounded-t-lg" : ""}
-                ${index === items.length - 1 ? "rounded-b-lg" : ""}
-              `}
-            >
-              <summary
-                className="flex cursor-pointer list-none items-center justify-between px-6 py-4 text-lg font-medium text-blue-500/85
-                  hover:-translate-y-0.5 transition-all duration-300"
-                onClick={() =>
-                  setOpenIndex(isOpen ? null : index)
-                }
-              >
-                {item.title}
-                <div className="text-secondary-500">
-                  {/* Plus/Minus icons */}
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    strokeWidth="1.5"
-                    stroke="currentColor"
-                    className={`h-5 w-5 block ${isOpen ? "hidden" : "block"}`}
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M12 9v6m3-3H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
-                    />
-                  </svg>
-
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    strokeWidth="1.5"
-                    stroke="currentColor"
-                    className={`h-5 w-5 ${isOpen ? "block" : "hidden"}`}
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
-                    />
-                  </svg>
-                </div>
-              </summary>
-
-              <div
-                ref={contentRef}
-                className="overflow-hidden transition-all duration-500"
-                style={{
-                  maxHeight: isOpen
-                    ? contentRef.current?.scrollHeight + "px"
-                    : "0px",
-                }}
-              >
-                <div className="px-6 pb-4 text-secondary-500">
-                  {item.content}
-                </div>
-              </div>
-
-            </div>
-          );
-        })}
+      <div className="border border-slate-400/50 rounded-lg overflow-hidden">
+        {items.map((item, index) => (
+          <AccordionRow
+            key={index}
+            item={item}
+            isOpen={openIndex === index}
+            onToggle={() =>
+              setOpenIndex(openIndex === index ? null : index)
+            }
+            isFirst={index === 0}
+            isLast={index === items.length - 1}
+          />
+        ))}
       </div>
     </div>
-  );
+  )
+}
+
+function AccordionRow({
+  item,
+  isOpen,
+  onToggle,
+  isFirst,
+  isLast,
+}: {
+  item: AccordionItem
+  isOpen: boolean
+  onToggle: () => void
+  isFirst: boolean
+  isLast: boolean
+}) {
+  const contentRef = useRef<HTMLDivElement>(null)
+  const [height, setHeight] = useState("0px")
+
+  useEffect(() => {
+    if (contentRef.current) {
+      setHeight(isOpen ? `${contentRef.current.scrollHeight}px` : "0px")
+    }
+  }, [isOpen])
+
+  return (
+    <div
+      className={`backdrop-blur-md px-3 py-1
+        ${isFirst ? "rounded-t-lg" : ""} 
+        ${isLast ? "rounded-b-lg" : ""}`}
+    >
+      <button
+        onClick={onToggle}
+        className="flex w-full justify-between items-center px-6 py-4 text-base sm:text-lg font-medium text-blue-300/75
+          transition-all duration-300 hover:-translate-y-0.5"
+      >
+        <span>{item.title}</span>
+
+        {/* Circle with + / - */}
+        <div className="flex items-center justify-center h-6 w-6 rounded-full border border-blue-300/50">
+          {!isOpen ? (
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth="2"
+              stroke="currentColor"
+              className="h-4 w-4"
+            >
+              <path strokeLinecap="round" strokeLinejoin="round" d="M12 4v16m8-8H4" />
+            </svg>
+          ) : (
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth="2"
+              stroke="currentColor"
+              className="h-4 w-4"
+            >
+              <path strokeLinecap="round" strokeLinejoin="round" d="M4 12h16" />
+            </svg>
+          )}
+        </div>
+      </button>
+
+      {/* CONTENT */}
+      <div
+        style={{ maxHeight: height }}
+        className="overflow-hidden transition-[max-height,opacity] duration-500 ease-in-out"
+      >
+        <div
+          ref={contentRef}
+          className={`px-6 pb-4 text-slate-500 transition-opacity duration-500 bg-black/70 rounded-lg
+            ${isOpen ? "opacity-100" : "opacity-0"}`}
+        >
+          {item.content}
+        </div>
+      </div>
+    </div>
+  )
 }

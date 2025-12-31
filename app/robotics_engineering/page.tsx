@@ -27,7 +27,7 @@ const MQPAccordion = [
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="px-4 py-2 bg-black/50 border-2 text-blue-500 border-slate-700 rounded-2xl shadow transition
+            <button className="px-4 py-2 bg-black/50 border-2 text-blue-300/85 border-slate-700 rounded-2xl shadow transition
             hover:-translate-y-0.5 transition-all duration-300 cursor-pointer">
               View Full Report
             </button>
@@ -42,10 +42,17 @@ const MQPAccordion = [
 
 
 const RoboticsAccordion = [
-  { title: "RBE2001: Mechanical Applications", content: "Using SOLIDWORKS for design and FEA, gears were designed and implemented into a four-bar linkage. The object was to lift an aluminum part with a weak motor attached to a Romi robot, then move the aluminum piece to a preset desired position using line following and wall-sensing sensors." },
-  { title: "RBE2002: Sensing and Perception", content: "Used IMU, sonar, vision, and infrared sensors to mathematically blend feedback in software, enabling our Romi robots to navigate a field with ramps and communicate to open a door. PID code was written to enable constant speed and stopping on ramps at various angles" },
-  { title: "RBE3001: Manipulation", content: "Using forward and inverse kinematics, vision sensors, and trajectory planning, code was written in MATLAB to detect, grasp, then sort balls according to their color." },
-  { title: "RBE3002: Navigation", content: "Using ROS for Linux, a LIDAR sensor was used to first map out the maze the Romi robot was placed in. Then the robot was manually moved, and it oriented itself in the map it created using the LIDAR and Kalman filtering." },
+  { title: "RBE2001: Mechanical Applications", content: `
+    Using ROS for Linux, a LIDAR sensor was used to first map out the maze the Romi robot was placed in.
+    Then the robot was manually moved, and it oriented itself in the map it created using the LIDAR
+    and Kalman filtering.`, },
+  { title: "RBE2002: Sensing and Perception", content: `IMU, sonar, vision, and infrared sensors were used with C++ to mathematically
+    blend feedback in software, enabling our Romi robots to navigate a field with ramps and communicate to open a door. PID code was
+    written to enable constant speed and stopping on ramps at various angles` },
+  { title: "RBE3001: Manipulation", content: `Using forward and inverse kinematics, vision sensors, and trajectory planning, code was
+    written in MATLAB to detect, grasp, then sort balls according to their color.` },
+  { title: "RBE3002: Navigation", content: `Using ROS for Linux, a LIDAR sensor was used to first map out the maze the Romi robot was
+    placed in. Then the robot was manually moved, and it oriented itself in the map it created using the LIDAR and Kalman filtering.` },
   { title: "Artificial Intelligence in Robotics",     
     content: (
       <div className="space-y-4">
@@ -65,7 +72,8 @@ const RoboticsAccordion = [
       </div>
     ),
   },
-  { title: "Industrial Robotics", content: "Coming 12/31/2025" },
+  { title: "Industrial Robotics", content: `Programming of an Arduino PLC which controled a system of industrial robotics. A UR5 
+    Universal Robot, an M-1iA Fanuc delta robot, two conveyor belts with laser break-beam sensors.` },
 ]
 
 const CSAccordion = [
@@ -93,21 +101,13 @@ const mathematicsAccordion = [
 
 ]
 
-
 export default function Robotics_engineering() {
   return (
 
     <div className="">
 
-      <StickyBanner>
-        <p className="mx-0 max-w-[90%] text-pink-200 drop-shadow-md backdrop-blur-sm">
-          This portfolio is currently being developed. Expect updates to be completed by 12/31/2025...{" "}
-        </p>
-      </StickyBanner>
-
-
       <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
-        <h2 className="text-lg md:text-4xl mb-12 text-white">
+        <h2 className="text-lg md:text-4xl mb-12 text-slate-400 font-semibold">
           Robotics Engineering
         </h2>
         
@@ -125,37 +125,37 @@ export default function Robotics_engineering() {
         {/* Accordions */}
         <div className="space-y-12">
 
-          <p className="mb-2 text-center sm:mb-6 text-slate-300  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
+          <p className="mb-2 text-center sm:mb-6 text-slate-400  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
             Major Qualifying Project
           </p>
           <Accordion items={MQPAccordion} />
 
-          <p className="mb-2 text-center sm:mb-6 text-slate-300  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
+          <p className="mb-2 text-center sm:mb-6 text-slate-400  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
             Robotics Engineering
           </p>
           <Accordion items={RoboticsAccordion} />
 
-          <p className="mb-2 text-center sm:mb-6 text-slate-300  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
+          <p className="mb-2 text-center sm:mb-6 text-slate-400  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
             Computer Science
           </p>
           <Accordion items={CSAccordion} />
 
-          <p className="mb-2 text-center sm:mb-6 text-slate-300  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
+          <p className="mb-2 text-center sm:mb-6 text-slate-400  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
             Electrical Engineering
           </p>
           <Accordion items={electricalAccordion} />
 
-          <p className="mb-2 text-center sm:mb-6 text-slate-300  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
+          <p className="mb-2 text-center sm:mb-6 text-slate-400  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
             Mechanical Engineering
           </p>
           <Accordion items={mechanicalAccordion} />
 
-          <p className="mb-2 text-center sm:mb-6 text-slate-300  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
+          <p className="mb-2 text-center sm:mb-6 text-slate-400  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
             Engineering Software and Tools
           </p>
           <Accordion items={toolsAccordion} />
 
-          <p className="mb-2 text-center sm:mb-6 text-slate-300  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
+          <p className="mb-2 text-center sm:mb-6 text-slate-400  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
             Mathematics
           </p>
           <Accordion items={mathematicsAccordion} />

@@ -10,7 +10,7 @@ export default function Ip() {
   return (
     <div className="bg-black/0">
       <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
-        <h2 className="text-lg md:text-4xl mb-12 text-white">
+        <h2 className="text-lg md:text-4xl mb-12 text-slate-400 font-semibold">
           Intellectual Property
         </h2>
 
@@ -54,7 +54,7 @@ export default function Ip() {
             <a
               href="https://publicrecords.copyright.gov/detailed-record/voyager_29808827"
               target="_blank"  rel="noopener noreferrer"
-              className="text-blue-500 text-center  sm:break-normal hover:text-blue-400">
+              className="text-blue-300/75 text-center  sm:break-normal hover:text-blue-400">
               Copyright for Mind
             </a>
           }
@@ -66,12 +66,12 @@ export default function Ip() {
       <div className="w-full max-w-md mx-auto">
         <GridItem
           area="auto"
-          icon={<img src="/registered_tm.png" alt="My Icon" className="w-6 h-6" />}
+          icon={null}
           title={
             <a
               href="https://tsdr.uspto.gov/#caseNumber=88075231&caseSearchType=US_APPLICATION&caseType=DEFAULT&searchType=statusSearch"
               target="_blank"  rel="noopener noreferrer"
-              className="text-blue-500 text-center  sm:break-normal hover:text-blue-400">
+              className="text-blue-300/75 text-center  sm:break-normal hover:text-blue-400">
               AlphaOmega Trademark Dispute
             </a>
           }

@@ -28,15 +28,16 @@ export const GridItem = ({
         />
 
         {/* Icon + Title */}
-        <div className="flex items-center justify-center gap-3">
+        <div className="flex items-center justify-center gap-3 hover:-translate-y-0.5 transition-all
+           duration-300">
           <div className="flex-shrink-0">{icon}</div>
-          <h3 className="text-xl font-semibold text-white text-center">
+          <h3 className="text-xl font-semibold text-blue-300/73 text-center">
             {title}
           </h3>
         </div>
 
         {description && (
-          <div className="mt-3 text-sm text-neutral-400 text-center">
+          <div className="mt-3 text-sm text-blue-300/75 text-center">
             {description}
           </div>
         )}
