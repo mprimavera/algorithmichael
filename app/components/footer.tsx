@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer className="w-full flex flex-col items-center py-8 text-sm sm:text-xs text-blue-300/75 z-10 bg-neutral-950/0">
+    <footer className="w-full flex flex-col items-center py-8 text-sm sm:text-xs text-blue-400 z-10 bg-neutral-950/0">
       <div className="flex items-center gap-4">
         {/* Facebook */}
 {/*         <a href="#" className="hover:-translate-y-0.5 transition-all duration-300">

@@ -44,8 +44,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
       </h2>
       <div className="text-slate-500 lg:text-xl md:text-base max-w-2xl lg:max-w-4xl leading-relaxed">
         <p className="mb-6">
-          As I complete my education, I am seeking a role where I can contribute to innovative robotics projects, refine my
-          technical expertise, and apply practical manufacturing insight to intelligent system design.
+          I've included this page to provide more depth than the typical résumé submitted with a job application.
         </p>
       </div>
     </div>

@@ -85,7 +85,7 @@ const Slide = ({ slide, index, current, handleSlideClick }: SlideProps) => {
             {buttonText && buttonAction && (
               <button
                 onClick={buttonAction}
-                className="px-4 py-2 bg-black/50 border-2 text-blue-300/75 border-slate-700 rounded-2xl shadow transition hover:-translate-y-0.5 transition-all duration-300 cursor-pointer"
+                className="px-4 py-2 bg-black/50 border-2 text-blue-400 border-slate-700 rounded-2xl shadow transition hover:-translate-y-0.5 transition-all duration-300 cursor-pointer"
               >
                 {buttonText}
               </button>
@@ -113,7 +113,7 @@ const CarouselControl = ({ type, title, handleClick }: CarouselControlProps) => 
       title={title}
       onClick={handleClick}
     >
-      <IconArrowNarrowRight className="text-blue-300/75" />
+      <IconArrowNarrowRight className="text-blue-400" />
     </button>
   );
 };

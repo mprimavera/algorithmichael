@@ -62,7 +62,7 @@ export function NavbarMenu() {
             width={50}
             height={50}
           /> */}
-          <span className="font-medium font-semibold text-blue-300/75">MikhaelRobotics™</span>
+          <span className="font-medium font-semibold text-blue-400">MikhaelRobotics™</span>
         </a>
           <NavItems items={navItems} />
           <div className="flex items-center gap-4">
@@ -94,7 +94,7 @@ export function NavbarMenu() {
             width={50}
             height={50}
           /> */}
-          <span className="font-medium font-semibold text-blue-300/75">MikhaelRobotics™</span>
+          <span className="font-medium font-semibold text-blue-400">MikhaelRobotics™</span>
         </a>
             <MobileNavToggle
               isOpen={isMobileMenuOpen}

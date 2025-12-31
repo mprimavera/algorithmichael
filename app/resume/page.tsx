@@ -35,7 +35,7 @@ export default function Resume() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button className="px-4 py-2 bg-black/50 border-2 text-blue-300/75 border-slate-700 rounded-2xl shadow transition
+              <button className="px-4 py-2 bg-black/50 border-2 text-blue-400 border-slate-500 rounded-2xl shadow transition
               hover:-translate-y-0.5 transition-all duration-300 cursor-pointer">
                 Artificial Intelligence Master's Program Online
               </button>
