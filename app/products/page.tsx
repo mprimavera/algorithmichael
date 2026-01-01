@@ -165,9 +165,9 @@ export default function Products() {
         </h2>
         <div className="text-slate-500 lg:text-xl md:text-base max-w-2xl lg:max-w-4xl leading-relaxed">
           <p className="">
-            These are the products I designed, manufactured, marketed, and sold through my e-commerce store. After closing the
-            business due to inconsistent income, I strategically shifted my focus toward strengthening my technical foundation,
-            earning a B.S. in Robotics Engineering and now pursuing an M.S. in Artificial Intelligence.
+            These are the products I designed, manufactured, marketed, and sold through my e-commerce store. I strategically shifted my
+            focus toward strengthening my technical foundation, earning a B.S. in Robotics Engineering and now pursuing an M.S. in
+            Artificial Intelligence.
           </p>
         </div>
       </div>
