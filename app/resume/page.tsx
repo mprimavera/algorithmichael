@@ -35,7 +35,7 @@ export default function Resume() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button className="px-4 py-2 bg-black/50 border-2 text-blue-400 border-slate-500 rounded-2xl shadow transition
+              <button className="px-4 py-2 bg-black/50 bg-slate-800 text-blue-400 rounded-2xl shadow transition
               hover:-translate-y-0.5 transition-all duration-300 cursor-pointer">
                 Artificial Intelligence Master's Program Online
               </button>
@@ -371,7 +371,7 @@ export default function Resume() {
   return (
     <div className="relative w-full overflow-clip">
       <Timeline data={data} />
-                <div className="h-40 sm:h-60 md:h-80 lg:h-200 xl:h-[28rem]" />
+      <div className="h-40 sm:h-60 md:h-80 lg:h-200 xl:h-[28rem]" />
     </div>
     
   );

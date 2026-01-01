@@ -17,12 +17,8 @@ export default function Ip() {
         <div className="text-slate-500 lg:text-xl md:text-base max-w-2xl lg:max-w-4xl leading-relaxed">
           <p className="mb-6">
             After our family business handled manufacturing and engineering for one company for nearly 20 years, the owners
-            decided to move production to China. Our machine shop was left empty.
-          </p>
-
-          <p className="mb-6">
-            We were left with nothing because we allowed the company we worked with to secure all the IP, trusting they would
-            remain loyal. The silver lining to the situation is that I experienced firsthand the importance of IP.
+            decided to move production to China. The silver lining to the situation is that
+            I experienced firsthand the importance of IP.
           </p>
 
           <p className="mb-6">
@@ -39,10 +35,6 @@ export default function Ip() {
         </div>
       </div>
 
-
-
-      
-
     <div className="space-y-9">
 
       {/* Copyright */}
@@ -54,7 +46,7 @@ export default function Ip() {
             <a
               href="https://publicrecords.copyright.gov/detailed-record/voyager_29808827"
               target="_blank"  rel="noopener noreferrer"
-              className="text-blue-300/75 text-center  sm:break-normal hover:text-blue-400">
+              className="text-blue-400 text-center  sm:break-normal">
               Copyright for Mind
             </a>
           }
@@ -71,7 +63,7 @@ export default function Ip() {
             <a
               href="https://tsdr.uspto.gov/#caseNumber=88075231&caseSearchType=US_APPLICATION&caseType=DEFAULT&searchType=statusSearch"
               target="_blank"  rel="noopener noreferrer"
-              className="text-blue-300/75 text-center  sm:break-normal hover:text-blue-400">
+              className="text-blue-400 text-center  sm:break-normal">
               AlphaOmega Trademark Dispute
             </a>
           }

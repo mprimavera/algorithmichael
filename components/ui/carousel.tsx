@@ -58,11 +58,11 @@ const Slide = ({ slide, index, current, handleSlideClick }: SlideProps) => {
         {/* Title at top */}
         <h2
           className={`absolute left-1/2 -translate-x-1/2 font-semibold text-lg sm:text-xl md:text-2xl lg:text-3xl w-[90%] max-w-[70vmin]
-            text-slate-400/85 
-            top-2 sm:top-2 md:top-8 lg:top-12`}
+            text-slate-500 
+            top-1`}
         >
 
-          <span className="inline-block rounded-md bg-black/70 backdrop-blur-md px-4 py-1 border-1">
+          <span className="inline-block rounded-md bg-black/90 backdrop-blur-md px-4 py-1 border-1">
             {title}
           </span>
         </h2>
@@ -71,25 +71,26 @@ const Slide = ({ slide, index, current, handleSlideClick }: SlideProps) => {
         {bottomDescription && (
           <div
             className={`absolute left-1/2 -translate-x-1/2 flex flex-col items-center space-y-2 w-[90%] max-w-[70vmin]
-              bottom-2 sm:bottom-2 md:bottom-8 lg:bottom-12`} // same as top title
+              bottom-1`} // same as top title
           >
-            <p
-              className={`text-center text-sm md:text-base lg:text-lg text-slate-400/85`}
+          {buttonText && buttonAction && (
+            <button
+              onClick={buttonAction}
+              className="px-4 py-2 bg-slate-800 text-blue-400 rounded-2xl shadow transition hover:-translate-y-0.5 transition-all duration-300 cursor-pointer"
             >
-              <span className="inline-block rounded-md bg-black/70 backdrop-blur-md px-3 py-1 border-1">
+              {buttonText}
+            </button>
+          )}
+            <p
+              className={`text-center text-sm md:text-base lg:text-lg text-slate-500`}
+            >
+              <span className="inline-block rounded-md bg-black/90 backdrop-blur-md px-3 py-1 border-1">
 
                 {bottomDescription}
               </span>
             </p>
 
-            {buttonText && buttonAction && (
-              <button
-                onClick={buttonAction}
-                className="px-4 py-2 bg-black/50 border-2 text-blue-400 border-slate-700 rounded-2xl shadow transition hover:-translate-y-0.5 transition-all duration-300 cursor-pointer"
-              >
-                {buttonText}
-              </button>
-            )}
+
           </div>
         )}
 
