@@ -272,7 +272,7 @@ export default function Robotics_engineering() {
             engineering degree, I created this page to provide more details.
           </p>
           <p className="mb-24">
-            The following is a list of the relevant courses I took that pertain to the field of Robotics Engineering.
+            The following is a list of the relevant courses I took that pertain to the fields of Robotics Engineering and Business.
           </p>
         </div>
 
