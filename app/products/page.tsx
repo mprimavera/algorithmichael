@@ -9,14 +9,14 @@ const MQPAccordion = [
   {
     title: "Π: Digital Contact Cards",
     content: (
-      <div className="space-y-4">
+      <div className="space-y-4 pb-2">
         <p>
           This was my first software-driven product. I developed a custom Python script to generate QR codes optimized for smartphone cameras.
         </p>
 
 
         {/* Centered button */}
-        <div className="flex justify-center">
+        <div className="flex justify-center mb-2">
           <a
             href="https://youtu.be/SDK4FM9hwQk?si=jGM9AAmJBe8BWb_u"
             target="_blank"

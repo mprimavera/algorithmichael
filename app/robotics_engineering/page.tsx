@@ -6,7 +6,7 @@ const MQPAccordion = [
   {
     title: "Mini CNC Mill",
     content: (
-      <div className="space-y-4">
+      <div className="space-y-4 pb-2">
         <p>
             The MQP at WPI is a senior design project. I completed the following tasks:
         </p>
@@ -22,7 +22,7 @@ const MQPAccordion = [
         </ul>
 
         {/* Centered button */}
-        <div className="flex justify-center">
+        <div className="flex justify-center mt-2 mb-2">
           <a
             href="https://digital.wpi.edu/concern/parent/h128nk052/file_sets/gf06g7088"
             target="_blank"
@@ -35,6 +35,7 @@ const MQPAccordion = [
           </a>
         </div>
       </div>
+      
     ),
     defaultOpen: true,
   },
