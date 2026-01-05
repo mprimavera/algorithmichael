@@ -34,9 +34,8 @@ const MQPAccordion = [
   },
 ];
 
-export default function CarouselTestPage() {
+export default function Products() {
   const slides = [
-
     /* Π: Digital Contact Cards */
     {
       title: "Π: Digital Contact Cards",
@@ -52,7 +51,7 @@ export default function CarouselTestPage() {
             { title: "Π: Digital Contact Cards", 
               content: 
               <p>
-                These are more color options. The vCard information embedded in the QR code is outdated (if scanned with a phone today).
+                These are more color options. The vCard information embedded in the QR code is outdated (if scanned today).
               </p> 
             },
           ]}
@@ -69,7 +68,7 @@ export default function CarouselTestPage() {
               content: 
               <p>
                 This image was created to show customers how the contact card works. The vCard information embedded in the QR code
-                is outdated (if scanned with a phone today).
+                is outdated (if scanned today).
               </p> 
             },
           ]}
@@ -290,13 +289,25 @@ export default function CarouselTestPage() {
         />
       ),
     },
-
-
   ];
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center p-8">
-      <Carousel2 slides={slides} />
+    <div className="">
+      <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
+        <h2 className="text-lg md:text-4xl mb-12 text-slate-400 font-semibold">
+          Products
+        </h2>
+        <div className="text-slate-500 lg:text-xl md:text-base max-w-2xl lg:max-w-4xl leading-relaxed">
+          <p className="">
+            These are the products I designed, manufactured, marketed, and sold through my e-commerce store. I strategically shifted my
+            focus toward strengthening my technical foundation, earning a B.S. in Robotics Engineering and now pursuing an M.S. in
+            Artificial Intelligence.
+          </p>
+        </div>
+      </div>
+      <div className="min-h-screen flex flex-col items-center justify-center p-8">
+        <Carousel2 slides={slides} />
+      </div>
     </div>
   );
 }

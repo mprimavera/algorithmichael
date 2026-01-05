@@ -1,104 +1,191 @@
+
 "use client";
 
-import Carousel from "@/components/ui/carousel";
+import React from "react";
+import Carousel2 from "@/components/ui/carousel_2";
+import { Accordion } from "../components/accordion";
 
 export default function Machines() {
-  const slideData = [
+  const slides = [
 
     /* Lathes */
     {
       title: "Mazak Quick Turn Nexus 100-II M",
-      src: "/mazak1.jpg", // <-- replace this with your actual image
-      bottomDescription: "This Mazak has live tooling, an automatic bar feeder for three-foot lengths, a parts catcher, and conveyor for automatic chip removal.",
-      titleColor: "text-slate-400",
-      descriptionColor: "text-slate-500"
+      src: "/mazak1.jpg",
+      accordion: (
+        <Accordion
+          items={[
+            { title: "Mazak Quick Turn Nexus 100-II M", 
+              content: 
+              <p>
+                This Mazak has live tooling, an automatic bar feeder for three-foot lengths, a parts catcher, and a conveyor for
+                automatic chip removal.
+              </p> 
+            },
+          ]}
+        />
+      ),
     },
-
     {
       title: "OmniTurn GT-75",
-      src: "/omniTurn1.jpg", // <-- replace this with your actual image
-      bottomDescription: "This OmniTurn lathe has gang tooling, an automatic bar feeder for two-foot lengths, and a parts catcher.",
-      titleColor: "text-slate-400",
-      descriptionColor: "text-slate-500"
+      src: "/omniTurn1.jpg",
+      accordion: (
+        <Accordion
+          items={[
+            { title: "OmniTurn GT-75", 
+              content: 
+              <p>
+                This OmniTurn lathe has gang tooling, an automatic bar feeder for two-foot lengths, and a parts catcher.
+              </p> 
+            },
+          ]}
+        />
+      ),
     },
-
-    /* Mills */
     {
       title: "Hurco VM10i Mill",
-      src: "/hurcoVM10.jpg", // <-- replace this with your actual image
-      bottomDescription: "This is a vertical mill with a rotary axis option (1 of 3).",
-      titleColor: "text-slate-400",
-      descriptionColor: "text-slate-500"
+      src: "/hurcoVM10.jpg",
+      accordion: (
+        <Accordion
+          items={[
+            { title: "Hurco VM10i Mill", 
+              content: 
+              <p>
+                This is a vertical mill with a rotary axis option (1 of 3).
+              </p> 
+            },
+          ]}
+        />
+      ),
     },
-
     {
       title: "Hurco VM5i Mill",
-      src: "/hurcoVM5i1.jpg", // <-- replace this with your actual image
-      bottomDescription: "This is a vertical mill (2 of 3).",
-      titleColor: "text-slate-400",
-      descriptionColor: "text-slate-500"
+      src: "/hurcoVM5i1.jpg",
+      accordion: (
+        <Accordion
+          items={[
+            { title: "Hurco VM5i Mill", 
+              content: 
+              <p>
+                This is a vertical mill (2 of 3).
+              </p> 
+            },
+          ]}
+        />
+      ),
     },
-
-        {
+    {
       title: "Hurco VM5i Mill",
-      src: "/hurcoVM5i2.jpg", // <-- replace this with your actual image
-      bottomDescription: "This is a vertical mill (3 of 3).",
-      titleColor: "text-slate-400",
-      descriptionColor: "text-slate-500"
+      src: "/hurcoVM5i2.jpg",
+      accordion: (
+        <Accordion
+          items={[
+            { title: "Hurco VM5i Mill", 
+              content: 
+              <p>
+                This is a vertical mill (3 of 3).
+              </p> 
+            },
+          ]}
+        />
+      ),
     },
-
-    /* Lasers */
     {
       title: "Epilog Mini Laser",
-      src: "/laser1.jpg", // <-- replace this with your actual image
-      bottomDescription: "This is an Epilog Mini, 50-watt CO₂ laser with a rotary add-on (1 of 2).",
-      titleColor: "text-slate-400",
-      descriptionColor: "text-slate-500"
+      src: "/laser1.jpg",
+      accordion: (
+        <Accordion
+          items={[
+            { title: "Epilog Mini Laser", 
+              content: 
+              <p>
+                This is an Epilog Mini, 50-watt CO₂ laser with a rotary add-on (1 of 2).
+              </p> 
+            },
+          ]}
+        />
+      ),
     },
-
     {
       title: "Epilog Mini Laser",
-      src: "/laser2.jpg", // <-- replace this with your actual image
-      bottomDescription: "This is an Epilog Mini, 50-watt CO₂ laser with a rotary add-on (2 of 2).",
-      titleColor: "text-slate-400",
-      descriptionColor: "text-slate-500"
+      src: "/laser2.jpg",
+      accordion: (
+        <Accordion
+          items={[
+            { title: "Epilog Mini Laser", 
+              content: 
+              <p>
+                This is an Epilog Mini, 50-watt CO₂ laser with a rotary add-on (2 of 2).
+              </p> 
+            },
+          ]}
+        />
+      ),
     },
-
-    /* Welder */
     {
       title: "Miller SyncroWave 250 DX",
-      src: "/welder1.jpg", // <-- replace this with your actual image
-      bottomDescription: "This is a TIG welder for metals.",
-      titleColor: "text-slate-400",
-      descriptionColor: "text-slate-500"
+      src: "/welder1.jpg",
+      accordion: (
+        <Accordion
+          items={[
+            { title: "Miller SyncroWave 250 DX", 
+              content: 
+              <p>
+                This is a TIG welder for metals.
+              </p> 
+            },
+          ]}
+        />
+      ),
     },
-
-    /* Brake */
     {
       title: "Atek Bantam Press Brake",
-      src: "/brake.jpg", // <-- replace this with your actual image
-      bottomDescription: "This is a press brake for bending metals.",
-      titleColor: "text-slate-400",
-      descriptionColor: "text-slate-500"
+      src: "/brake.jpg",
+      accordion: (
+        <Accordion
+          items={[
+            { title: "Atek Bantam Press Brake", 
+              content: 
+              <p>
+                This is a press brake for bending metals.
+              </p> 
+            },
+          ]}
+        />
+      ),
     },
-
-    /* Tumblers */
     {
       title: "Abrasive Tumbler",
-      src: "/tumbler1.jpg", // <-- replace this with your actual image
-      bottomDescription: "This is a large tumbler for deburring metals (1 of 2).",
-      titleColor: "text-slate-400",
-      descriptionColor: "text-slate-500"
+      src: "/tumbler1.jpg",
+      accordion: (
+        <Accordion
+          items={[
+            { title: "Abrasive Tumbler", 
+              content: 
+              <p>
+                This is a large tumbler for deburring metals (1 of 2).
+              </p> 
+            },
+          ]}
+        />
+      ),
     },
-
     {
       title: "Abrasive Tumbler",
-      src: "/tumbler2.jpg", // <-- replace this with your actual image
-      bottomDescription: "This is a small tumbler for deburring metals (2 of 2).",
-      titleColor: "text-slate-400",
-      descriptionColor: "text-slate-500"
+      src: "/tumbler2.jpg",
+      accordion: (
+        <Accordion
+          items={[
+            { title: "Abrasive Tumbler", 
+              content: 
+              <p>
+                This is a small tumbler for deburring metals (2 of 2).
+              </p> 
+            },
+          ]}
+        />
+      ),
     },
-
   ];
 
   return (
@@ -118,9 +205,9 @@ export default function Machines() {
           </p>
         </div>
       </div>       
-      <div className="relative overflow-hidden w-full h-full py-20">
-        <Carousel slides={slideData} />
-      </div>
+    <div className="min-h-screen flex flex-col items-center justify-center p-8">
+      <Carousel2 slides={slides} />
+    </div>
     </div>
   );
 }
