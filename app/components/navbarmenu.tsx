@@ -56,7 +56,7 @@ export function NavbarMenu() {
         <NavBody>
         {/* Logo Link */}
         <a
-          href="https://mikhaelrobotics.vercel.app/"
+          href="/"
           className="relative z-20 mr-4 flex items-center space-x-2 px-2 py-1 text-sm font-normal hover:-translate-y-0.5 transition-all
            duration-300"
         >
@@ -88,7 +88,7 @@ export function NavbarMenu() {
           <MobileNavHeader>
         {/* Logo Link */}
         <a
-          href="https://mikhaelrobotics.vercel.app/"
+          href="/"
           className="relative z-20 mr-4 flex items-center space-x-2 px-2 py-1 text-sm font-normal hover:-translate-y-0.5
           transition-all duration-300"
         >

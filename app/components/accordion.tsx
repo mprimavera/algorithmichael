@@ -19,7 +19,7 @@ export function Accordion({ items }: AccordionProps) {
   })
 
   return (
-    <div className="mx-auto w-full max-w-[89%] sm:max-w-sm md:max-w-lg">
+    <div className="mx-auto w-full max-w-[85%] sm:max-w-sm md:max-w-lg">
       <div className="border border-slate-400/50 rounded-lg overflow-hidden">
         {items.map((item, index) => (
           <AccordionRow
@@ -62,7 +62,7 @@ function AccordionRow({
 
   return (
     <div
-      className={`backdrop-blur-md px-0 py-0
+      className={`backdrop-blur-md px-3 py-0
         ${isFirst ? "rounded-t-lg" : ""} 
         ${isLast ? "rounded-b-lg" : ""}`}
     >
