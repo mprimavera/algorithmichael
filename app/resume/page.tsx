@@ -310,26 +310,6 @@ export default function Resume() {
     },
 
     {
-      title: "10/2017",
-      content: (
-        <div>
-          <p className="mb-2 sm:mb-6 text-slate-400  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
-            Copyright on Mind: Part I of a trilogy
-          </p>
-
-          {/* Scrollable container */}
-          {/* <div className="mb-8 max-h-40 sm:max-h-40 overflow-y-auto pr-2"> */}
-            <p 
-              className="mb-2 text-slate-500  sm:break-normal max-w-full sm:text-2xl leading-10 tracking-tight">
-              In October of 2017, I had finished the final draft of part one of a trilogy that I wrote. I was determined to see it through to completion,
-              and even though I never intended to become published, I hired an intellectual property attorney to aid in securing my first piece of IP.
-            </p>
-
-        </div>
-      ),
-    },
-
-    {
       title: "2008-2018",
       content: (
         <div>
