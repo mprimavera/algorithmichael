@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "MikhaelRobotics™",
+  title: "Michael Primavera",
   description: "Startup robotics compnay",
 };
 
