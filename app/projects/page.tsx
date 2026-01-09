@@ -31,7 +31,7 @@ export default function Projects() {
         </h2>
         <div className="text-slate-500 lg:text-xl md:text-base max-w-2xl lg:max-w-4xl leading-relaxed mb-12">
           <p>
-            I’ve included videos showing some of the projects I’ve worked on to demonstrate the technical skills I’ve developed. This
+            I’ve included videos showcasing some of the projects I’ve worked on to demonstrate the technical skills I’ve developed. This
             is not a comprehensive list. At Milara, I was not permitted to take photos or videos of the sorters I worked on. During my
             time there, I performed field service engineering as part of their software team at semiconductor cleanroom fabrication
             facilities.
@@ -39,13 +39,14 @@ export default function Projects() {
         </div>
 
         {/* ===== Robotics ===== */}
-        <div className="border rounded-xl text-slate-400/50 mb-12 pt-4 bg-black/70">
+        <div className="border rounded-3xl text-slate-400/50 mb-12 pt-4 bg-black/70">
           <ProjectSection title="Robotics">
             {/* Industrial Robotics */}
             <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
               <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
                 <div className="w-full aspect-video mb-4">
                   <iframe
+                    loading="lazy"
                     className="w-full h-full rounded-lg"
                     src="https://www.youtube.com/embed/YAJ9Wzltu34?si=KOFma-CiZnBBG-z9"
                     title="Industrial Robotics"
@@ -68,6 +69,7 @@ export default function Projects() {
               <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">
                 <div className="w-full aspect-video mb-4">
                   <iframe
+                    loading="lazy"
                     className="w-full h-full rounded-lg"
                     src="https://www.youtube.com/embed/EnIhbuE6zA0?si=p2Yk1_7nzTG5uk_B"
                     title="Robot Vision"
@@ -91,13 +93,14 @@ export default function Projects() {
         </div>
 
         {/* ===== End-to-End Engineering Project: Mini CNC Mill ===== */}
-        <div className="border rounded-xl text-slate-400/50 mb-12 pt-4 bg-black/70">
+        <div className="border rounded-3xl text-slate-400/50 mb-12 pt-4 bg-black/70">
           <ProjectSection title="End-to-End Engineering Project: Mini CNC Mill">
             {/* MQP mini CNC mill */}
             <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
               <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
                 <div className="w-full aspect-video mb-4">
                   <iframe
+                    loading="lazy"
                     className="w-full h-full rounded-lg"
                     src="https://www.youtube.com/embed/Cx7HpJapaZQ?si=XWw0iW-Nd3knbpQy"
                     title="Major Qualifying Project"
@@ -111,8 +114,8 @@ export default function Projects() {
                 </p>
                 <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
                   <p className="text-sm text-slate-500">
-                    This is the final presentation video for our eleven-student major MQP at WPI. I narrated the video and demonstrated
-                    my CAD (SOLIDWORKS), MATLAB work, and KiCad schematic creation.
+                    This is the final presentation video for our eleven-student Major Qualifying Project (MQP) at WPI. I
+                    narrated the video and demonstrated my CAD (SOLIDWORKS), MATLAB, and KiCad schematic work.
                   </p>
                 </div>
               </BackgroundGradient>
@@ -122,6 +125,7 @@ export default function Projects() {
               <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
                 <div className="w-full aspect-video mb-4">
                   <iframe
+                    loading="lazy"
                     className="w-full h-full rounded-lg"
                     src="https://www.youtube.com/embed/4MgPYenIZXw?si=HAi-hV11wRllbVWy"
                     title="MQP mini CNC mill: presentation of finalized R&D phase"
@@ -147,6 +151,7 @@ export default function Projects() {
               <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
                 <div className="w-full aspect-video mb-4">
                   <iframe
+                    loading="lazy"
                     className="w-full h-full rounded-lg"
                     src="https://www.youtube.com/embed/dUWLDC4rL10?si=-Ljyafnw-oXDsngT"
                     title="MQP mini CNC mill bed leveling torque test"
@@ -172,6 +177,7 @@ export default function Projects() {
               <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
                 <div className="w-full aspect-video mb-4">
                   <iframe
+                    loading="lazy"
                     className="w-full h-full rounded-lg"
                     src="https://www.youtube.com/embed/TDziKYPmKuU?si=am7WkGicJQjHP1yd"
                     title="MQP mini CNC mill bed leveling helicoil torque testing"
@@ -196,6 +202,7 @@ export default function Projects() {
               <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
                 <div className="w-full aspect-video mb-4">
                   <iframe
+                    loading="lazy"
                     className="w-full h-full rounded-lg"
                     src="https://www.youtube.com/embed/-mwcSxoPo5E?si=tWpsAsEATLx_ic8H"
                     title="MQP mini CNC mill: presentation of finalized R&D phase"
@@ -219,6 +226,7 @@ export default function Projects() {
               <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
                 <div className="w-full aspect-video mb-4">
                   <iframe
+                    loading="lazy"
                     className="w-full h-full rounded-lg"
                     src="https://www.youtube.com/embed/gQxDrpg8AZk?si=MbQkz4IWz_AYlgvJ"
                     title="MQP mini CNC mill: presentation of finalized R&D phase"
@@ -243,6 +251,7 @@ export default function Projects() {
               <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
                 <div className="w-full aspect-video mb-4">
                   <iframe
+                    loading="lazy"
                     className="w-full h-full rounded-lg"
                     src="https://www.youtube.com/embed/_zweEVm8UzY?si=8ROtlGtbpqZbNMk3"
                     title="MQP mini CNC mill e-stop"
@@ -266,6 +275,7 @@ export default function Projects() {
               <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
                 <div className="w-full aspect-video mb-4">
                   <iframe
+                    loading="lazy"
                     className="w-full h-full rounded-lg"
                     src="https://www.youtube.com/embed/QSF5KapfTn4?si=a8W2FWM4IfbEctrs"
                     title="MQP mini CNC mill e-stop"
@@ -289,6 +299,7 @@ export default function Projects() {
               <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
                 <div className="w-full aspect-video mb-4">
                   <iframe
+                    loading="lazy"
                     className="w-full h-full rounded-lg"
                     src="https://www.youtube.com/embed/wOfjqY_zv5k?si=st4e9MHhEL03FJ1Z"
                     title="Additive Manufacturing Prototyping"
@@ -312,13 +323,14 @@ export default function Projects() {
         </div>
 
         {/* ===== Embedded Systems ===== */}
-          <div className="border rounded-xl text-slate-400/50 mb-12 pt-4 bg-black/70">
+          <div className="border rounded-3xl text-slate-400/50 mb-12 pt-4 bg-black/70">
             <ProjectSection title="Embedded Systems">
               {/* Embedded systems PD control*/}
               <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
                 <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
                   <div className="w-full aspect-video mb-4">
                     <iframe
+                      loading="lazy"
                       className="w-full h-full rounded-lg"
                       src="https://www.youtube.com/embed/JtrBYZ2HA0A?si=AOZyXL8qBJvhRXvJ"
                       title="Embedded Programming"
@@ -332,8 +344,8 @@ export default function Projects() {
                   </p>
                   <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
                     <p className="text-sm text-slate-500">
-                      Using Linux OS and the Pico SDK library, all code was written from scratch. This included the display code, as well as encoder-based
-                      proportional and derivative control. Integral control was used in other projects.
+                      Using Linux and the Pico SDK, all code was written from scratch, including the display code and encoder-based
+                      proportional-derivative control. Integral control was applied in other projects.
                     </p>
                   </div>
                 </BackgroundGradient>
@@ -343,6 +355,7 @@ export default function Projects() {
                 <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
                   <div className="w-full aspect-video mb-4">
                     <iframe
+                      loading="lazy"
                       className="w-full h-full rounded-lg"
                       src="https://www.youtube.com/embed/4sNkf1GcZYo?si=Q8oHnvzp2FLXDE7U"
                       title="Adjustable Duty Cycle"
@@ -366,6 +379,7 @@ export default function Projects() {
                 <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
                   <div className="w-full aspect-video mb-4">
                     <iframe
+                      loading="lazy"
                       className="w-full h-full rounded-lg"
                       src="https://www.youtube.com/embed/NoOMwVs4Xgc?si=h2jmUgXBTvQxhXA_"
                       title="ADC Voltmeter"
@@ -390,13 +404,14 @@ export default function Projects() {
         </div>
 
         {/* ===== Entrepreneurial & Independent Projects ===== */}
-        <div className="border rounded-xl text-slate-400/50 mb-12 pt-4 bg-black/70">
+        <div className="border rounded-3xl text-slate-400/50 mb-12 pt-4 bg-black/70">
           <ProjectSection title="Entrepreneurial & Independent Projects">
             {/* Ethereum mining rig */}
             <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
               <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
                 <div className="w-full aspect-video mb-4">
                   <iframe
+                    loading="lazy"
                     className="w-full h-full rounded-lg"
                     src="https://www.youtube.com/embed/iZbmoNKK79Q?si=ySQ3apqZFEGSVdLW"
                     title="AlphaOmega LLC First Prototype: Cryptocurrency Mining Rig"
@@ -412,8 +427,8 @@ export default function Projects() {
 
                 <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
                   <p className="text-sm text-slate-500">
-                    After the Bitcoin price spike in late 2017, I built an Ethereum mining rig. At the time, rigs sold for $10,000–$20,000
-                    online. I built mine for ~$1,200, realizing a large potential profit.
+                    After the Bitcoin price spike in late 2017, I built an Ethereum mining rig. At the time, rigs sold for
+                    $10,000–$20,000 online, but I built mine for ~$1,200, realizing significant potential profit.
                   </p>
                   <p className="text-sm text-slate-500">
                     This marked the beginning of AlphaOmega LLC.
@@ -426,6 +441,7 @@ export default function Projects() {
               <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
                 <div className="w-full aspect-video mb-4">
                   <iframe
+                    loading="lazy"
                     className="w-full h-full rounded-lg"
                     src="https://www.youtube.com/embed/ImnPgaXRYiE?si=qbOXJHOjimXK0Olx"
                     title="Dynamic Price Modeling"
@@ -450,6 +466,7 @@ export default function Projects() {
               <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
                 <div className="w-full aspect-video mb-4">
                   <iframe
+                    loading="lazy"
                     className="w-full h-full rounded-lg"
                     src="https://www.youtube.com/embed/N_LkVzzLo98?si=wY2LWoX80kVWySSI"
                     title="The Essence of Mathematics: Simplicity"
