@@ -44,11 +44,9 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
       </h2>
       <div className="text-slate-500 lg:text-xl md:text-base max-w-2xl lg:max-w-4xl leading-relaxed">
         <p className="mb-6">
-          Robotics Engineer with hands-on experience in embedded systems, automation, and full-stack development.
-          Skilled in designing, programming, and optimizing software for real-world applications across robotics, manufacturing,
-          and algorithmic trading domains. Proficient in C, C++, Python, Java, MATLAB, web development, and Linux-based development,
-          with expertise in debugging, software architecture, and integrating software with hardware systems. Proven ability to collaborate
-          across multidisciplinary teams to deliver robust, scalable, and maintainable solutions.
+          Robotics Engineer with industry experience in robotic system integration, field service engineering, embedded systems,
+          and advanced manufacturing. Strong cross-disciplinary background spanning robotics, software, electrical, and mechanical
+          engineering, with a proven ability to deploy real-world systems and quickly advance in technical roles.
         </p>
       </div>
     </div>
