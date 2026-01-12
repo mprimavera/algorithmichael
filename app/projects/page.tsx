@@ -94,7 +94,7 @@ export default function Projects() {
         </div>
 
         {/* ===== End-to-End Engineering Project: Mini CNC Mill ===== */}
-        <div className="border rounded-3xl text-slate-400/50 mb-12 pt-4 bg-black/70">
+        <div className="border rounded-3xl text-slate-400/50 mb-12 pt-4 bg-black/70 min-w-[410px]">
           <ProjectSection title="End-to-End Engineering Project: Mini CNC Mill">
             {/* MQP mini CNC mill */}
             <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
@@ -325,7 +325,7 @@ export default function Projects() {
         </div>
 
         {/* ===== Embedded Systems ===== */}
-          <div className="border rounded-3xl text-slate-400/50 mb-12 pt-4 bg-black/70">
+          <div className="border rounded-3xl text-slate-400/50 mb-12 pt-4 bg-black/70 min-w-[410px]">
             <ProjectSection title="Embedded Systems">
               {/* Embedded systems PD control*/}
               <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
@@ -406,7 +406,7 @@ export default function Projects() {
         </div>
 
         {/* ===== Entrepreneurial & Independent Projects ===== */}
-        <div className="border rounded-3xl text-slate-400/50 mb-12 pt-4 bg-black/70">
+        <div className="border rounded-3xl text-slate-400/50 mb-12 pt-4 bg-black/70 min-w-[410px]">
           <ProjectSection title="Entrepreneurial & Independent Projects">
             {/* Ethereum mining rig */}
             <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
