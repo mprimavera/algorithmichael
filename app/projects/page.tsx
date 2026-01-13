@@ -311,7 +311,7 @@ export default function Projects() {
                   ></iframe>
                 </div>
                 <p className="text-base sm:text-xl mt-4 mb-2 text-slate-400">
-                  Additive manufacturing prototyping of a new ergonomic thumb screw design
+                  Additive manufacturing prototyping of a new ergonomic thumbscrew design
                 </p>
                 <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
                   <p className="text-sm text-slate-500">
