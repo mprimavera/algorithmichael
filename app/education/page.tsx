@@ -143,7 +143,7 @@ const CSAccordion = [
         {/* Centered button */}
         <div className="flex justify-center mt-2 mb-2">
           <a
-            href="https://youtube.com/playlist?list=PL643xA3Ie_Esqz6SnU0rqAU_t3GjwnFk5&si=IgoeVqHKRLtz37_O"
+            href="https://youtube.com/playlist?list=PL643xA3Ie_EuHoNV7AgvJXq-z1hrE8vsm&si=DCxNK0uc0eMlfmHg"
             target="_blank"
             rel="noopener noreferrer"
           >
