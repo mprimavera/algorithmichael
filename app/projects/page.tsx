@@ -485,7 +485,7 @@ export default function Projects() {
                     I created this video to share the greatest takeaway I had from learning math and physics.
                   </p>
                   <p className="text-sm text-slate-500">
-                    "I made a handful of other tutorials as well. Those videos received over 185,000 views, but it wasn’t enough
+                    I made a handful of other tutorials as well. Those videos received over 185,000 views, but it wasn’t enough
                     to justify dedicating the time, which I decided was better spent furthering my own knowledge.
                   </p>
                 </div>
