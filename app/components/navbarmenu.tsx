@@ -31,6 +31,10 @@ export function NavbarMenu() {
       link: "/projects",
     },
     {
+      name: "Trading",
+      link: "/trading",
+    },
+    {
       name: "Products",
       link: "/products",
     },
@@ -46,6 +50,7 @@ export function NavbarMenu() {
       name: "Diploma",
       link: "/diploma",
     },
+
     // {
     //   name: "Coming Soon",
     //   link: "/comingSoon",
