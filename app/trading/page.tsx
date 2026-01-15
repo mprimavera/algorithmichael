@@ -43,7 +43,7 @@ export default function Trading() {
           </p>
         </div>
 
-        <div className="border rounded-3xl text-slate-400/50 mb-12 pt-4 pb-14 bg-black/70 min-w-[410px]">
+        <div className="border rounded-3xl text-slate-400/50 mb-12 pt-4 pb-36 md:pb-28 lg:pb-18 bg-black/70 min-w-[410px] text-center">
           <ProjectSection title="Research Visualization Example">
             <div className="w-full max-w-7xl mx-auto px-4">
               <img
@@ -58,7 +58,6 @@ export default function Trading() {
               </p>
 
               <p className="text-sm text-slate-500 mt-3 pt-3 border-t border-slate-700/50">
-
                 The underlying platform provides market data and visualization. All strategy logic,
                 signal generation, and trade state handling were designed and implemented by me.
                 These examples are provided solely to illustrate system design and research workflow,
@@ -68,7 +67,7 @@ export default function Trading() {
           </ProjectSection>
         </div>
 
-        <div className="border rounded-3xl text-slate-400/50 mb-12 pt-4 pb-10 bg-black/70 min-w-[410px]">
+        <div className="border rounded-3xl text-slate-400/50 mb-12 pt-4 pb-36 md:pb-28 lg:pb-14 bg-black/70 min-w-[410px] text-center">
           <ProjectSection title="Execution and Reporting Output">
             <div className="w-full max-w-7xl mx-auto px-4">
               <img
@@ -77,7 +76,7 @@ export default function Trading() {
                 className="w-full h-full object-contain rounded-lg"
               />
 
-              <p className="text-base text-center sm:text-xl mb-2 text-slate-400">
+              <p className="text-base sm:text-xl mb-2 text-slate-400">
                 Strategy results summary corresponding to the research visualization above,
                 reflecting automated trade execution over the same evaluation period.
               </p>
