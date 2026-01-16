@@ -38,6 +38,11 @@ export default function Trading() {
             evaluating algorithmic trading strategies. My focus has been on building research tools that support clear,
             disciplined reasoning about model behavior under live market conditions.
           </p>
+          <p className="mb-6">
+            The following is an illustrative example showing how I translate a mathematical trading idea
+            into executable strategy code and generate trade histories, providing context on how models are analyzed and iteratively
+            refined through numerical evaluation.
+          </p>
         </div>
 
         <div className="border rounded-3xl text-slate-400/50 mb-12 pt-4 pb-36 md:pb-28 lg:pb-18 bg-black/70 min-w-[410px] text-center">
