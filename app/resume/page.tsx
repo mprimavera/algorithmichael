@@ -34,15 +34,22 @@ export default function Resume() {
           </p>
 
           {/* Scrollable container */}
-          <div className="mb-8 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
+          {/* <div className="mb-8 max-h-40 sm:max-h-40 overflow-y-auto pr-2"> */}
             <ul 
-              className=" list-disc mb-2 text-slate-500 sm:break-normal max-w-full sm:text-2xl leading-10 tracking-tight">
-              I began an eight-year journey into algorithmic trading as a result of the spike in Bitcoin in November of 2017. It was my
-              first time 'investing', and it ultimately led to me taking five online courses, listening to over a dozen audiobooks, reading
-              a few more books, then watching every microeconomic, macroeconomic, finance, capital markets, and accounting video on Khan Academy.
+              className="list-disc pl-5 space-y-1 mb-2 text-slate-500 sm:break-normal max-w-full sm:text-2xl leading-10 tracking-tight">
+                <li> Designed and implemented systematic trading algorithms across multiple commodities, using statistical modeling,
+                  probability theory, and historical datasets to evaluate strategy performance. 
+                </li>
+                <li>
+                  Developed end-to-end workflows including data acquisition, signal generation, backtesting, and parameter optimization,
+                  with disciplined tracking of performance metrics and risk. 
+                </li>
+                <li>
+                  Translated research insights into executable code, supporting iterative refinement of models under real-world market conditions. 
+                </li>
             </ul>
             </div>
-        </div>
+        // </div>
       ),
     },
     {
@@ -368,7 +375,7 @@ export default function Resume() {
             isOpen={open}
             onClose={() => setOpen(false)}
             pdfUrl="/WPI_Diploma.pdf"
-            title="WPI Robotics Engineering Diploma"
+            title="Official Digital WPI Robotics Engineering Diploma"
           />
     </div>
     
