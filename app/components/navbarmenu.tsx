@@ -19,7 +19,7 @@ import Link from "next/link";
 export function NavbarMenu() {
   const navItems = [
     {
-      name: "Trading",
+      name: "Quant Research",
       link: "/trading",
     },
     {
