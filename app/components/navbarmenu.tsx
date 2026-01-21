@@ -35,12 +35,12 @@ export function NavbarMenu() {
       link: "/projects",
     },
     {
-      name: "Products",
-      link: "/products",
-    },
-    {
       name: "Machines",
       link: "/machines",
+    },
+    {
+      name: "Products",
+      link: "/products",
     },
     {
       name: "IP",
