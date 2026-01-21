@@ -46,10 +46,10 @@ export function NavbarMenu() {
       name: "IP",
       link: "/ip",
     },
-    {
-      name: "Diploma",
-      link: "/diploma",
-    },
+    // {
+    //   name: "Diploma",
+    //   link: "/diploma",
+    // },
 
     // {
     //   name: "Coming Soon",

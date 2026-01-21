@@ -27,21 +27,24 @@ export default function Trading() {
     <div>
       <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
         <h2 className="text-lg md:text-4xl mb-12 text-slate-400 font-semibold">
-          Quantitative Trading Systems
+          Quantitative Research and Algorithmic Trading Systems
         </h2>
         <div className="text-slate-500 lg:text-xl md:text-base max-w-2xl lg:max-w-4xl leading-relaxed mb-12">
           <p className="mb-6">
-            I have formal training in Robotics Engineering, with strong foundations in systems design, applied mathematics, control theory, and software engineering. 
-            In parallel, I have over eight years of independent research and applied experimentation in market microstructure, derivatives, and systematic trading, 
-            designing, implementing, and evaluating algorithmic strategies. My focus is on building research tools that enable disciplined, data-driven reasoning under live market conditions.
+            I am a Robotics Engineer with strong foundations in systems design,
+            applied mathematics, control theory, and software engineering. In parallel,
+            I have over eight years of independent experience designing and evaluating
+            systematic trading strategies.
           </p>
           <p className="mb-6">
-            The example below illustrates how I use fundamental datasets to construct and evaluate a quantitative trading hypothesis, 
-            translate it into executable strategy code, and generate trade histories—providing context for how models are analyzed and iteratively refined.
-          </p>
+            This page illustrates my research-to-production workflow: constructing
+            quantitative hypotheses from real data, translating them into executable
+            strategy logic, and evaluating performance through disciplined numerical
+            analysis and out-of-sample testing.
+        </p>
         </div>
-        <div className="border rounded-3xl text-slate-400/50 mb-12 pt-4 pb-36 md:pb-28 lg:pb-20 bg-black/70 min-w-[410px] text-center">
-          <ProjectSection title="Acquire and Analyze Relevant Data">
+        <div className="border rounded-3xl text-slate-400/50 mb-12 pt-4 pb-20 md:pb-18 lg:pb-10 bg-black/70 min-w-[410px] text-center">
+          <ProjectSection title="Data Selection and Exploratory Analysis">
             <div className="w-full max-w-7xl mx-auto px-4">
               <img
                 src="/trading/Data.png"
@@ -61,7 +64,7 @@ export default function Trading() {
         </div>
 
         <div className="border rounded-3xl text-slate-400/50 mb-12 pt-4 pb-36 md:pb-28 lg:pb-20 bg-black/70 min-w-[410px] text-center">
-          <ProjectSection title="Construct and Evaluate a Quantitative Model from Fundamental Data">
+          <ProjectSection title="Model Construction and Parameter Estimation">
             <div className="w-full max-w-7xl mx-auto px-4">
               <img
                 src="/trading/Strategy.png"
@@ -84,7 +87,7 @@ export default function Trading() {
         </div>
 
         <div className="border rounded-3xl text-slate-400/50 mb-12 pt-4 pb-36 md:pb-28 lg:pb-20 bg-black/70 min-w-[410px] text-center">
-          <ProjectSection title="Implementing the Model within an Automated Execution Framework">
+          <ProjectSection title="Strategy Implementation and Execution Logic">
             <div className="w-full max-w-7xl mx-auto px-4">
               <img
                 src="/trading/Code.png"
@@ -105,8 +108,8 @@ export default function Trading() {
           </ProjectSection>
         </div>
 
-        <div className="border rounded-3xl text-slate-400/50 mb-12 pt-4 pb-36 md:pb-28 lg:pb-20 bg-black/70 min-w-[410px] text-center">
-          <ProjectSection title="Execution and Reporting Output">
+        <div className="border rounded-3xl text-slate-400/50 mb-12 pt-4 pb-24 md:pb-18 lg:pb-14 bg-black/70 min-w-[410px] text-center">
+          <ProjectSection title="Out-of-Sample Testing and Performance Attribution">
             <div className="w-full max-w-7xl mx-auto px-4">
               <img
                 src="/trading/Results_1.png"
@@ -127,8 +130,8 @@ export default function Trading() {
           </ProjectSection>
         </div>
 
-        <div className="border rounded-3xl text-slate-400/50 mb-12 pt-4 pb-36 md:pb-28 lg:pb-14 bg-black/70 min-w-[410px] text-center">
-          <ProjectSection title="Robustness Analysis and Iterative Refinement">
+        <div className="border rounded-3xl text-slate-400/50 mb-12 pt-4 pb-2 md:pb-2 lg:pb-2 bg-black/70 min-w-[410px] text-center">
+          <ProjectSection title="Robustness Analysis and Model Refinement">
             <div className="w-full max-w-7xl mx-auto px-4">
               <img
                 src="/trading/Results_2.png"
@@ -136,9 +139,21 @@ export default function Trading() {
                 className="w-full h-full object-contain rounded-lg"
               />
 
-              <p className="text-base sm:text-xl mb-2 text-slate-400">
+              <p className="text-base sm:text-xl text-slate-400 pt-2 sm:pt-2 md:pt-2 lg:pt-4">
                 Evaluation emphasizes risk-adjusted performance via quantitative numerical output.
               </p>
+            </div>
+          </ProjectSection>
+        </div>
+
+        <div className="border rounded-3xl text-slate-400/50 mb-2 pt-4 pb-2 md:pb-2 lg:pb-2 bg-black/70 min-w-[410px] text-center">
+          <ProjectSection title="Positioning and Role Alignment">
+            <div className="w-full max-w-7xl mx-auto px-4">
+            <p className="text-base sm:text-xl text-slate-400 pt-16">
+              This example is representative of how I approach quantitative research and
+              systematic strategy development. I am seeking quant developer or research roles where rigorous modeling,
+              disciplined evaluation, and production-quality implementation are valued.
+            </p>
             </div>
           </ProjectSection>
         </div>

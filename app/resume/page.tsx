@@ -1,6 +1,5 @@
 'use client'
 
-import React from "react";
 import { Timeline } from "@/components/ui/timeline";
 import { Button } from "@/components/ui/button"
 import {
@@ -13,13 +12,39 @@ import {
 } from "@/components/ui/card"
 import { GlowingEffect } from "@/components/ui/glowing-effect";
 import { GridItem } from "../components/grid_item";
-import { Copyright, Github, Linkedin  } from "lucide-react";
+import { GraduationCap, Github, Linkedin  } from "lucide-react";
 import { GridItem2 } from "../components/grid_item_2";
 import { IconBrandNextjs, IconBrandVscode } from "@tabler/icons-react";
 import Image from "next/image";
+import PDFModal from "../components/PDFModal";
+import React, { useState } from "react";
+
+
 
 export default function Resume() {
+    const [open, setOpen] = useState(false);
+
   const data = [
+        {
+      title: "11/2017 to Current",
+      content: (
+        <div>
+          <p className="mb-2 sm:mb-6 text-slate-400  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
+            Quantitative Research and Algorithmic Trading Systems
+          </p>
+
+          {/* Scrollable container */}
+          <div className="mb-8 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
+            <ul 
+              className=" list-disc mb-2 text-slate-500 sm:break-normal max-w-full sm:text-2xl leading-10 tracking-tight">
+              I began an eight-year journey into algorithmic trading as a result of the spike in Bitcoin in November of 2017. It was my
+              first time 'investing', and it ultimately led to me taking five online courses, listening to over a dozen audiobooks, reading
+              a few more books, then watching every microeconomic, macroeconomic, finance, capital markets, and accounting video on Khan Academy.
+            </ul>
+            </div>
+        </div>
+      ),
+    },
     {
       title: "Future: 2026",
       content: (
@@ -193,6 +218,27 @@ export default function Resume() {
               className="mb-2 text-slate-500  sm:break-normal max-w-full sm:text-2xl leading-10 tracking-tight">
                 I graduated December 30, 2025, with High Distinction honors—the highest academic honor awarded by WPI.
             </p>
+                  <div className="space-y-9">
+        {/* View Diploma */}
+        <div className="w-full max-w-md mx-auto">
+          <GridItem
+            area="auto"
+            icon={
+              <GraduationCap className="h-6 w-6 text-neutral-400" />
+            }
+            title={
+              <button
+                onClick={() => setOpen(true)}
+                className="text-blue-400 hover:underline text-center"
+              >
+                View Diploma (PDF)
+              </button>
+            }
+            description={null}
+          />
+        </div>
+
+        </div>
           {/* </div> */}
         </div>
       ),
@@ -273,26 +319,7 @@ export default function Resume() {
       ),
     },
 
-    {
-      title: "11/2017",
-      content: (
-        <div>
-          <p className="mb-2 sm:mb-6 text-slate-400  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
-            Algorithmic Trading
-          </p>
 
-          {/* Scrollable container */}
-          <div className="mb-8 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
-            <p 
-              className="mb-2 text-slate-500 sm:break-normal max-w-full sm:text-2xl leading-10 tracking-tight">
-              I began an eight-year journey into algorithmic trading as a result of the spike in Bitcoin in November of 2017. It was my
-              first time 'investing', and it ultimately led to me taking five online courses, listening to over a dozen audiobooks, reading
-              a few more books, then watching every microeconomic, macroeconomic, finance, capital markets, and accounting video on Khan Academy.
-            </p>
-            </div>
-        </div>
-      ),
-    },
 
     {
       title: "2008-2018",
@@ -336,6 +363,13 @@ export default function Resume() {
     <div className="relative w-full overflow-clip">
       <Timeline data={data} />
       <div className="h-40 sm:h-60 md:h-80 lg:h-200 xl:h-[28rem]" />
+
+          <PDFModal
+            isOpen={open}
+            onClose={() => setOpen(false)}
+            pdfUrl="/WPI_Diploma.pdf"
+            title="WPI Robotics Engineering Diploma"
+          />
     </div>
     
   );
