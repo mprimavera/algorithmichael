@@ -150,9 +150,9 @@ export default function Trading() {
           <ProjectSection title="Positioning and Role Alignment">
             <div className="w-full max-w-7xl mx-auto px-4">
             <p className="text-base sm:text-xl text-slate-400 pt-16">
-              This example is representative of how I approach quantitative research and
-              systematic strategy development. I am seeking quant developer or research roles where rigorous modeling,
-              disciplined evaluation, and production-quality implementation are valued.
+              These screenshots represent my real, original work in quantitative research and systematic strategy development,
+              demonstrating the actual processes I use rather than generalized examples. I am seeking quant developer or research
+              roles where rigorous modeling, disciplined evaluation, and production-quality implementation are valued.
             </p>
             </div>
           </ProjectSection>
