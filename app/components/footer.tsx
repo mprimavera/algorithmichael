@@ -19,7 +19,7 @@ export default function Footer() {
           </svg>
         </a> */}
         {/* LinkedIn */}
-        <a href="https://linkedin.com/in/mikhaelrobotics"
+        <a href="https://www.linkedin.com/in/algorithmichael/"
          target="blank"
          className="hover:-translate-y-0.5 transition-all duration-300">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
