@@ -25,8 +25,12 @@ const CSAccordion = [
   { title: "Linux OS", content: `I used Linux extensively throughout the robotics curriculum. I have experience with both
   the graphical and command-line interfaces. For version control workflows, I primarily use Git via the command-line interface (Git Bash).` 
   },
-  { title: "Version Control and Collaboration", content: `Used GitHub (graphical and command-line), VSCode, WebStorm, and Arduino to
-    ensure professional development workflows and collaboration.`
+  { title: "SQL", content: `I used SQL in Software Engineering to collaboratively design and implement a backend database for storing user information and
+    integrate it with the user-facing front end.`
+  }, 
+  { title: "Version Control and Collaboration", content: (`Used GitHub (graphical and command-line), VSCode, WebStorm, and Arduino to
+    ensure professional development workflows and collaboration.`),
+    defaultOpen: true,
   },
   { title: "Microcontroller Programming",
     content: (
