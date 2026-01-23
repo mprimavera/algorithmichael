@@ -36,12 +36,12 @@ export default function ConnectPage() {
               icon={<Linkedin className="h-6 w-6 text-neutral-400" />}
               title={
                 <a
-                  href="https://linkedin.com/in/mikhaelrobotics"
+                  href="https://www.linkedin.com/in/algorithmichael/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-center break-all sm:break-normal"
                 >
-                  Michael Primavera on LinkedIn
+                  Michael Primavera
                 </a>
               }
               description={null}
