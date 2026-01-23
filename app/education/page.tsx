@@ -25,11 +25,11 @@ const CSAccordion = [
   { title: "Linux OS", content: `I used Linux extensively throughout the robotics curriculum. I have experience with both
   the graphical and command-line interfaces. For version control workflows, I primarily use Git via the command-line interface (Git Bash).` 
   },
-  { title: "SQL", content: `I used SQL in Software Engineering to collaboratively design and implement a backend database for storing user information and
+  { title: "SQL", content: `I used SQL in Software Engineering to collaboratively design and implement a back end database for storing user information and
     integrated it with the user-facing front end.`
   }, 
-  { title: "Version Control and Collaboration", content: (`Used GitHub (graphical and command-line), VSCode, WebStorm, and Arduino to
-    ensure professional development workflows and collaboration.`),
+  { title: "Version Control and Collaboration", content: `Used GitHub (graphical and command-line), VSCode, WebStorm, and Arduino to
+    ensure professional development workflows and collaboration.`
   },
   { title: "Microcontroller Programming",
     content: (
@@ -217,9 +217,9 @@ const electricalAccordion = [
   ),
   defaultOpen: true,
   },
-  { title: "Embedded Systems", content: (`This course required the use of KiCad to develop schematics for all circuits.
+  { title: "Embedded Systems", content: `This course required the use of KiCad to develop schematics for all circuits.
     The calculations to ensure proper design of voltages and currents were done with MATLAB, and electrical simulations were done
-    with MATLAB Simscape Electrical.`),
+    with MATLAB Simscape Electrical.`
   },
   { title: "Circuit Analysis", content: `This course primarily covered DC circuits, with some exposure to AC circuits. MATLAB was used
     for solving systems of equations that modeled the circuits. The node method was used heavily in this course.` 
@@ -376,7 +376,6 @@ export default function Education() {
         </div>
       </div>
     </div>
-
     );
 }
 

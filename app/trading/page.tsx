@@ -27,7 +27,7 @@ export default function Trading() {
     <div>
       <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
         <h2 className="text-lg md:text-4xl mb-12 text-slate-400 font-semibold">
-          Quantitative Research and Algorithmic Trading Systems
+          Quantitative Research and Development
         </h2>
         <div className="text-slate-500 lg:text-xl md:text-base max-w-2xl lg:max-w-4xl leading-relaxed mb-12">
           <p className="mb-6">
@@ -41,14 +41,14 @@ export default function Trading() {
             quantitative hypotheses from real data, translating them into executable
             strategy logic, and evaluating performance through disciplined numerical
             analysis and out-of-sample testing.
-        </p>
+          </p>
         </div>
         <div className="border rounded-3xl text-slate-400/50 mb-12 pt-4 pb-20 md:pb-18 lg:pb-10 bg-black/70 min-w-[410px] text-center">
           <ProjectSection title="Data Selection and Exploratory Analysis">
             <div className="w-full max-w-7xl mx-auto px-4">
               <img
                 src="/trading/Data.png"
-                alt="Crude oil trading strategy research visualization"
+                alt="Data Selection and Exploratory Analysis"
                 className="w-full h-full object-contain rounded-lg"
               />
 
@@ -68,7 +68,7 @@ export default function Trading() {
             <div className="w-full max-w-7xl mx-auto px-4">
               <img
                 src="/trading/Strategy.png"
-                alt="Crude oil trading strategy research visualization"
+                alt="Model Construction and Parameter Estimation"
                 className="w-full h-full object-contain rounded-lg"
               />
 
@@ -91,7 +91,7 @@ export default function Trading() {
             <div className="w-full max-w-7xl mx-auto px-4">
               <img
                 src="/trading/Code.png"
-                alt="Crude oil trading strategy research visualization"
+                alt="Strategy Implementation and Execution Logic"
                 className="w-full h-full object-contain rounded-lg"
               />
 
@@ -113,10 +113,9 @@ export default function Trading() {
             <div className="w-full max-w-7xl mx-auto px-4">
               <img
                 src="/trading/Results_1.png"
-                alt="Crude oil trading strategy research visualization"
+                alt="Out-of-Sample Testing and Performance Attribution"
                 className="w-full h-full object-contain rounded-lg"
               />
-
               <p className="text-base text-center sm:text-xl mb-2 text-slate-400">
                 Models are evaluated using out-of-sample testing to assess robustness under changing market conditions.
               </p>
@@ -135,10 +134,9 @@ export default function Trading() {
             <div className="w-full max-w-7xl mx-auto px-4">
               <img
                 src="/trading/Results_2.png"
-                alt="Crude oil trading strategy execution report"
+                alt="Robustness Analysis and Model Refinement"
                 className="w-full h-full object-contain rounded-lg"
               />
-
               <p className="text-base sm:text-xl text-slate-400 pt-2 sm:pt-2 md:pt-2 lg:pt-4">
                 Evaluation emphasizes risk-adjusted performance via quantitative numerical output.
               </p>
