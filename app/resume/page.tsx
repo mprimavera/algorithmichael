@@ -247,8 +247,8 @@ export default function Resume() {
           <ul 
           className="list-disc pl-5 space-y-1 mb-2 text-slate-500 sm:break-normal max-w-full sm:text-2xl leading-10 tracking-tight">
             <li> 
-              Collaborated with software, electrical, and mechanical engineering teams to debug, calibrate, validate, and commission
-              robotic sorting and handling systems deployed in semiconductor manufacturing environments. 
+              As a member of the software team, collaborated with electrical and mechanical engineering teams to debug, calibrate,
+              validate, and commission robotic sorting and handling systems deployed in semiconductor manufacturing environments. 
             </li>
             <li>
               Promoted twice within one year based on technical performance. 
