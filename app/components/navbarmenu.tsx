@@ -19,7 +19,7 @@ import Link from "next/link";
 export function NavbarMenu() {
   const navItems = [
     {
-      name: "Résumé",
+      name: "Experience Timeline",
       link: "/resume",
     },
       {
@@ -27,14 +27,14 @@ export function NavbarMenu() {
       link: "/education",
     },
     {
+      name: "Projects",
+      link: "/projects",
+    },
+    {
       name: "Quant Development",
       link: "/trading",
     },
     {
-      name: "Projects",
-      link: "/projects",
-    },
-      {
       name: "Product Development",
       link: "/products",
     },

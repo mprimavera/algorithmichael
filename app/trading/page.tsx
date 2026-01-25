@@ -26,7 +26,7 @@ export default function Trading() {
   return (
     <div>
       <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
-        <h2 className="text-lg md:text-4xl mb-12 text-slate-400 font-semibold">
+        <h2 className="text-xl md:text-4xl mb-12 text-slate-400 font-semibold">
           Quantitative Research and Development
         </h2>
         <div className="text-slate-500 lg:text-xl md:text-base max-w-2xl lg:max-w-4xl leading-relaxed mb-12">
@@ -145,8 +145,8 @@ export default function Trading() {
             <div className="w-full max-w-7xl mx-auto px-4">
               <p className="text-base sm:text-xl text-slate-400 pt-4 mb-6">
                 These screenshots represent my real, original work in quantitative research and systematic strategy development,
-                demonstrating the actual processes I use rather than generalized examples. I am considering quant developer or research
-                roles where rigorous modeling, disciplined evaluation, and production-quality implementation are valued.
+                demonstrating the actual processes I follow rather than generalized examples. I apply the same rigor, discipline,
+                and engineering principles to all development work.
               </p>
             </div>
           </ProjectSection>

@@ -22,7 +22,7 @@ export default function Resume() {
           <p className="mb-2 sm:mb-6 text-slate-400  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
             Quantitative Research and Algorithmic Trading Systems
           </p>
-            <ul 
+            {/* <ul 
               className="list-disc pl-5 space-y-1 mb-2 text-slate-500 lg:text-xl md:text-base lg:max-w-4xl sm:break-normal max-w-full leading-10 tracking-tight">
                 <li>
                   Designed and implemented systematic trading algorithms across multiple commodities, using statistical modeling,
@@ -35,7 +35,7 @@ export default function Resume() {
                 <li>
                   Translated research insights into executable code, supporting iterative refinement of models under real-world market conditions
                 </li>
-            </ul>
+            </ul> */}
           </div>
       ),
     },
@@ -66,7 +66,7 @@ export default function Resume() {
         <p className="mb-2 sm:mb-6 text-slate-400  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
           Worcester Polytechnic Institute — BS in Robotics Engineering
         </p>
-        <ul 
+        {/* <ul 
           className="list-disc pl-5 space-y-1 mb-2 text-slate-500 lg:text-xl md:text-base lg:max-w-4xl sm:break-normal max-w-full leading-10 tracking-tight">
           <li>
             Graduated December 2025, with High Distinction honors
@@ -74,7 +74,7 @@ export default function Resume() {
           <li>
             GPA: 3.92 / 4.00
           </li>
-        </ul>
+        </ul> */}
           <div className="space-y-9">
           {/* View Diploma */}
             <div className="w-full max-w-md mx-auto">
@@ -252,7 +252,7 @@ export default function Resume() {
           <p className="mb-2 sm:mb-6 text-slate-400  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
             Robotics: Field service engineering and system integration at Milara Inc.
           </p>
-          <ul 
+          {/* <ul 
             className="list-disc pl-5 space-y-1 mb-2 text-slate-500 lg:text-xl md:text-base lg:max-w-4xl sm:break-normal max-w-full leading-10 tracking-tight">
             <li> 
               As a member of the software team, collaborated with electrical and mechanical engineering teams to debug, calibrate,
@@ -264,7 +264,7 @@ export default function Resume() {
             <li>
               Authored documentation of technical procedures used for training new technicians
             </li>
-          </ul>
+          </ul> */}
       </div>
       ),
     },
@@ -276,7 +276,7 @@ export default function Resume() {
           <p className="mb-2 sm:mb-6 text-slate-400  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
             Founder: Owned and operated an e-commerce store
           </p>
-          <ul 
+          {/* <ul 
             className="list-disc pl-5 space-y-1 mb-2 text-slate-500 lg:text-xl md:text-base lg:max-w-4xl sm:break-normal max-w-full leading-10 tracking-tight">
             <li> 
               Designed, manufactured, and sold custom CNC-machined products through a self-developed e-commerce platform
@@ -285,7 +285,7 @@ export default function Resume() {
               Managed CAD/CAM workflows and CNC programming, marketing strategy, supplier logistics, production processes, quality
               controls, and end-to-end customer support
             </li>
-          </ul>
+          </ul> */}
         </div>
       ),
     },
@@ -297,12 +297,12 @@ export default function Resume() {
           <p className="mb-2 sm:mb-6 text-slate-400  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
             Logistics Manager / CNC Machinist at MetalPro USA Inc.
           </p>
-          <ul 
+          {/* <ul 
             className="list-disc pl-5 space-y-1 mb-2 text-slate-500 lg:text-xl md:text-base lg:max-w-4xl sm:break-normal max-w-full leading-10 tracking-tight">
             <li> 
               Led logistics, inventory control, production scheduling, and workflow optimization
             </li>
-          </ul>
+          </ul> */}
         </div>
       ),
     },
@@ -314,22 +314,32 @@ export default function Resume() {
         <p className="mb-2 sm:mb-6 font-normal text-slate-400  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
           CNC Machinist at MetalPro USA Inc.
         </p>
-        <ul 
+        {/* <ul 
             className="list-disc pl-5 space-y-1 mb-2 text-slate-500 lg:text-xl md:text-base lg:max-w-4xl sm:break-normal max-w-full leading-10 tracking-tight">
           <li> 
           Programmed Epilog laser engravers, Hurco VM5i and VM10i mills, a Haas Mill, a Matsuura MAM72-70V Mill, a Fanuc
           Robodrill, and operated bar-fed Mazak and Omniturn lathes
           </li>
-        </ul>
+        </ul> */}
       </div>
     ),
   },
 
   ];
   return (
+    <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
+        <h2 className="text-xl md:text-4xl mb-12 text-slate-400 font-semibold">
+          Experience Timeline
+        </h2>
+        <div className="text-slate-500 lg:text-xl md:text-base max-w-2xl lg:max-w-4xl leading-relaxed mb-12">
+          <p>
+            Key professional, academic, and technical milestones, including the creation of this interactive portfolio.
+          </p>
+        </div>
+  
     <div className="relative w-full overflow-clip">
       <Timeline data={data} />
-      <div className="h-64 sm:h-64 md:h-80 lg:h-180 xl:h-[28rem]" />
+      <div className="h-74 sm:h-70 md:h-74 xl:h-[20rem]" />
 
           <PDFModal
             isOpen={open}
@@ -337,6 +347,7 @@ export default function Resume() {
             pdfUrl="/WPI_Diploma.pdf"
             title="Official Digital WPI Robotics Engineering Diploma"
           />
+    </div>
     </div>
   );
 }

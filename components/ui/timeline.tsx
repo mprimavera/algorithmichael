@@ -38,19 +38,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
       ref={containerRef}
     >
 
-    <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
-      <h2 className="text-lg md:text-4xl mb-12 text-slate-400 font-semibold">
-        Résumé
-      </h2>
-      <div className="text-slate-500 lg:text-xl md:text-base max-w-2xl lg:max-w-4xl leading-relaxed">
-        <p className="mb-6">
-          Robotics Engineer with 8+ years of self-directed experience in algorithmic trading and quantitative research.
-          Skilled in systematic strategy design, model evaluation, and data-
-          driven decision-making, combining strong foundations in applied mathematics, systems 
-          design, and software engineering.
-        </p>
-      </div>
-    </div>
+
 
       <div ref={ref} className="relative max-w-7xl mx-auto pb-20">
         {data.map((item, index) => (

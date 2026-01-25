@@ -47,9 +47,22 @@ export default function ConnectPage() {
               description={null}
             />
           </div>
-
-
-
+          <div className="w-full max-w-md mx-auto">
+            <GridItem
+              icon={<Github className="h-6 w-6 text-neutral-400" />}
+              title={
+                <a
+                  href="https://github.com/mprimavera"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-center break-all sm:break-normal"
+                >
+                  Visit my GitHub
+                </a>
+              }
+              description={null}
+            />
+          </div>
         </div>
     </Vortex>
       </ul>

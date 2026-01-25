@@ -1,6 +1,5 @@
 import { defaultOffset } from "motion";
 import { Accordion } from "../components/accordion";
-import { StickyBanner } from "@/components/ui/sticky-banner";
 
 
 const CSAccordion = [
@@ -17,12 +16,12 @@ const CSAccordion = [
     on the agile method, daily scrums, modern libraries, and the PERN stack—PostgreSQL, Express, React, and Node.js. We used
     GitHub for version control and collaboration.`
   },
-  { title: "thinkScript", content: `Developed and deployed trading strategies in thinkScript, translating research insights into actionable, testable models.`
+  { title: "thinkScript (TD Ameritrade)", content: `Developed and deployed trading strategies in thinkScript, translating research insights into actionable, testable models.`
   },
   { title: "Linux OS", content: `Linux was used extensively throughout the robotics curriculum. I have experience with both
-  the graphical and command-line interfaces. For version control workflows, I primarily use Git via the command-line interface (Git Bash).` 
+    graphical and command-line interfaces. For version control workflows, I primarily use Git via the command-line interface (Git Bash).` 
   },
-  { title: "SQL", content: `I worked with PostgreSQL in Software Engineering to collaboratively integrate a back end database for storing user
+  { title: "SQL", content: `I worked with PostgreSQL in Software Engineering to collaboratively integrate a back-end database for storing user
     information with the user-facing front end.`
   }, 
   { title: "Version Control and Collaboration", content: `Used GitHub (graphical and command-line), VS Code, WebStorm, and Arduino to
@@ -313,18 +312,13 @@ export default function Education() {
 
     <div className="">
       <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
-        <h2 className="text-lg md:text-4xl mb-12 text-slate-400 font-semibold">
+        <h2 className="text-xl md:text-4xl mb-12 text-slate-400 font-semibold">
           Education
         </h2>
-        
         <div className="text-slate-500 lg:text-xl md:text-base max-w-2xl lg:max-w-4xl leading-relaxed">
-          <p className="mb-6">
-            I earned a Bachelor of Science in Robotics Engineering from Worcester Polytechnic Institute in December of 2025.
-            The program is ABET-accredited. Because this degree is more specialized and less widely offered than typical computer,
-            mechanical, or electrical engineering degrees, I created this page to provide additional detail.
-          </p>
           <p className="mb-24">
-            The following is a list of the relevant courses I took that pertain to the fields of Robotics Engineering and Business.
+            The following is a list of the relevant courses I took that pertain to the fields of Robotics Engineering and Business,
+            conveying both the depth and breadth of my formal education.
           </p>
         </div>
         {/* Accordions */}
