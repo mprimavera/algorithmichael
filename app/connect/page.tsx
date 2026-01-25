@@ -57,7 +57,7 @@ export default function ConnectPage() {
                   rel="noopener noreferrer"
                   className="text-center break-all sm:break-normal"
                 >
-                  Visit my GitHub
+                  Visit My GitHub
                 </a>
               }
               description={null}
