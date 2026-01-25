@@ -11,11 +11,11 @@ function ProjectSection({
   children: ReactNode;
 }) {
   return (
-    <section className="mb-20">
-      <h3 className="text-center text-slate-400 sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
+    <section className="mb-4">
+      <h3 className="text-center text-slate-400 sm:break-normal max-w-full text-lg sm:text-3xl pb-4 font-semibold leading-10 tracking-tight">
         {title}
       </h3>
-      <div className="flex flex-wrap justify-center gap-x-16 gap-y-20">
+      <div className="flex flex-wrap justify-center gap-x-16">
         {children}
       </div>
     </section>
@@ -43,16 +43,15 @@ export default function Trading() {
             analysis and out-of-sample testing.
           </p>
         </div>
-        <div className="border rounded-3xl text-slate-400/50 mb-12 pt-4 pb-20 md:pb-18 lg:pb-10 bg-black/70 min-w-[410px] text-center">
+        <div className="border rounded-3xl text-slate-400/50 mb-16 pt-4 bg-black/70 min-w-[410px] text-center">
           <ProjectSection title="Data Selection and Exploratory Analysis">
             <div className="w-full max-w-7xl mx-auto px-4">
               <img
                 src="/trading/Data.png"
                 alt="Data Selection and Exploratory Analysis"
-                className="w-full h-full object-contain rounded-lg"
+                className="w-full object-contain rounded-lg"
               />
-
-              <p className="text-base text-center sm:text-xl mb-2 text-slate-400">
+              <p className="text-base text-center sm:text-xl text-slate-400 pt-4">
                 The process begins by identifying relevant fundamental drivers and analyzing their relationship to price behavior.
               </p>
 
@@ -63,20 +62,18 @@ export default function Trading() {
           </ProjectSection>
         </div>
 
-        <div className="border rounded-3xl text-slate-400/50 mb-12 pt-4 pb-36 md:pb-28 lg:pb-20 bg-black/70 min-w-[410px] text-center">
+        <div className="border rounded-3xl text-slate-400/50 mb-16 pt-4 bg-black/70 min-w-[410px] text-center">
           <ProjectSection title="Model Construction and Parameter Estimation">
             <div className="w-full max-w-7xl mx-auto px-4">
               <img
                 src="/trading/Strategy.png"
                 alt="Model Construction and Parameter Estimation"
-                className="w-full h-full object-contain rounded-lg"
+                className="w-full object-contain rounded-lg"
               />
-
-              <p className="text-base text-center sm:text-xl mb-2 text-slate-400">
+              <p className="text-base text-center sm:text-xl mb-2 text-slate-400 pt-4">
                 Using the data, a quantitative model is constructed to estimate a conditional price expectation,
                 which is then evaluated and refined through numerical analysis.
               </p>
-
               <p className="text-sm text-slate-500 mt-3 pt-3 border-t border-slate-700/50">
                 This formula is shown solely as an example of the process and does not necessarily correspond to the
                 data shown in the images on this page. The underlying analysis is performed programmatically; Excel is used here solely for visualization
@@ -86,16 +83,15 @@ export default function Trading() {
           </ProjectSection>
         </div>
 
-        <div className="border rounded-3xl text-slate-400/50 mb-12 pt-4 pb-36 md:pb-28 lg:pb-20 bg-black/70 min-w-[410px] text-center">
+        <div className="border rounded-3xl text-slate-400/50 mb-16 pt-4 bg-black/70 min-w-[410px] text-center">
           <ProjectSection title="Strategy Implementation and Execution Logic">
             <div className="w-full max-w-7xl mx-auto px-4">
               <img
                 src="/trading/Code.png"
                 alt="Strategy Implementation and Execution Logic"
-                className="w-full h-full object-contain rounded-lg"
+                className="w-full object-contain rounded-lg"
               />
-
-              <p className="text-base text-center sm:text-xl mb-2 text-slate-400">
+              <p className="text-base text-center sm:text-xl mb-2 text-slate-400 pt-4">
                 The model is then implemented as executable strategy logic, integrating signal generation, state management, and execution constraints.
               </p>
               <p className="text-sm text-slate-500 mt-3 pt-3 border-t border-slate-700/50">
@@ -108,15 +104,15 @@ export default function Trading() {
           </ProjectSection>
         </div>
 
-        <div className="border rounded-3xl text-slate-400/50 mb-12 pt-4 pb-30 md:pb-18 lg:pb-14 bg-black/70 min-w-[410px] text-center">
+        <div className="border rounded-3xl text-slate-400/50 mb-16 pt-4 bg-black/70 min-w-[410px] text-center">
           <ProjectSection title="Out-of-Sample Testing and Performance Attribution">
             <div className="w-full max-w-7xl mx-auto px-4">
               <img
                 src="/trading/Results_1.png"
                 alt="Out-of-Sample Testing and Performance Attribution"
-                className="w-full h-full object-contain rounded-lg"
+                className="w-full object-contain rounded-lg"
               />
-              <p className="text-base text-center sm:text-xl mb-2 text-slate-400">
+              <p className="text-base text-center sm:text-xl mb-2 text-slate-400 pt-4">
                 Models are evaluated using out-of-sample testing to assess robustness under changing market conditions.
               </p>
               <p className="text-sm text-slate-500 mt-3 pt-3 border-t border-slate-700/50">
@@ -129,29 +125,29 @@ export default function Trading() {
           </ProjectSection>
         </div>
 
-        <div className="border rounded-3xl text-slate-400/50 mb-12 pt-4 pb-2 md:pb-2 lg:pb-2 bg-black/70 min-w-[410px] text-center">
+        <div className="border rounded-3xl text-slate-400/50 mb-16 pt-4 bg-black/70 min-w-[410px] text-center">
           <ProjectSection title="Robustness Analysis and Model Refinement">
             <div className="w-full max-w-7xl mx-auto px-4">
               <img
                 src="/trading/Results_2.png"
                 alt="Robustness Analysis and Model Refinement"
-                className="w-full h-full object-contain rounded-lg"
+                className="w-full object-contain rounded-lg"
               />
-              <p className="text-base sm:text-xl text-slate-400 pt-2 sm:pt-2 md:pt-2 lg:pt-4">
+              <p className="text-base text-center sm:text-xl mb-2 text-slate-400 pt-4">
                 Evaluation emphasizes risk-adjusted performance via quantitative numerical output.
               </p>
             </div>
           </ProjectSection>
         </div>
 
-        <div className="border rounded-3xl text-slate-400/50 mb-2 pt-4 pb-2 md:pb-2 lg:pb-2 bg-black/70 min-w-[410px] text-center">
+        <div className="border rounded-3xl text-slate-400/50 mb-16 pt-4 bg-black/70 min-w-[410px] text-center">
           <ProjectSection title="Positioning and Role Alignment">
             <div className="w-full max-w-7xl mx-auto px-4">
-            <p className="text-base sm:text-xl text-slate-400 pt-16">
-              These screenshots represent my real, original work in quantitative research and systematic strategy development,
-              demonstrating the actual processes I use rather than generalized examples. I am seeking quant developer or research
-              roles where rigorous modeling, disciplined evaluation, and production-quality implementation are valued.
-            </p>
+              <p className="text-base sm:text-xl text-slate-400 pt-4 mb-6">
+                These screenshots represent my real, original work in quantitative research and systematic strategy development,
+                demonstrating the actual processes I use rather than generalized examples. I am considering quant developer or research
+                roles where rigorous modeling, disciplined evaluation, and production-quality implementation are valued.
+              </p>
             </div>
           </ProjectSection>
         </div>

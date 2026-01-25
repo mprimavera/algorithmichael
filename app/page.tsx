@@ -43,7 +43,7 @@ export default function Home() {
               icon={null}
               title={
                 <a
-                  href="/trading"
+                  href="/resume"
                   className="text-center break-all sm:break-normal"
                 >
                   Learn More
