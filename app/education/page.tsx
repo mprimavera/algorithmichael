@@ -317,8 +317,8 @@ export default function Education() {
         </h2>
         <div className="text-slate-500 lg:text-xl md:text-base max-w-2xl lg:max-w-4xl leading-relaxed">
           <p className="mb-24">
-            The following is a list of the relevant courses I took that pertain to the fields of Robotics Engineering and Business,
-            conveying both the depth and breadth of my formal education.
+            This page highlights my educational background in Robotics Engineering and Business, showcasing
+            both the depth and breadth of my formal training.
           </p>
         </div>
         {/* Accordions */}

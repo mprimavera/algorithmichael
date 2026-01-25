@@ -31,8 +31,6 @@ export default function Trading() {
         </h2>
         <div className="text-slate-500 lg:text-xl md:text-base max-w-2xl lg:max-w-4xl leading-relaxed mb-12">
           <p className="mb-6">
-            I am a Robotics Engineer with strong foundations in systems design,
-            applied mathematics, control theory, and software engineering. In parallel,
             I have over eight years of independent experience designing and evaluating
             systematic trading strategies.
           </p>
