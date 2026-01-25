@@ -2,9 +2,9 @@
 
 import { Timeline } from "@/components/ui/timeline";
 import { GridItem } from "../components/grid_item";
-import { GraduationCap, Github, Linkedin } from "lucide-react";
+import { GraduationCap, Github, Workflow } from "lucide-react";
 import { GridItem2 } from "../components/grid_item_2";
-import { IconBrandNextjs, IconBrandVscode } from "@tabler/icons-react";
+import { IconBrandNextjs } from "@tabler/icons-react";
 import Image from "next/image";
 import PDFModal from "../components/PDFModal";
 import React, { useState } from "react";
@@ -16,34 +16,43 @@ export default function Resume() {
 
   const data = [
         {
-      title: "11/2017 - Current",
+      title: "11/2017 - Present",
       content: (
         <div>
           <p className="mb-2 sm:mb-6 text-slate-400  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
             Quantitative Research and Algorithmic Trading Systems
           </p>
-            {/* <ul 
-              className="list-disc pl-5 space-y-1 mb-2 text-slate-500 lg:text-xl md:text-base lg:max-w-4xl sm:break-normal max-w-full leading-10 tracking-tight">
-                <li>
-                  Designed and implemented systematic trading algorithms across multiple commodities, using statistical modeling,
-                  probability theory, and historical datasets to evaluate strategy performance
-                </li>
-                <li>
-                  Developed end-to-end workflows including data acquisition, signal generation, backtesting, and parameter optimization,
-                  with disciplined tracking of performance metrics and risk
-                </li>
-                <li>
-                  Translated research insights into executable code, supporting iterative refinement of models under real-world market conditions
-                </li>
-            </ul> */}
+          <ul 
+            className="list-disc pl-5 space-y-1 mb-2 text-slate-500 lg:text-xl md:text-base lg:max-w-4xl sm:break-normal max-w-full leading-10 tracking-tight">
+            <li> 
+              Self-Directed
+            </li>
+          </ul>
+          {/* Link to Quant Development */}
+          <div className="w-full max-w-md mx-auto mt-4 sm:mt-4 md:mt-4 lg:mt-8">
+            <GridItem
+              icon={<Workflow className="h-6 w-6 text-neutral-400" />}
+              title={
+                <a
+                  href="/trading"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-center break-all sm:break-normal"
+                >
+                  My Research-to-Production Workflow
+                </a>
+              }
+              description={null}
+            />
           </div>
+        </div>
       ),
     },
     {
       title: "1/2026",
       content: (
         <div>
-          <p className="mb-2 sm:mb-6 font-normal text-slate-400  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
+          <p className="mb-2 sm:mb-6 text-slate-400  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
             Johns Hopkins University — MS in Artificial Intelligence
           </p>
           <ul 
@@ -66,18 +75,9 @@ export default function Resume() {
         <p className="mb-2 sm:mb-6 text-slate-400  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
           Worcester Polytechnic Institute — BS in Robotics Engineering
         </p>
-        {/* <ul 
-          className="list-disc pl-5 space-y-1 mb-2 text-slate-500 lg:text-xl md:text-base lg:max-w-4xl sm:break-normal max-w-full leading-10 tracking-tight">
-          <li>
-            Graduated December 2025, with High Distinction honors
-          </li>
-          <li>
-            GPA: 3.92 / 4.00
-          </li>
-        </ul> */}
           <div className="space-y-9">
           {/* View Diploma */}
-            <div className="w-full max-w-md mx-auto">
+            <div className="w-full max-w-md mx-auto mt-4 sm:mt-4 md:mt-8 lg:mt-12 mb-2 sm:mb-2 md:mb-4 lg:mb-4">
               <GridItem
                 area="auto"
                 icon={
@@ -109,13 +109,13 @@ export default function Resume() {
           <ul 
             className="list-disc pl-5 space-y-1 mb-2 text-slate-500 lg:text-xl md:text-base lg:max-w-4xl sm:break-normal max-w-full leading-10 tracking-tight">
             <li>
-              Custom-built this portfolio completely from scratch (no templates or tutorials).
+              Custom-built this portfolio entirely from scratch (no templates or tutorials).
             </li>
             <li>
               Built using VS Code, GitHub, Next.js with React-based routing, Tailwind CSS, Aceternity UI, Shadcn UI, Lucide, and ChatGPT
             </li>
             <li>
-              Hosted the site on Vercel
+              Deployed and hosted the site on Vercel
             </li>
           </ul>      
           <div className="w-full mt-6">
@@ -249,22 +249,18 @@ export default function Resume() {
       title: "2022-2023",
       content: (
         <div>
-          <p className="mb-2 sm:mb-6 text-slate-400  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
+          <p className="mb-2 sm:mb-6 text-slate-400 sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
             Field Service Engineer – Software Team
           </p>
-          {/* <ul 
+          <ul 
             className="list-disc pl-5 space-y-1 mb-2 text-slate-500 lg:text-xl md:text-base lg:max-w-4xl sm:break-normal max-w-full leading-10 tracking-tight">
             <li> 
-              As a member of the software team, collaborated with electrical and mechanical engineering teams to debug, calibrate,
-              validate, and commission robotic sorting and handling systems deployed in semiconductor manufacturing environments
+              Company: Milara
             </li>
             <li>
-              Promoted twice within one year based on technical performance
+              Location: Milford, MA
             </li>
-            <li>
-              Authored documentation of technical procedures used for training new technicians
-            </li>
-          </ul> */}
+          </ul>
       </div>
       ),
     },
@@ -274,56 +270,42 @@ export default function Resume() {
       content: (
         <div>
           <p className="mb-2 sm:mb-6 text-slate-400  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
-            Founder: Owned and operated an e-commerce store
+            Founder – Owned and operated an e-commerce store
           </p>
-          {/* <ul 
+          <ul 
             className="list-disc pl-5 space-y-1 mb-2 text-slate-500 lg:text-xl md:text-base lg:max-w-4xl sm:break-normal max-w-full leading-10 tracking-tight">
             <li> 
-              Designed, manufactured, and sold custom CNC-machined products through a self-developed e-commerce platform
+              Company: AlphaOmega LLC
             </li>
             <li>
-              Managed CAD/CAM workflows and CNC programming, marketing strategy, supplier logistics, production processes, quality
-              controls, and end-to-end customer support
+              Location: Plymouth, MA
             </li>
-          </ul> */}
+          </ul>
         </div>
       ),
     },
 
     {
-      title: "2008-2018",
+      title: "1998-2018",
       content: (
         <div>
           <p className="mb-2 sm:mb-6 text-slate-400  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
-            Logistics Manager / CNC Machinist at MetalPro USA Inc.
+            Logistics Manager / CNC Machinist
           </p>
-          {/* <ul 
+          <ul 
             className="list-disc pl-5 space-y-1 mb-2 text-slate-500 lg:text-xl md:text-base lg:max-w-4xl sm:break-normal max-w-full leading-10 tracking-tight">
             <li> 
-              Led logistics, inventory control, production scheduling, and workflow optimization
+              Company: MetalProUSA Inc.
             </li>
-          </ul> */}
+            <li>
+              Location: Plymouth, MA
+            </li>
+          </ul>
         </div>
       ),
     },
 
-    {
-    title: "1998-2008",
-    content: (
-      <div>
-        <p className="mb-2 sm:mb-6 font-normal text-slate-400  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
-          CNC Machinist at MetalPro USA Inc.
-        </p>
-        {/* <ul 
-            className="list-disc pl-5 space-y-1 mb-2 text-slate-500 lg:text-xl md:text-base lg:max-w-4xl sm:break-normal max-w-full leading-10 tracking-tight">
-          <li> 
-          Programmed Epilog laser engravers, Hurco VM5i and VM10i mills, a Haas Mill, a Matsuura MAM72-70V Mill, a Fanuc
-          Robodrill, and operated bar-fed Mazak and Omniturn lathes
-          </li>
-        </ul> */}
-      </div>
-    ),
-  },
+
 
   ];
   return (
@@ -339,7 +321,7 @@ export default function Resume() {
   
     <div className="relative w-full overflow-clip">
       <Timeline data={data} />
-      <div className="h-74 sm:h-70 md:h-74 xl:h-[20rem]" />
+      <div className="h-60 sm:h-56 md:h-94 xl:h-[26rem]" />
 
           <PDFModal
             isOpen={open}
