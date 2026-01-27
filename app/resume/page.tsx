@@ -36,8 +36,6 @@ export default function Resume() {
               title={
                 <a
                   href="/trading"
-                  target="_blank"
-                  rel="noopener noreferrer"
                   className="text-center break-normal"
                 >
                   Quant Research to Development
