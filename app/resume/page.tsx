@@ -40,7 +40,7 @@ export default function Resume() {
                   rel="noopener noreferrer"
                   className="text-center break-all sm:break-normal"
                 >
-                  My Research-to-Production Workflow
+                  Quantitative Research to Production Pipeline
                 </a>
               }
               description={null}
