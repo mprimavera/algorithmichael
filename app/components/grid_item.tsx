@@ -28,13 +28,13 @@ export const GridItem = ({
         />
 
         {/* Icon + Title */}
-        <div className="flex items-center justify-center gap-3 hover:-translate-y-0.5 transition-all
-           duration-300">
+        <div className="flex items-center justify-center gap-3 min-w-0
+          hover:-translate-y-0.5 transition-all duration-300">
           <div className="flex-shrink-0">{icon}</div>
           <h3 className="
             text-sm lg:text-xl md:text-lg sm:text-sl
             font-semibold text-blue-400 text-center
-            break-words whitespace-normal">
+            break-normal whitespace-normal">
             {title}
           </h3>
         </div>
