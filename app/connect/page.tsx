@@ -39,7 +39,7 @@ export default function ConnectPage() {
                   href="https://www.linkedin.com/in/algorithmichael/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-center break-all sm:break-normal"
+                  className="text-center break-normal"
                 >
                   Michael Primavera
                 </a>
@@ -55,7 +55,7 @@ export default function ConnectPage() {
                   href="https://github.com/mprimavera"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-center break-all sm:break-normal"
+                  className="text-center break-normal"
                 >
                   Visit My GitHub
                 </a>
