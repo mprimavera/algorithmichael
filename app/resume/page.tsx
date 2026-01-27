@@ -21,7 +21,7 @@ export default function Resume() {
         <div>
           <p className="mb-2 sm:mb-6 text-slate-400 sm:break-normal max-w-full
             text-lg sm:text-lg md:text-3xl lg:text-4xl font-semibold leading-10 tracking-tight">
-            Quantitative Research and Algorithmic Trading Systems
+            Quantitative Research and Development
           </p>
           <ul 
             className="list-disc pl-5 space-y-1 mb-2 text-slate-500 lg:text-xl md:text-base lg:max-w-4xl sm:break-normal max-w-full leading-10 tracking-tight">
@@ -30,7 +30,7 @@ export default function Resume() {
             </li>
           </ul>
           {/* Link to Quant Development */}
-          <div className="w-full max-w-md mx-auto mt-4 sm:mt-4 md:mt-4 lg:mt-8">
+          <div className="w-full max-w-md mx-auto mt-4 sm:mt-4 md:mt-8 lg:mt-12 mb-2 sm:mb-2 md:mb-4 lg:mb-4">
             <GridItem
               icon={<Workflow className="h-6 w-6 text-neutral-400" />}
               title={
@@ -38,9 +38,9 @@ export default function Resume() {
                   href="/trading"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-center break-all sm:break-normal"
+                  className="text-center break-normal"
                 >
-                  Quantitative Research to Production Pipeline
+                  Quant Research to Development
                 </a>
               }
               description={null}
