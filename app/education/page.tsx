@@ -16,7 +16,7 @@ const CSAccordion = [
     on the agile method, daily scrums, modern libraries, and the PERN stack—PostgreSQL, Express, React, and Node.js. We used
     GitHub for version control and collaboration.`
   },
-  { title: "thinkScript (TD Ameritrade)", content: `Developed and deployed trading strategies in thinkScript, translating research insights into actionable, testable models.`
+  { title: "thinkScript (TD Ameritrade)", content: `I developed and deployed trading strategies in thinkScript, translating research insights into actionable, testable models.`
   },
   { title: "Linux OS", content: `Linux was used extensively throughout the robotics curriculum. I have experience with both
     graphical and command-line interfaces. For version control workflows, I primarily use Git via the command-line interface (Git Bash).` 
