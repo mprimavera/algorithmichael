@@ -32,7 +32,7 @@ export function NavbarMenu() {
     },
     {
       name: "Quant Development",
-      link: "/trading",
+      link: "/quant_development",
     },
     {
       name: "Product Development",

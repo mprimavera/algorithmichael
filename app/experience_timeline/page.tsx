@@ -35,7 +35,7 @@ export default function Resume() {
               icon={<Workflow className="h-6 w-6 text-neutral-400" />}
               title={
                 <a
-                  href="/trading"
+                  href="/quant_development"
                   className="text-center break-normal"
                 >
                   Quant Research to Development

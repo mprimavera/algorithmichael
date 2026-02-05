@@ -156,7 +156,7 @@ export default function Trading() {
                 </div>
               <p className="text-base text-center sm:text-xl mb-2 text-slate-400 pt-4">
                 To clearly and quickly convey a mathematical concept to customers, I created this video using MATLAB to visualize
-                how I discounted fixed costs by quantity, allowing for maximum value for both parties—ultimately driving sales.
+                how I discounted fixed costs by quantity, producing maximum value for both parties—ultimately driving sales.
               </p>
             </div>
           </ProjectSection>
