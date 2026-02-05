@@ -174,8 +174,6 @@ export default function Projects() {
           </ProjectSection>
         </div>
 
-
-
         {/* ===== End-to-End Engineering Project: Mini CNC Mill ===== */}
         <div className="border rounded-3xl text-slate-400/50 mb-12 pt-4 bg-black/70 min-w-[410px]">
           <ProjectSection title="End-to-End Engineering Project: Mini CNC Mill">
