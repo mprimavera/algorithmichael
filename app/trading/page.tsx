@@ -141,7 +141,7 @@ export default function Trading() {
 
         <div className="border rounded-3xl text-slate-400/50 mb-16 pt-4 bg-black/70 min-w-[410px] text-center">
           <ProjectSection title="Additional Example of Mathematical Modeling">
-            <div className="w-full max-w-7xl mx-auto">
+            <div className="w-full max-w-7xl mx-auto px-2">
             {/* Price Modeling */}
                 <div className="w-full aspect-video mb-4">
                   <iframe
