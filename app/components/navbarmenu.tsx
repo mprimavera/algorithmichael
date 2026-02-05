@@ -20,7 +20,7 @@ export function NavbarMenu() {
   const navItems = [
     {
       name: "Experience Timeline",
-      link: "/resume",
+      link: "/experience_timeline",
     },
       {
       name: "Education",
@@ -38,18 +38,6 @@ export function NavbarMenu() {
       name: "Product Development",
       link: "/products",
     },
-    // {
-    //   name: "Machines",
-    //   link: "/machines",
-    // },
-    // {
-    //   name: "IP",
-    //   link: "/ip",
-    // },
-    // {
-    //   name: "Coming Soon",
-    //   link: "/comingSoon",
-    // },
   ];
 
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);

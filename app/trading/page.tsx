@@ -168,10 +168,12 @@ export default function Trading() {
               <p className="text-base sm:text-xl text-slate-400 pt-4 mb-6">
                 The content on this page represents my real, original work in quantitative research and systematic strategy development,
                 demonstrating the actual processes I follow rather than generalized examples.
-
+              </p>
+              <p className="text-base sm:text-xl text-slate-400 pt-4 mb-6">
                 The final example applies these same modeling and analytical techniques to a real business pricing problem, reinforcing
                 my ability to build, simulate, and visualize mathematical models in production software.
-
+              </p>
+              <p className="text-base sm:text-xl text-slate-400 pt-4 mb-6">
                 I apply the same rigor, discipline, and engineering principles to all development work.
               </p>
             </div>

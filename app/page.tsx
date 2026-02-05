@@ -59,7 +59,7 @@ export default function Home() {
               icon={null}
               title={
                 <a
-                  href="/resume"
+                  href="/experience_timeline"
                   className="text-center break-all sm:break-normal"
                 >
                   Experience Timeline
