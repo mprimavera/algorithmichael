@@ -42,7 +42,7 @@ export default function Projects() {
           <ProjectSection title="Robotics">
             {/* RBE3001 Vision */}
             <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
-              <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">
+              <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[400px] sm:h-[450px] md:h-[450px] lg:h-[460px]">    
                 <div className="w-full aspect-video mb-4">
                   <iframe
                     loading="lazy"
@@ -68,7 +68,7 @@ export default function Projects() {
             </div>
             {/* Industrial Robotics */}
             <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
-              <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
+              <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[400px] sm:h-[450px] md:h-[450px] lg:h-[460px]">    
                 <div className="w-full aspect-video mb-4">
                   <iframe
                     loading="lazy"
@@ -96,7 +96,7 @@ export default function Projects() {
             <ProjectSection title="Embedded Systems">
               {/* Embedded systems PD control*/}
               <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
-                <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
+                <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[400px] sm:h-[450px] md:h-[450px] lg:h-[460px]">    
                   <div className="w-full aspect-video mb-4">
                     <iframe
                       loading="lazy"
@@ -119,35 +119,9 @@ export default function Projects() {
                   </div>
                 </BackgroundGradient>
               </div>
-              {/* Adjustable Duty Cycle */}
-              {/* <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
-                <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
-                  <div className="w-full aspect-video mb-4">
-                    <iframe
-                      loading="lazy"
-                      className="w-full h-full rounded-lg"
-                      src="https://www.youtube.com/embed/4sNkf1GcZYo?si=Q8oHnvzp2FLXDE7U"
-                      title="Adjustable Duty Cycle"
-                      frameBorder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowFullScreen
-                    ></iframe>
-                  </div>
-                  <p className="text-base sm:text-xl mt-4 mb-2 text-slate-400">
-                    Embedded programming in C: adjustable duty cycle
-                  </p>
-                  <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
-                    <p className="text-sm text-slate-500">
-                      I used a potentiometer with an ADC module to adjust the duty cycle output of a PWM pin on a Raspberry Pi
-                      Pico 2 W microcontroller. The code was written in C using a Linux environment. An oscilloscope was used
-                      to verify correct operation within ±2.5%.
-                    </p>
-                  </div>
-                </BackgroundGradient>
-              </div> */}
               {/* ADC Voltmeter */}
               <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
-                <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
+              <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[400px] sm:h-[450px] md:h-[450px] lg:h-[460px]">    
                   <div className="w-full aspect-video mb-4">
                     <iframe
                       loading="lazy"
@@ -179,7 +153,7 @@ export default function Projects() {
           <ProjectSection title="End-to-End Engineering Project: Mini CNC Mill">
             {/* MQP mini CNC mill */}
             <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
-              <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
+              <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[400px] sm:h-[450px] md:h-[450px] lg:h-[460px]">    
                 <div className="w-full aspect-video mb-4">
                   <iframe
                     loading="lazy"
@@ -204,7 +178,7 @@ export default function Projects() {
             </div>
             {/* MQP mini CNC mill: presentation of finalized R&D phase */}
             <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
-              <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
+              <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[400px] sm:h-[450px] md:h-[450px] lg:h-[460px]">    
                 <div className="w-full aspect-video mb-4">
                   <iframe
                     loading="lazy"
@@ -230,7 +204,7 @@ export default function Projects() {
             </div>
             {/* MQP mini CNC mill: presentation of FMEA analysis for a tool probing concept */}
             <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
-              <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
+              <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[400px] sm:h-[450px] md:h-[450px] lg:h-[460px]">    
                 <div className="w-full aspect-video mb-4">
                   <iframe
                     loading="lazy"
