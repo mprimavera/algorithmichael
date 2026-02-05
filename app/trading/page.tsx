@@ -141,14 +141,14 @@ export default function Trading() {
 
         <div className="border rounded-3xl text-slate-400/50 mb-16 pt-4 bg-black/70 min-w-[410px] text-center">
           <ProjectSection title="Additional Example of Mathematical Modeling">
-            <div className="w-full max-w-7xl mx-auto px-4">
+            <div className="w-full max-w-7xl mx-auto">
             {/* Price Modeling */}
                 <div className="w-full aspect-video mb-4">
                   <iframe
                     loading="lazy"
                     className="w-full h-full rounded-lg"
                     src="https://www.youtube.com/embed/ImnPgaXRYiE?si=9rnZYJxoNPqOA0vB&rel=0&mute=1"
-                    title="Robot Vision"
+                    title="Mathematical Modeling"
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
