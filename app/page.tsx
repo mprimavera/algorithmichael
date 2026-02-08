@@ -45,7 +45,7 @@ export default function Home() {
           w-full max-w-3xl
           ">
           <div className="border rounded-3xl text-slate-400/50 mb-16 pt-4 backdrop-blur-sm bg-black/35 min-w-[410px] text-center">
-            <ProjectSection title="Robotics Engineer & Software Developer">
+            <ProjectSection title="Robotics & Software Engineering Portfolio">
               <div className="w-full max-w-7xl mx-auto px-4">
                 <p className="text-base sm:text-xl text-slate-500 pt-4 mb-6">
                   This site showcases my production-quality software engineering work through real projects, with additional
