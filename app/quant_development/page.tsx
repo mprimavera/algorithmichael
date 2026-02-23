@@ -36,10 +36,6 @@ export default function Trading() {
             demonstrating the actual processes I follow rather than generalized examples.
           </p>
           <p className="mb-6">
-            I have over eight years of independent experience designing and evaluating
-            systematic trading strategies.
-          </p>
-          <p className="mb-6">
             This page illustrates my research-to-production workflow: constructing
             quantitative hypotheses from real data, translating them into executable
             strategy logic, and evaluating performance through disciplined numerical
