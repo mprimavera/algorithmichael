@@ -32,6 +32,10 @@ export default function Trading() {
         </h2>
         <div className="text-slate-500 lg:text-xl md:text-base max-w-2xl lg:max-w-4xl leading-relaxed mb-12">
           <p className="mb-6">
+            The content on this page represents my real, original work in quantitative research and systematic strategy development,
+            demonstrating the actual processes I follow rather than generalized examples.
+          </p>
+          <p className="mb-6">
             I have over eight years of independent experience designing and evaluating
             systematic trading strategies.
           </p>
@@ -123,8 +127,7 @@ export default function Trading() {
             </div>
           </ProjectSection>
         </div>
-
-        <div className="border rounded-3xl text-slate-400/50 mb-16 pt-4 bg-black/70 min-w-[410px] text-center">
+        <div className="border rounded-3xl text-slate-400/50 pt-4 bg-black/70 min-w-[410px] text-center">
           <ProjectSection title="Robustness Analysis and Model Refinement">
             <div className="w-full max-w-7xl mx-auto px-4">
               <img
@@ -134,47 +137,6 @@ export default function Trading() {
               />
               <p className="text-base text-center sm:text-xl mb-2 text-slate-400 pt-4">
                 Evaluation emphasizes risk-adjusted performance via quantitative numerical output.
-              </p>
-            </div>
-          </ProjectSection>
-        </div>
-
-        <div className="border rounded-3xl text-slate-400/50 mb-16 pt-4 bg-black/70 min-w-[410px] text-center">
-          <ProjectSection title="Additional Example of Mathematical Modeling">
-            <div className="w-full max-w-7xl mx-auto px-2">
-            {/* Price Modeling */}
-                <div className="w-full aspect-video mb-4">
-                  <iframe
-                    loading="lazy"
-                    className="w-full h-full rounded-lg"
-                    src="https://www.youtube.com/embed/ImnPgaXRYiE?si=9rnZYJxoNPqOA0vB&rel=0&mute=1"
-                    title="Mathematical Modeling"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                  ></iframe>
-                </div>
-              <p className="text-base text-center sm:text-xl mb-2 text-slate-400 pt-4">
-                To clearly and quickly convey a mathematical concept to customers, I created this video using MATLAB to visualize
-                how I discounted fixed costs by quantity, producing maximum value for both parties—ultimately driving sales.
-              </p>
-            </div>
-          </ProjectSection>
-        </div>
-
-        <div className="border rounded-3xl text-slate-400/50 mb-16 pt-4 bg-black/70 min-w-[410px] text-center">
-          <ProjectSection title="Positioning and Role Alignment">
-            <div className="w-full max-w-7xl mx-auto px-4">
-              <p className="text-base sm:text-xl text-slate-400 pt-4 mb-6">
-                The content on this page represents my real, original work in quantitative research and systematic strategy development,
-                demonstrating the actual processes I follow rather than generalized examples.
-              </p>
-              <p className="text-base sm:text-xl text-slate-400 pt-4 mb-6">
-                The final example applies these same modeling and analytical techniques to a real business pricing problem, reinforcing
-                my ability to build, simulate, and visualize mathematical models in production software.
-              </p>
-              <p className="text-base sm:text-xl text-slate-400 pt-4 mb-6">
-                I apply the same rigor, discipline, and engineering principles to all development work.
               </p>
             </div>
           </ProjectSection>

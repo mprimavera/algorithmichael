@@ -34,10 +34,6 @@ export function NavbarMenu() {
       name: "Quant Development",
       link: "/quant_development",
     },
-    {
-      name: "Product Development",
-      link: "/products",
-    },
   ];
 
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);

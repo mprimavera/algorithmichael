@@ -31,10 +31,62 @@ export default function Projects() {
         </h2>
         <div className="text-slate-500 lg:text-xl md:text-base max-w-2xl lg:max-w-4xl leading-relaxed mb-12">
           <p>
-            These projects represent selected examples of my technical work and analytical approach. This is not an exhaustive
-            representation, and some professional experience—such as my work on Milara’s software team—cannot be displayed due
-            to confidentiality restrictions.
+            The projects shown here represent selected independent work.
           </p>
+        </div>
+
+        {/* ===== Mathematics ===== */}
+        <div className="border rounded-3xl text-slate-400/50 mb-16 pt-4 bg-black/70 min-w-[410px]">
+          <ProjectSection title="Mathematics">
+            {/* Mathematical Modeling */}
+            <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
+              <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[400px] sm:h-[450px] md:h-[450px] lg:h-[460px]">    
+                <div className="w-full aspect-video mb-4">
+                  <iframe
+                    loading="lazy"
+                    className="w-full h-full rounded-lg"
+                    src="https://www.youtube.com/embed/ImnPgaXRYiE?si=9rnZYJxoNPqOA0vB&rel=0&mute=1"
+                    title="Mathematical Modeling"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+                <p className="text-base sm:text-xl mt-4 mb-2 text-slate-400">
+                  Dynamic price modeling using MATLAB.
+                </p>
+                <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
+                  <p className="text-sm text-slate-500">
+                    To clearly and quickly convey a mathematical concept to customers, I created this video using MATLAB to visualize
+                    how I discounted fixed costs by quantity, producing maximum value for both parties—ultimately driving sales.
+                  </p>
+                </div>
+              </BackgroundGradient>
+            </div>
+            {/* The Essence of Mathematics */}
+            <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
+              <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[400px] sm:h-[450px] md:h-[450px] lg:h-[460px]">    
+                <div className="w-full aspect-video mb-4">
+                  <iframe
+                    loading="lazy"
+                    className="w-full h-full rounded-lg"
+                    src="https://www.youtube.com/embed/N_LkVzzLo98?si=2HDagLrcZZfycjea&rel=0"
+                    title="The Essence of Mathematics"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+                <p className="text-base sm:text-xl mt-4 mb-2 text-slate-400">
+                  I made this video to show people the greatest takeaway I had from learning high-level mathematics.
+                </p>
+                <p className="text-sm text-slate-500">
+                  The takeaway is best explained with Isaac Newton's quote, "Truth is ever to be found in simplicity,
+                  and not in the multiplicity and confusion of things"
+                </p>
+              </BackgroundGradient>
+            </div>
+          </ProjectSection>
         </div>
 
         {/* ===== Robotics ===== */}
@@ -210,7 +262,7 @@ export default function Projects() {
                     loading="lazy"
                     className="w-full h-full rounded-lg"
                     src="https://www.youtube.com/embed/-mwcSxoPo5E?si=tWpsAsEATLx_ic8H&rel=0"
-                    title="MQP mini CNC mill: presentation of finalized R&D phase"
+                    title="MQP mini CNC mill: presentation of FMEA analysis for a tool probing concept"
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
