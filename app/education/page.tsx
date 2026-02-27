@@ -29,7 +29,7 @@ const CS_Systems = [
   {
     title: "Assembly",
     content: (
-    `Wrote multiple MSP430 programs in Assembly for embedded systems applications.`
+    `Wrote multiple MSP430 programs in Assembly for embedded systems applications`
     ),
   },
   { title: "Linux OS", content: `Linux-based development and systems programming` 
