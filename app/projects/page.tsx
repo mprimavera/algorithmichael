@@ -31,11 +31,11 @@ export default function Projects() {
         </h2>
         <div className="text-slate-500 lg:text-xl md:text-base max-w-2xl lg:max-w-4xl leading-relaxed mb-12">
           <p>
-            The projects shown here represent selected independent work.
+            Selected projects demonstrating mathematical modeling, control systems, embedded programming, and full-system engineering.
           </p>
         </div>
 
-        {/* ===== Mathematics ===== */}
+        {/* ===== Quantitative Modeling ===== */}
         <div className="border rounded-3xl text-slate-400/50 mb-16 pt-4 bg-black/70 min-w-[410px]">
           <ProjectSection title="Mathematics">
             {/* Mathematical Modeling */}
@@ -82,61 +82,7 @@ export default function Projects() {
                 </p>
                 <p className="text-sm text-slate-500">
                   The takeaway is best explained with Isaac Newton's quote, "Truth is ever to be found in simplicity,
-                  and not in the multiplicity and confusion of things"
-                </p>
-              </BackgroundGradient>
-            </div>
-          </ProjectSection>
-        </div>
-
-        {/* ===== Robotics ===== */}
-        <div className="border rounded-3xl text-slate-400/50 mb-16 pt-4 bg-black/70 min-w-[410px]">
-          <ProjectSection title="Robotics">
-            {/* RBE3001 Vision */}
-            <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
-              <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[400px] sm:h-[450px] md:h-[450px] lg:h-[460px]">    
-                <div className="w-full aspect-video mb-4">
-                  <iframe
-                    loading="lazy"
-                    className="w-full h-full rounded-lg"
-                    src="https://www.youtube.com/embed/EnIhbuE6zA0?si=p2Yk1_7nzTG5uk_B&rel=0"
-                    title="Robot Vision"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                  ></iframe>
-                </div>
-                <p className="text-base sm:text-xl mt-4 mb-2 text-slate-400">
-                  Using MATLAB and vision sensors to locate, grasp, and sort balls by color.
-                </p>
-                <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
-                  <p className="text-sm text-slate-500">
-                    As part of a three-person team, we programmed the robot using the MATLAB Computer Vision Toolbox and
-                    libraries to control the servo motors. All trajectory planning was written from scratch using both forward
-                    and inverse kinematics.
-                  </p>
-                </div>
-              </BackgroundGradient>
-            </div>
-            {/* Industrial Robotics */}
-            <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
-              <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[400px] sm:h-[450px] md:h-[450px] lg:h-[460px]">    
-                <div className="w-full aspect-video mb-4">
-                  <iframe
-                    loading="lazy"
-                    className="w-full h-full rounded-lg"
-                    src="https://www.youtube.com/embed/YAJ9Wzltu34?si=KOFma-CiZnBBG-z9&rel=0"
-                    title="Industrial Robotics"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                  ></iframe>
-                </div>
-                <p className="text-base sm:text-xl mt-4 mb-2 text-slate-400">
-                  Automation line featuring a Fanuc M-1iA and UR5e, integrated with conveyors and sensors.
-                </p>
-                <p className="text-sm text-slate-500">
-                  My primary responsibility was programming the central UR5e after selecting it to control the system via the PLC. I also handled the video editing.
+                  and not in the multiplicity and confusion of things."
                 </p>
               </BackgroundGradient>
             </div>
@@ -197,6 +143,60 @@ export default function Projects() {
                   </div>
                 </BackgroundGradient>
               </div>
+          </ProjectSection>
+        </div>
+
+        {/* ===== Robotics ===== */}
+        <div className="border rounded-3xl text-slate-400/50 mb-16 pt-4 bg-black/70 min-w-[410px]">
+          <ProjectSection title="Robotics">
+            {/* RBE3001 Vision */}
+            <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
+              <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[400px] sm:h-[450px] md:h-[450px] lg:h-[460px]">    
+                <div className="w-full aspect-video mb-4">
+                  <iframe
+                    loading="lazy"
+                    className="w-full h-full rounded-lg"
+                    src="https://www.youtube.com/embed/EnIhbuE6zA0?si=p2Yk1_7nzTG5uk_B&rel=0"
+                    title="Robot Vision"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+                <p className="text-base sm:text-xl mt-4 mb-2 text-slate-400">
+                  Using MATLAB and vision sensors to locate, grasp, and sort balls by color.
+                </p>
+                <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
+                  <p className="text-sm text-slate-500">
+                    As part of a three-person team, we programmed the robot using the MATLAB Computer Vision Toolbox and
+                    libraries to control the servo motors. All trajectory planning was written from scratch using both forward
+                    and inverse kinematics.
+                  </p>
+                </div>
+              </BackgroundGradient>
+            </div>
+            {/* Industrial Robotics */}
+            <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
+              <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[400px] sm:h-[450px] md:h-[450px] lg:h-[460px]">    
+                <div className="w-full aspect-video mb-4">
+                  <iframe
+                    loading="lazy"
+                    className="w-full h-full rounded-lg"
+                    src="https://www.youtube.com/embed/YAJ9Wzltu34?si=KOFma-CiZnBBG-z9&rel=0"
+                    title="Industrial Robotics"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+                <p className="text-base sm:text-xl mt-4 mb-2 text-slate-400">
+                  Automation line featuring a Fanuc M-1iA and UR5e, integrated with conveyors and sensors.
+                </p>
+                <p className="text-sm text-slate-500">
+                  My primary responsibility was programming the central UR5e after selecting it to control the system via the PLC. I also handled the video editing.
+                </p>
+              </BackgroundGradient>
+            </div>
           </ProjectSection>
         </div>
 

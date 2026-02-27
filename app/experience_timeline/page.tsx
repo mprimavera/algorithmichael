@@ -38,7 +38,7 @@ export default function Resume() {
                   href="/quant_development"
                   className="text-center break-normal"
                 >
-                  Quant Research to Development
+                  Quantitative Development
                 </a>
               }
               description={null}

@@ -19,20 +19,20 @@ import Link from "next/link";
 export function NavbarMenu() {
   const navItems = [
     {
+      name: "Quant Development",
+      link: "/quant_development",
+    },
+    {
       name: "Experience Timeline",
       link: "/experience_timeline",
-    },
-      {
-      name: "Education",
-      link: "/education",
     },
     {
       name: "Projects",
       link: "/projects",
     },
     {
-      name: "Quant Development",
-      link: "/quant_development",
+      name: "Education",
+      link: "/education",
     },
   ];
 
@@ -127,5 +127,4 @@ export function NavbarMenu() {
       {/* Navbar */}
     </div>
   );
-
 };
