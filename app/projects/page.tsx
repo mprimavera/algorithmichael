@@ -31,7 +31,7 @@ export default function Projects() {
         </h2>
         <div className="text-slate-500 lg:text-xl md:text-base max-w-2xl lg:max-w-4xl leading-relaxed mb-12">
           <p>
-            Selected projects demonstrating mathematical modeling, control systems, embedded programming, and full-system engineering.
+            Selected projects demonstrating mathematical modeling, control systems, embedded programming, and full-system engineering
           </p>
         </div>
 
@@ -250,30 +250,6 @@ export default function Projects() {
                     This video is a presentation of the finalized R&D phase for the mechanical bed leveling I designed for the MQP as a
                     senior at WPI. This video illustrates the real-world application of engineering principles and procedures I was
                     responsible for.
-                  </p>
-                </div>
-              </BackgroundGradient>
-            </div>
-            {/* MQP mini CNC mill: presentation of FMEA analysis for a tool probing concept */}
-            <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
-              <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[400px] sm:h-[450px] md:h-[450px] lg:h-[460px]">    
-                <div className="w-full aspect-video mb-4">
-                  <iframe
-                    loading="lazy"
-                    className="w-full h-full rounded-lg"
-                    src="https://www.youtube.com/embed/-mwcSxoPo5E?si=tWpsAsEATLx_ic8H&rel=0"
-                    title="MQP mini CNC mill: presentation of FMEA analysis for a tool probing concept"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                  ></iframe>
-                </div>
-                <p className="text-base sm:text-xl mt-4 mb-2 text-slate-400">
-                  MQP mini CNC mill: presentation of FMEA analysis for a tool probing concept
-                </p>
-                <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
-                  <p className="text-sm text-slate-500">
-                    This video is a presentation of the FMEA analysis I did for a tool probing device I proposed to the MQP team.
                   </p>
                 </div>
               </BackgroundGradient>

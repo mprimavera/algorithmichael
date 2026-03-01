@@ -19,7 +19,7 @@ function ProjectSection({
         pb-6 sm:pb-6 md:pb-6 lg:pb-8 pt-4">
         Michael Primavera
       </h1>
-      <h3 className="text-center text-slate-400 sm:break-normal max-w-full text-xl sm:text-2xl md:text-2xl
+      <h3 className="text-center text-slate-400 sm:break-normal max-w-full text-xl sm:text-2xl md:text-2xl md:text-3xl
         pb-2 sm:pb-2 md:pb-2 lg:pb-2 font-semibold leading-10 tracking-tight">
         {title}
       </h3>
@@ -46,7 +46,7 @@ export default function Home() {
           w-full max-w-3xl
           ">
           <div className="border rounded-3xl text-slate-400/50 mb-16 pt-4 backdrop-blur-sm bg-black/35 min-w-[410px] text-center">
-            <ProjectSection title="Quantitative Developer | Systems Engineering">
+            <ProjectSection title="Quantitative Developer">
               <div className="w-full max-w-7xl mx-auto px-4">
                 <p className="text-base sm:text-lg text-slate-500 pt-4 mb-6">
                   This site documents my work in quantitative system design, mathematical modeling, embedded systems, and applied engineering.

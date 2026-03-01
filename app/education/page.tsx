@@ -147,7 +147,7 @@ export default function Education() {
         </h2>
         <div className="text-slate-500 lg:text-xl md:text-base max-w-2xl lg:max-w-4xl leading-relaxed">
           <p className="mb-24">
-            Robotics Engineering (WPI) with emphasis on quantitative modeling, control systems, and software development.
+            Robotics Engineering (WPI) with emphasis on quantitative modeling, control systems, and software development
           </p>
         </div>
         {/* Accordions */}
