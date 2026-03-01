@@ -320,7 +320,7 @@ export default function Resume() {
         </h2>
         <div className="text-slate-500 lg:text-xl md:text-base max-w-2xl lg:max-w-4xl leading-relaxed mb-12">
           <p>
-            Key professional, academic, and technical milestones, including the creation of this interactive portfolio.
+            Key professional, academic, and technical milestones, including the creation of this interactive portfolio
           </p>
         </div>
   
