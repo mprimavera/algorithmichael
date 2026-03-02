@@ -32,11 +32,7 @@ export default function Trading() {
         </h2>
         <div className="text-slate-500 lg:text-xl md:text-base max-w-2xl lg:max-w-4xl leading-relaxed mb-12">
           <p className="mb-6">
-            The content on this page represents my real, original work in quantitative research and systematic strategy development,
-            demonstrating the actual processes I follow rather than generalized examples.
-          </p>
-          <p className="mb-6">
-            This page illustrates my research-to-production workflow: constructing
+            This page illustrates my real, original research-to-production workflow: constructing
             quantitative hypotheses from real data, translating them into executable
             strategy logic, and evaluating performance through disciplined numerical
             analysis and out-of-sample testing.
