@@ -7,14 +7,15 @@ import { Vortex } from "@/components/ui/vortex";
 import { Linkedin, Github } from "lucide-react";
 import { GridItem } from "../components/grid_item";
 
+
 export default function ConnectPage() {
   return (
-    <div className="relative w-full min-h-screen flex items-center justify-center px-4 md:px-8 lg:px-10">
-
-      {/* Background vortex */}
-      <div className="absolute inset-0 -z-10">
+    <>
+      <div className="fixed inset-0 -z-10 pointer-events-none">
         <Vortex baseHue={180} />
       </div>
+
+      <div className="relative w-full min-h-[100svh] flex items-center justify-center px-4 md:px-8 lg:px-10">
       
       <ul className="w-full max-w-4xl grid gap-6">
         <div className="space-y-6">
@@ -69,5 +70,6 @@ export default function ConnectPage() {
         </div>
       </ul>
     </div>
+    </>
   );
 }
