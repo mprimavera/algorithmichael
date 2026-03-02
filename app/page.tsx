@@ -36,8 +36,8 @@ export default function Home() {
       {/* Main content */}
       <div className="relative flex items-center justify-center font-sans w-full h-full
         bg-[url('/cover.png')]
-        bg-cover bg-center bg-no-repeat">
-        <div className="absolute inset-0 bg-black/70 pointer-events-none z-0
+        bg-cover bg-center bg-no-repeat bg-fixed">
+        <div className="absolute inset-0 bg-black/80 pointer-events-none z-0
         [mask-image:radial-gradient(ellipse_at_center,black_30%,transparent_100%)]" />
         <main className="
           relative z-10

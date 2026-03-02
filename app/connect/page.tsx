@@ -11,12 +11,13 @@ import { GridItem } from "../components/grid_item";
 export default function ConnectPage() {
   return (
     <>
-      <div className="hidden md:block fixed inset-0 -z-10 pointer-events-none">
-        <Vortex baseHue={180} />
-      </div>
+    {/* Background */}
+    <div className="fixed inset-0 -z-10 bg-gradient-to-b from-black via-neutral-900 to-black">
+      <div className="absolute inset-0 opacity-10 bg-[linear-gradient(to_right,#ffffff10_1px,transparent_1px),linear-gradient(to_bottom,#ffffff10_1px,transparent_1px)] bg-[size:40px_40px]" />
+    </div>
 
-      <div className="relative w-full min-h-[100svh] flex items-center justify-center px-4 md:px-8 lg:px-10">
-      
+    {/* Content */}
+    <div className="relative w-full min-h-[100svh] flex items-center justify-center px-4 md:px-8 lg:px-10">
       <ul className="w-full max-w-4xl grid gap-6">
         <div className="space-y-6">
           {/* Email direct */}
