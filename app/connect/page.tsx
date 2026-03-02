@@ -10,10 +10,13 @@ import { GridItem } from "../components/grid_item";
 export default function ConnectPage() {
   return (
     <div className="relative w-full min-h-screen flex items-center justify-center px-4 md:px-8 lg:px-10">
-      
-      <ul className="w-full max-w-4xl grid gap-6 justify-items-center">
-        <Vortex baseHue={180} >
 
+      {/* Background vortex */}
+      <div className="absolute inset-0 flex items-center justify-center -z-10">
+        <Vortex baseHue={180} />
+      </div>
+      
+      <ul className="w-full max-w-4xl grid gap-6">
         <div className="space-y-6">
           {/* Email direct */}
           {/* <div className="w-full max-w-md mx-auto">
@@ -64,7 +67,6 @@ export default function ConnectPage() {
             />
           </div>
         </div>
-    </Vortex>
       </ul>
     </div>
   );
