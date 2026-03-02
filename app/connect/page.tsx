@@ -12,7 +12,7 @@ export default function ConnectPage() {
     <div className="relative w-full min-h-screen flex items-center justify-center px-4 md:px-8 lg:px-10">
 
       {/* Background vortex */}
-      <div className="absolute inset-0 flex items-center justify-center -z-10">
+      <div className="absolute inset-0 -z-10">
         <Vortex baseHue={180} />
       </div>
       
