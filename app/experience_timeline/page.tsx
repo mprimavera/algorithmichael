@@ -10,23 +10,25 @@ import PDFModal from "../components/PDFModal";
 import React, { useState } from "react";
 
 
-
 export default function Resume() {
     const [open, setOpen] = useState(false);
 
   const data = [
-        {
-      title: "11/2017 - Present",
+      {
+      title: "Nov 2017 - Present",
       content: (
         <div>
           <p className="mb-2 sm:mb-6 text-slate-400 sm:break-normal max-w-full
             text-lg sm:text-lg md:text-3xl lg:text-4xl font-semibold leading-10 tracking-tight">
-            Quantitative Research and Development
+            Systematic Alpha Research & Strategy Implementation
           </p>
           <ul 
             className="list-disc pl-5 space-y-1 mb-2 text-slate-500 lg:text-xl md:text-base lg:max-w-4xl sm:break-normal max-w-full leading-10 tracking-tight">
-            <li> 
-              Self-Directed
+            <li>
+              Designed and implemented asset-specific predictive pricing models using structured quantitative analysis and out-of-sample validation.
+            </li>
+            <li>
+              Translated research models into executable strategy logic with signal generation, trade state management, and performance evaluation.
             </li>
           </ul>
           {/* Link to Quant Development */}
@@ -35,10 +37,10 @@ export default function Resume() {
               icon={<Workflow className="h-6 w-6 text-neutral-400" />}
               title={
                 <a
-                  href="/quant_development"
+                  href="/systematic_alpha_research"
                   className="text-center break-normal"
                 >
-                  Quantitative Development
+                  Systematic Alpha Research
                 </a>
               }
               description={null}
@@ -47,21 +49,23 @@ export default function Resume() {
         </div>
       ),
     },
+
     {
-      title: "1/2026",
+      title: "Jan 2027",
       content: (
         <div>
           <p className="mb-2 sm:mb-6 text-slate-400 sm:break-normal max-w-full
             text-lg sm:text-lg md:text-3xl lg:text-4xl font-semibold leading-10 tracking-tight">
             Johns Hopkins University — MS in Artificial Intelligence
           </p>
+          <p className="mb-2 sm:mb-6 text-slate-400 sm:break-normal max-w-full
+            text-sm sm:text-sm md:text-xl lg:text-2xl font-semibold leading-10 tracking-tight">
+            Expected Start — January 2027
+          </p>
           <ul 
             className="list-disc pl-5 space-y-1 mb-2 text-slate-500 lg:text-xl md:text-base lg:max-w-4xl sm:break-normal max-w-full leading-10 tracking-tight">
             <li>
-              Admitted under provisional status
-            </li>
-            <li>
-              Anticipated online program start: January 2027
+              Admitted to the online M.S. in Artificial Intelligence; full enrollment pending completion of prerequisite coursework
             </li>
           </ul>
         </div>
@@ -69,7 +73,7 @@ export default function Resume() {
     },
 
     {
-      title: "12/2025",
+      title: "Dec 2025",
       content: (
       <div>
         <p className="mb-2 sm:mb-6 text-slate-400 sm:break-normal max-w-full
@@ -96,153 +100,6 @@ export default function Resume() {
               />
             </div>
           </div>
-        </div>
-      ),
-    },
-
-    {
-      title: "12/2025",
-      content: (
-        <div>
-          <p className="mb-2 sm:mb-6 text-slate-400 sm:break-normal max-w-full
-            text-lg sm:text-lg md:text-3xl lg:text-4xl font-semibold leading-10 tracking-tight">
-            Developed this React project as a portfolio
-          </p>
-          <ul 
-            className="list-disc pl-5 space-y-1 mb-2 text-slate-500 lg:text-xl md:text-base lg:max-w-4xl sm:break-normal max-w-full leading-10 tracking-tight">
-            <li>
-              Custom-built this portfolio entirely from scratch (no templates or tutorials).
-            </li>
-            <li>
-              Built using VS Code, GitHub, Next.js with React-based routing, Tailwind CSS, Aceternity UI, Shadcn UI, Lucide, and ChatGPT
-            </li>
-            <li>
-              Deployed and hosted the site on Vercel
-            </li>
-          </ul>      
-          <div className="w-full mt-6">
-            <div
-              className="
-                grid
-                gap-5
-                grid-cols-3
-                max-w-xl
-                mx-auto
-                justify-items-stretch
-              "
-            >
-              <GridItem2
-                icon={<Github className="h-6 w-6" />}
-                description="GitHub"
-                link="https://github.com"
-              />
-
-              <GridItem2
-                icon={<IconBrandNextjs className="h-6 w-6" />}
-                description="Next.js"
-                link="https://nextjs.org/"
-              />
-
-              <GridItem2
-                icon={
-                  <Image
-                    src="/react.png"
-                    alt="React logo"
-                    width={24}
-                    height={24}
-                    style={{ height: "auto", width: "auto" }}
-                  />
-                }
-                description="React"
-                link="https://react.dev/"
-              />
-
-              <GridItem2
-                icon={
-                  <Image
-                    src="/tailwindCSS.png"
-                    alt="Tailwind CSS logo"
-                    width={24}
-                    height={24}
-                    style={{ height: "auto", width: "auto" }}
-                  />
-                }
-                description="TailwindCSS"
-                link="https://tailwindcss.com/"
-              />
-
-              <GridItem2
-                icon={
-                  <Image
-                    src="/aceternityUI.png"
-                    alt="Aceternity logo"
-                    width={24}
-                    height={24}
-                    style={{ height: "auto", width: "auto" }}
-                  />
-                }
-                description="Aceternity UI"
-                link="https://ui.aceternity.com/"
-              />
-
-              <GridItem2
-                icon={
-                  <Image
-                    src="/shadcn.png"
-                    alt="Shadcn Logo"
-                    width={24}
-                    height={24}
-                    style={{ height: "auto", width: "auto" }}
-                  />
-                }      
-                description="Shadcn UI"
-                link="https://ui.shadcn.com/"
-              />
-
-              <GridItem2
-                icon={
-                  <Image
-                    src="/lucide1.png"
-                    alt="Lucide logo"
-                    width={24}
-                    height={24}
-                    style={{ height: "auto", width: "auto" }}
-                  />
-                } 
-                description="Lucide"
-                link="https://lucide.dev/"
-              />
-
-              <GridItem2
-                icon={
-                        <Image
-                    src="/chatgpt1.png"
-                    alt="ChatGPT logo"
-                    width={24}
-                    height={24}
-                    style={{ height: "auto", width: "auto" }}
-                  />
-                } 
-                description="ChatGPT"
-                link="https://chatgpt.com/"
-              />
-
-              <GridItem2
-                icon={
-                        <Image
-                    src="/vercel2.png"
-                    alt="Vercel logo"
-                    width={24}
-                    height={24}
-                    style={{ height: "auto", width: "auto" }}
-                  />
-                } 
-                description="Vercel"
-                link="https://vercel.com/home"
-              />
-            </div>
-          </div>
-            
         </div>
       ),
     },

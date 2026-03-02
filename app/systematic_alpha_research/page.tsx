@@ -28,14 +28,13 @@ export default function Trading() {
     <div>
       <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
         <h2 className="text-xl md:text-4xl mb-12 text-slate-400 font-semibold">
-          Quantitative Research and Development
+          Systematic Alpha Research & Strategy Implementation
         </h2>
         <div className="text-slate-500 lg:text-xl md:text-base max-w-2xl lg:max-w-4xl leading-relaxed mb-12">
           <p className="mb-6">
-            This page illustrates my real, original research-to-production workflow: constructing
-            quantitative hypotheses from real data, translating them into executable
-            strategy logic, and evaluating performance through disciplined numerical
-            analysis and out-of-sample testing.
+            This page outlines my structured research-to-production workflow for independent systematic trading: constructing
+            asset-specific predictive pricing models from real data, translating them into executable strategy logic, and
+            evaluating performance through structured quantitative analysis, equity curve modeling, and out-of-sample validation.
           </p>
         </div>
         <div className="border rounded-3xl text-slate-400/50 mb-16 pt-4 bg-black/70 min-w-[410px] text-center">
@@ -47,11 +46,8 @@ export default function Trading() {
                 className="w-full object-contain rounded-lg"
               />
               <p className="text-base text-center sm:text-xl text-slate-400 pt-4">
-                The process begins by identifying relevant fundamental drivers and analyzing their relationship to price behavior.
-              </p>
-
-              <p className="text-sm text-slate-500 mt-3 pt-3 border-t border-slate-700/50">
-                This example uses data readily available on the internet, and it is displayed here using Excel for visualization purposes.
+                The process begins by identifying relevant structural drivers, including supply dynamics and asset-specific indicators,
+                and integrating them into a mathematically defined pricing projection model.
               </p>
             </div>
           </ProjectSection>
@@ -66,13 +62,12 @@ export default function Trading() {
                 className="w-full object-contain rounded-lg"
               />
               <p className="text-base text-center sm:text-xl mb-2 text-slate-400 pt-4">
-                Using the data, a quantitative model is constructed to estimate a conditional price expectation,
-                which is then evaluated and refined through numerical analysis.
+                Using the data, a quantitative predictive pricing model is constructed to generate asset-specific
+                price projections, which are then evaluated and refined through structured numerical analysis.
               </p>
               <p className="text-sm text-slate-500 mt-3 pt-3 border-t border-slate-700/50">
-                This formula is shown solely as an example of the process and does not necessarily correspond to the
-                data shown in the images on this page. The underlying analysis is performed programmatically; Excel is used here solely for visualization
-                and parameter inspection.
+                The model architecture and parameter structure shown here illustrate the research framework used
+                to construct asset-specific predictive signals.
               </p>
             </div>
           </ProjectSection>
@@ -87,48 +82,45 @@ export default function Trading() {
                 className="w-full object-contain rounded-lg"
               />
               <p className="text-base text-center sm:text-xl mb-2 text-slate-400 pt-4">
-                The model is then implemented as executable strategy logic, integrating signal generation, state management, and execution constraints.
+                The model is then implemented as executable strategy logic, integrating signal generation, trade state
+                management, and rule-based entry and exit conditions.
               </p>
               <p className="text-sm text-slate-500 mt-3 pt-3 border-t border-slate-700/50">
-                The underlying platform provides market data and visualization. All strategy logic,
-                signal generation, and trade state handling were designed and implemented by me.
-                These examples are provided solely to illustrate system design and research workflow,
-                not to disclose proprietary methods or claim statistical edge.
+                Strategy logic, signal generation, and trade state management were designed and implemented within an asset-specific
+                systematic framework.
               </p>
             </div>
           </ProjectSection>
         </div>
 
         <div className="border rounded-3xl text-slate-400/50 mb-16 pt-4 bg-black/70 min-w-[410px] text-center">
-          <ProjectSection title="Out-of-Sample Testing and Performance Attribution">
+          <ProjectSection title="Out-of-Sample Validation and Performance Evaluation">
             <div className="w-full max-w-7xl mx-auto px-4">
               <img
                 src="/trading/Results_1.png"
-                alt="Out-of-Sample Testing and Performance Attribution"
+                alt="Out-of-Sample Validation and Performance Evaluation"
                 className="w-full object-contain rounded-lg"
               />
               <p className="text-base text-center sm:text-xl mb-2 text-slate-400 pt-4">
-                Models are evaluated using out-of-sample testing to assess robustness under changing market conditions.
+                Models are evaluated using out-of-sample validation to assess predictive consistency on unseen data.
               </p>
               <p className="text-sm text-slate-500 mt-3 pt-3 border-t border-slate-700/50">
-                This report is generated by the underlying trading platform using executed orders
-                produced by my strategy logic. It is included to demonstrate end-to-end system
-                integration—from signal generation through execution and reporting—rather than
-                to emphasize profitability.
+                This report reflects executed orders generated by the strategy logic and is shown to illustrate end-to-end workflow
+                from signal generation through performance evaluation.
               </p>
             </div>
           </ProjectSection>
         </div>
         <div className="border rounded-3xl text-slate-400/50 pt-4 bg-black/70 min-w-[410px] text-center">
-          <ProjectSection title="Robustness Analysis and Model Refinement">
+          <ProjectSection title="Model Evaluation and Refinement">
             <div className="w-full max-w-7xl mx-auto px-4">
               <img
                 src="/trading/Results_2.png"
-                alt="Robustness Analysis and Model Refinement"
+                alt="Model Evaluation and Refinement"
                 className="w-full object-contain rounded-lg"
               />
               <p className="text-base text-center sm:text-xl mb-2 text-slate-400 pt-4">
-                Evaluation emphasizes risk-adjusted performance via quantitative numerical output.
+                Evaluation emphasizes quantitative performance analysis, including trade distribution and equity curve stability.
               </p>
             </div>
           </ProjectSection>

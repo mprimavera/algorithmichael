@@ -10,7 +10,7 @@ function ProjectSection({
   title,
   children,
 }: {
-  title: string;
+  title: ReactNode;
   children: ReactNode;
 }) {
   return (
@@ -46,23 +46,31 @@ export default function Home() {
           w-full max-w-3xl
           ">
           <div className="border rounded-3xl text-slate-400/50 mb-16 pt-4 backdrop-blur-sm bg-black/35 min-w-[410px] text-center">
-            <ProjectSection title="Quantitative Developer">
-              <div className="w-full max-w-7xl mx-auto px-4">
-                <p className="text-base sm:text-lg text-slate-500 pt-4 mb-6">
-                  This site documents my work in quantitative system design, mathematical modeling, embedded systems, and applied engineering.
-                </p>
-              </div>
-            </ProjectSection>
+          <ProjectSection
+            title={
+              <>
+                Independent Systematic Alpha Research
+                <br />
+                & Strategy Implementation
+              </>
+            }
+          >
+            <div className="w-full max-w-7xl mx-auto px-4">
+              <p className="text-base sm:text-lg text-slate-500 pt-4 mb-6">
+                This site documents my work in systematic alpha research, predictive pricing models, and quantitative strategy implementation.
+              </p>
+            </div>
+          </ProjectSection>
           </div>
           <div className="w-full max-w-md mx-auto">
             <GridItem
               icon={<Workflow className="h-6 w-6 text-neutral-400" />}
               title={
                 <a
-                  href="/quant_development"
+                  href="/systematic_alpha_research"
                   className="text-center break-normal"
                 >
-                  Quantitative Development
+                  Systematic Alpha Research
                 </a>
               }
               description={null}
