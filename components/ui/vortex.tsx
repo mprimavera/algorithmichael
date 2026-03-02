@@ -188,18 +188,23 @@ export const Vortex = (props: VortexProps) => {
     return x > canvas.width || x < 0 || y > canvas.height || y < 0;
   };
 
-  const resize = (
-    canvas: HTMLCanvasElement,
-    ctx?: CanvasRenderingContext2D,
-  ) => {
-    const { innerWidth, innerHeight } = window;
+const resize = (
+  canvas: HTMLCanvasElement,
+  ctx?: CanvasRenderingContext2D,
+) => {
+  const rect = canvas.parentElement?.getBoundingClientRect();
+  if (!rect || !ctx) return;
 
-    canvas.width = innerWidth;
-    canvas.height = innerHeight;
+  const dpr = window.devicePixelRatio || 1;
 
-    center[0] = 0.5 * canvas.width;
-    center[1] = 0.5 * canvas.height;
-  };
+  canvas.width = rect.width * dpr;
+  canvas.height = rect.height * dpr;
+
+  ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+
+  center[0] = 0.5 * rect.width;
+  center[1] = 0.5 * rect.height;
+};
 
   const renderGlow = (
     canvas: HTMLCanvasElement,
@@ -238,7 +243,6 @@ export const Vortex = (props: VortexProps) => {
 
   useEffect(() => {
     setup();
-    window.addEventListener("resize", handleResize);
 
     return () => {
       window.removeEventListener("resize", handleResize);
@@ -257,9 +261,9 @@ export const Vortex = (props: VortexProps) => {
         className="absolute inset-0 z-0 flex h-full w-full items-center justify-center bg-transparent"
       >
         <canvas
-          ref={canvasRef}
-          className="w-full h-full"
-        />
+  ref={canvasRef}
+  className="w-full h-full"
+/>
       </motion.div>
 
       <div className={cn("relative z-10", props.className)}>
