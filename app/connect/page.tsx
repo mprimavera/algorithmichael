@@ -9,7 +9,7 @@ import { GridItem } from "../components/grid_item";
 
 export default function ConnectPage() {
   return (
-    <div className="relative w-full min-h-screen flex items-center justify-center px-4 md:px-8 lg:px-10">
+    <div className="relative w-full h-[100svh] overflow-hidden flex items-center justify-center px-4 md:px-8 lg:px-10">
 
       {/* Background vortex */}
       <div className="absolute inset-0 flex items-center justify-center -z-10">
