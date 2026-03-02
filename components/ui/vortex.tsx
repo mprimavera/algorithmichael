@@ -256,7 +256,10 @@ export const Vortex = (props: VortexProps) => {
         ref={containerRef}
         className="absolute inset-0 z-0 flex h-full w-full items-center justify-center bg-transparent"
       >
-        <canvas ref={canvasRef}></canvas>
+        <canvas
+          ref={canvasRef}
+          className="w-full h-full"
+        />
       </motion.div>
 
       <div className={cn("relative z-10", props.className)}>
