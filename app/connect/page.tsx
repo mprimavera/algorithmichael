@@ -11,7 +11,7 @@ import { GridItem } from "../components/grid_item";
 export default function ConnectPage() {
   return (
     <>
-      <div className="fixed inset-0 -z-10 pointer-events-none">
+      <div className="hidden sm:block fixed inset-0 -z-10 pointer-events-none">
         <Vortex baseHue={180} />
       </div>
 
