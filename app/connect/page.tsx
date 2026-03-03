@@ -7,14 +7,15 @@ import { Vortex } from "@/components/ui/vortex";
 import { Linkedin, Github } from "lucide-react";
 import { GridItem } from "../components/grid_item";
 
-
 export default function ConnectPage() {
   return (
     <>
-    {/* Background */}
-    <div className="fixed inset-0 -z-10 bg-gradient-to-b from-black via-neutral-900 to-black">
-      <div className="absolute inset-0 opacity-10 bg-[linear-gradient(to_right,#ffffff10_1px,transparent_1px),linear-gradient(to_bottom,#ffffff10_1px,transparent_1px)] bg-[size:40px_40px]" />
+    {/* Fixed background image */}
+    <div className="fixed inset-0 -z-10">
+      <div className="absolute inset-0 bg-[url('/connect.jpeg')] bg-cover bg-center bg-no-repeat" /> 
+      <div className="absolute inset-0 bg-black/70 [mask-image:radial-gradient(ellipse_at_center,black_30%,transparent_100%)]" /> 
     </div>
+
 
     {/* Content */}
     <div className="relative w-full min-h-[100svh] flex items-center justify-center px-4 md:px-8 lg:px-10">

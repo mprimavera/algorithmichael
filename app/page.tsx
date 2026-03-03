@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import { GridItem } from "./components/grid_item";
 import { Workflow } from "lucide-react";
 
@@ -14,12 +13,12 @@ function ProjectSection({
   children: ReactNode;
 }) {
   return (
-    <section className="mb-4">
+    <section className=" border rounded-4xl backdrop-blur-sm p-1">
       <h1 className="max-w-full text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold leading-10 tracking-tight text-slate-400
         pb-6 sm:pb-6 md:pb-6 lg:pb-8 pt-4">
         Michael Primavera
       </h1>
-      <h3 className="text-center text-slate-400 sm:break-normal max-w-full text-xl sm:text-2xl md:text-2xl md:text-3xl
+      <h3 className="text-center text-slate-400 sm:break-normal max-w-full text-xl sm:text-2xl md:text-2xl
         pb-2 sm:pb-2 md:pb-2 lg:pb-2 font-semibold leading-10 tracking-tight">
         {title}
       </h3>
@@ -32,37 +31,44 @@ function ProjectSection({
 
 export default function Home() {
   return (
-    <div className="relative w-full h-screen ">
+    <div className="relative w-full h-screen">
+
+      {/* Fixed background image */}
+      <div className="fixed inset-0 -z-10">
+        <div className="absolute inset-0
+          bg-[url('/page.jpg')]
+          bg-cover
+          bg-center
+          bg-no-repeat" />
+        <div className="absolute inset-0 bg-black/60
+          [mask-image:radial-gradient(ellipse_at_center,black_30%,transparent_100%)]" />
+        </div>
+
       {/* Main content */}
       <div className="relative flex items-center justify-center font-sans w-full h-full
-        bg-[url('/cover.png')]
-        bg-cover bg-center bg-no-repeat bg-fixed">
-        <div className="absolute inset-0 bg-black/80 pointer-events-none z-0
-        [mask-image:radial-gradient(ellipse_at_center,black_30%,transparent_100%)]" />
+        bg-transparent">
         <main className="
           relative z-10
           flex flex-col items-center justify-center
           px-4 sm:px-16
           w-full max-w-3xl
           ">
-          <div className="border rounded-3xl text-slate-400/50 mb-16 pt-4 backdrop-blur-sm bg-black/35 min-w-[410px] text-center">
+          <div className=" text-slate-400/50 mb-14 pt-4 min-w-[410px] text-center">
           <ProjectSection
             title={
               <>
-                Independent Systematic Alpha Research
+                Systematic Alpha Research
                 <br />
-                & Strategy Implementation
+                & Quantitative Strategy Development
               </>
             }
           >
             <div className="w-full max-w-7xl mx-auto px-4">
-              <p className="text-base sm:text-lg text-slate-500 pt-4 mb-6">
+              <p className="text-base sm:text-lg text-slate-400 pt-4 mb-6">
                 This site documents my work in systematic alpha research, predictive pricing models, and quantitative strategy implementation.
               </p>
             </div>
-          </ProjectSection>
-          </div>
-          <div className="w-full max-w-md mx-auto">
+            <div className="w-full max-w-md mx-auto mb-4">
             <GridItem
               icon={<Workflow className="h-6 w-6 text-neutral-400" />}
               title={
@@ -75,6 +81,8 @@ export default function Home() {
               }
               description={null}
             />
+          </div>
+          </ProjectSection>
           </div>
         </main>
       </div>

@@ -28,7 +28,9 @@ export default function Trading() {
     <div>
       <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
         <h2 className="text-xl md:text-4xl mb-12 text-slate-400 font-semibold">
-          Systematic Alpha Research & Strategy Implementation
+          Systematic Alpha Research 
+          <br/>
+          & Quantitative Strategy Development
         </h2>
         <div className="text-slate-500 lg:text-xl md:text-base max-w-2xl lg:max-w-4xl leading-relaxed mb-12">
           <p className="mb-6">
