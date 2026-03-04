@@ -27,10 +27,6 @@ export function NavbarMenu() {
       link: "/experience_timeline",
     },
     {
-      name: "Projects",
-      link: "/projects",
-    },
-    {
       name: "Education",
       link: "/education",
     },
