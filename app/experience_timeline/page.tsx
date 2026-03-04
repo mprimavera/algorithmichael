@@ -20,7 +20,9 @@ export default function Resume() {
         <div>
           <p className="mb-2 sm:mb-6 text-slate-400 sm:break-normal max-w-full
             text-lg sm:text-lg md:text-3xl lg:text-4xl font-semibold leading-10 tracking-tight">
-            Systematic Alpha Research & Strategy Implementation
+            Systematic Alpha Research
+            <br />
+            & Quantitative Strategy Development
           </p>
           <ul 
             className="list-disc pl-5 space-y-1 mb-2 text-slate-500 lg:text-xl md:text-base lg:max-w-4xl sm:break-normal max-w-full leading-10 tracking-tight">

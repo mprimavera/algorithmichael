@@ -13,7 +13,7 @@ function ProjectSection({
   children: ReactNode;
 }) {
   return (
-    <section className=" border rounded-4xl backdrop-blur-sm p-1">
+    <section className=" border rounded-4xl bg-black/40 p-1">
       <h1 className="max-w-full text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold leading-10 tracking-tight text-slate-400
         pb-6 sm:pb-6 md:pb-6 lg:pb-8 pt-4">
         Michael Primavera
@@ -36,7 +36,7 @@ export default function Home() {
       {/* Fixed background image */}
       <div className="fixed inset-0 -z-10">
         <div className="absolute inset-0
-          bg-[url('/page.jpg')]
+          bg-[url('/testing.jpg')]
           bg-cover
           bg-center
           bg-no-repeat" />

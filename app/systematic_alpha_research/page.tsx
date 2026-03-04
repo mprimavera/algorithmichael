@@ -3,6 +3,26 @@ import { BackgroundGradient } from "@/components/ui/background-gradient";
 
 import { ReactNode } from "react";
 
+function DarkenedImage({
+  src,
+  alt,
+  opacity = 0.4,
+}: {
+  src: string;
+  alt: string;
+  opacity?: number;
+}) {
+  return (
+    <div className="relative w-full rounded-lg overflow-hidden">
+      <img src={src} alt={alt} className="w-full object-contain" />
+      <div
+        className="absolute inset-0 bg-black pointer-events-none"
+        style={{ opacity }}
+      />
+    </div>
+  );
+}
+
 // Helper component for sections
 function ProjectSection({
   title,
@@ -42,10 +62,10 @@ export default function Trading() {
         <div className="border rounded-3xl text-slate-400/50 mb-16 pt-4 bg-black/70 min-w-[410px] text-center">
           <ProjectSection title="Data Selection and Exploratory Analysis">
             <div className="w-full max-w-7xl mx-auto px-4">
-              <img
+              <DarkenedImage
                 src="/trading/Data.png"
                 alt="Data Selection and Exploratory Analysis"
-                className="w-full object-contain rounded-lg"
+                opacity={0.4}
               />
               <p className="text-base text-center sm:text-xl text-slate-400 pt-4">
                 The process begins by identifying relevant structural drivers, including supply dynamics and asset-specific indicators,
@@ -58,10 +78,10 @@ export default function Trading() {
         <div className="border rounded-3xl text-slate-400/50 mb-16 pt-4 bg-black/70 min-w-[410px] text-center">
           <ProjectSection title="Model Construction and Parameter Estimation">
             <div className="w-full max-w-7xl mx-auto px-4">
-              <img
+              <DarkenedImage
                 src="/trading/Strategy.png"
-                alt="Model Construction and Parameter Estimation"
-                className="w-full object-contain rounded-lg"
+                alt="Data Selection and Exploratory Analysis"
+                opacity={0.3}
               />
               <p className="text-base text-center sm:text-xl mb-2 text-slate-400 pt-4">
                 Using the data, a quantitative predictive pricing model is constructed to generate asset-specific
@@ -78,10 +98,10 @@ export default function Trading() {
         <div className="border rounded-3xl text-slate-400/50 mb-16 pt-4 bg-black/70 min-w-[410px] text-center">
           <ProjectSection title="Strategy Implementation and Execution Logic">
             <div className="w-full max-w-7xl mx-auto px-4">
-              <img
+              <DarkenedImage
                 src="/trading/Code.png"
-                alt="Strategy Implementation and Execution Logic"
-                className="w-full object-contain rounded-lg"
+                alt="Data Selection and Exploratory Analysis"
+                opacity={0.2}
               />
               <p className="text-base text-center sm:text-xl mb-2 text-slate-400 pt-4">
                 The model is then implemented as executable strategy logic, integrating signal generation, trade state
@@ -98,10 +118,10 @@ export default function Trading() {
         <div className="border rounded-3xl text-slate-400/50 mb-16 pt-4 bg-black/70 min-w-[410px] text-center">
           <ProjectSection title="Out-of-Sample Validation and Performance Evaluation">
             <div className="w-full max-w-7xl mx-auto px-4">
-              <img
+              <DarkenedImage
                 src="/trading/Results_1.png"
-                alt="Out-of-Sample Validation and Performance Evaluation"
-                className="w-full object-contain rounded-lg"
+                alt="Data Selection and Exploratory Analysis"
+                opacity={0.4}
               />
               <p className="text-base text-center sm:text-xl mb-2 text-slate-400 pt-4">
                 Models are evaluated using out-of-sample validation to assess predictive consistency on unseen data.
@@ -116,10 +136,10 @@ export default function Trading() {
         <div className="border rounded-3xl text-slate-400/50 pt-4 bg-black/70 min-w-[410px] text-center">
           <ProjectSection title="Model Evaluation and Refinement">
             <div className="w-full max-w-7xl mx-auto px-4">
-              <img
+              <DarkenedImage
                 src="/trading/Results_2.png"
-                alt="Model Evaluation and Refinement"
-                className="w-full object-contain rounded-lg"
+                alt="Data Selection and Exploratory Analysis"
+                opacity={0.4}
               />
               <p className="text-base text-center sm:text-xl mb-2 text-slate-400 pt-4">
                 Evaluation emphasizes quantitative performance analysis, including trade distribution and equity curve stability.
