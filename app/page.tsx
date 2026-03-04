@@ -40,8 +40,7 @@ export default function Home() {
           bg-cover
           bg-center
           bg-no-repeat" />
-        <div className="absolute inset-0 bg-black/60
-          [mask-image:radial-gradient(ellipse_at_center,black_30%,transparent_100%)]" />
+        <div className="absolute inset-0 bg-black/60" />
         </div>
 
       {/* Main content */}
