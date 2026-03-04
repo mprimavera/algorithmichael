@@ -76,10 +76,10 @@ const Robotics_EmbeddedSys = [
     content: (
       <div className="space-y-4">
         <ul className="list-disc pl-5 space-y-1">
-          <li>RBE2001: Mechanical Applications in Robotics</li>
-          <li>RBE2002: Sensing and Perception</li>
-          <li>RBE3001: Manipulation</li>
-          <li>RBE3002: Navigation</li>
+          <li>Mechanical Applications in Robotics</li>
+          <li>Sensing and Perception</li>
+          <li>Manipulation</li>
+          <li>Navigation</li>
         </ul>
       </div>
     ),

@@ -15,12 +15,13 @@ export default function SystematicAlphaResearch() {
           framework and empirical results become available.
       </h3>
 
-        <p className="text-slate-400">
-
-        </p>
-
       <div className="text-slate-500 lg:text-xl md:text-base max-w-2xl lg:max-w-4xl leading-relaxed space-y-6 mb-12">
 
+        <p>
+          The full research framework and supporting Python code will be
+          published in this section as development milestones are completed.
+        </p>
+        
         <p>
           This section documents ongoing work in systematic alpha research and
           quantitative strategy development.

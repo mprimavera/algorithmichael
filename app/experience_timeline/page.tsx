@@ -33,21 +33,6 @@ export default function Resume() {
               Translated research models into executable strategy logic with signal generation, trade state management, and performance evaluation.
             </li>
           </ul>
-          {/* Link to Quant Development */}
-          <div className="w-full max-w-md mx-auto mt-4 sm:mt-4 md:mt-8 lg:mt-12 mb-2 sm:mb-2 md:mb-4 lg:mb-4">
-            <GridItem
-              icon={<Workflow className="h-6 w-6 text-neutral-400" />}
-              title={
-                <a
-                  href="/systematic_alpha_research"
-                  className="text-center break-normal"
-                >
-                  Systematic Alpha Research
-                </a>
-              }
-              description={null}
-            />
-          </div>
         </div>
       ),
     },
