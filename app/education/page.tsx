@@ -1,4 +1,3 @@
-import { defaultOffset } from "motion";
 import { Accordion } from "../components/accordion";
 
 
@@ -106,17 +105,16 @@ const MQPAccordion = [
     content: (
       <div className="space-y-4 pb-2">
         <ul className="list-disc pl-5 space-y-1">
-          <li>Designed and implemented mechanical bed leveling</li>
           <li>Established a GitHub-based workflow for version control and remote collaboration on SOLIDWORKS files</li>
-          <li>Performed load and torque calculations to verify bearing capacity along the linear rails</li>
+          <li>Developed a laser probe and safety system for the automatic tool changer</li>
+          <li>Designed and implemented mechanical bed leveling</li>
           <li>Discovered that the software "glitches" noticed by students were actually the result of electromagnetic interference (EMI)
             from the VFD powering the spindle</li>
-          <li>Developed a laser probe and safety system for the automatic tool changer</li>
-          <li>Calibrated axis motors and drivers</li>
-          <li>Created new fixturing for the work area</li>
-          <li>Lead technical contributor across mechanical design, controls integration, and systems diagnostics.</li>
+          <li>
+          Led technical contributions across controls integration, mechanical design,
+          and authorship of the 342-page final report.
+          </li>
         </ul>
-
         {/* Centered button */}
         <div className="flex justify-center mt-2 mb-2">
           <a
