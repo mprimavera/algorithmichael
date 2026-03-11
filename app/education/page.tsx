@@ -9,9 +9,8 @@ const Quant_Math = [
           <li>Probability</li>
           <li>Linear Algebra</li>
           <li>Differential Equations</li>
-          <li>Discrete Math</li>
           <li>Multivariable Calculus</li>
-          <li>Engineering Math</li>
+          <li>Engineering Mathematics</li>
         </ul>
       </div>
     ),
@@ -19,7 +18,7 @@ const Quant_Math = [
   },
 ]
 
-const CS_Systems = [
+const CS = [
 
   { title: "Object-Oriented Programming (Python, C++, Java)", 
     content: (`Implemented data structures and control logic in Python and C++; Java used in formal OOP coursework`),
@@ -37,6 +36,43 @@ const CS_Systems = [
   },
   { title: "SQL", content: `PostgreSQL for relational schema design and backend integration`
   }, 
+
+  { title: "MATLAB", content: `MATLAB for controls, robotics modeling, circuit analysis, and mathematical computation with visualization.` 
+  },
+  { title: "Software Engineering", content: `PERN stack: PostgreSQL, Express, React, and Node.js`
+  },
+
+  { title: "Applied Discrete Mathematics",
+    content: (
+      <div className="space-y-4">
+        <ul className="list-disc pl-5 space-y-1">
+          <li>Boolean algebra and predicate logic</li>
+          <li>Set theory and ordered sets</li>
+          <li>Mathematical induction and proof techniques</li>
+          <li>Relations and lattice theory</li>
+          <li>Tree structures and discrete mathematical models</li>
+        </ul>
+      </div>
+    ),
+  }
+]
+
+const Robotics_EmbeddedSys = [
+  { title: "Control Engineering",
+    content: (
+      <div className="space-y-4">
+        <ul className="list-disc pl-5 space-y-1">
+          <li>Mathematical modeling of dynamic systems</li>
+          <li>Laplace transforms and transfer functions</li>
+          <li>Block diagrams and signal-flow representations</li>
+          <li>Transient response analysis</li>
+          <li>Stability analysis and root-locus methods</li>
+          <li>Frequency-domain analysis: Bode, polar, and Nichols plots</li>
+        </ul>
+      </div>
+    ),
+    defaultOpen: true,
+  },
   { title: "Microcontroller Programming",
     content: (
       <div className="space-y-4">
@@ -47,29 +83,21 @@ const CS_Systems = [
         </ul>
       </div>
     ),
-  },
-  { title: "MATLAB", content: `MATLAB for controls, robotics modeling, circuit analysis, and mathematical computation with visualization.` 
-  },
-  { title: "Software Engineering", content: `PERN stack: PostgreSQL, Express, React, and Node.js`
-  },
-]
-
-const Robotics_EmbeddedSys = [
-    { title: "Artificial Intelligence in Robotics",     
-    content: (
-      <div className="space-y-4">
-        <ul className="list-disc pl-5 space-y-1">
-          <li>A* search</li>
-          <li>Dijkstra's algorithm</li>
-          <li>Adversarial search</li>
-          <li>Markov decision processes</li>
-          <li>Reinforcement learning</li>
-          <li>Neural networks</li>
-          <li>Deep learning</li>
-        </ul>
-      </div>
-    ),
-    defaultOpen: true,
+  },  
+  { title: "Artificial Intelligence in Robotics",     
+  content: (
+    <div className="space-y-4">
+      <ul className="list-disc pl-5 space-y-1">
+        <li>A* search</li>
+        <li>Dijkstra's algorithm</li>
+        <li>Adversarial search</li>
+        <li>Markov decision processes</li>
+        <li>Reinforcement learning</li>
+        <li>Neural networks</li>
+        <li>Deep learning</li>
+      </ul>
+    </div>
+  ),
   },
     { title: "Unified Robotics Courses",     
     content: (
@@ -145,7 +173,7 @@ export default function Education() {
         </h2>
         <div className="text-slate-500 lg:text-xl md:text-base max-w-2xl lg:max-w-4xl leading-relaxed">
           <p className="mb-24">
-            Robotics Engineering (WPI) with emphasis on quantitative modeling, control systems, and software development
+            Robotics Engineering (WPI) with emphasis on automation, mathematical modeling, control systems, and software development
           </p>
         </div>
         {/* Accordions */}
@@ -157,9 +185,9 @@ export default function Education() {
           <Accordion items={Quant_Math} />
 
           <p className="mb-2 text-center sm:mb-6 text-slate-400 sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
-            Computer Science & Systems
+            Computer Science
           </p>
-          <Accordion items={CS_Systems} />
+          <Accordion items={CS} />
 
           <p className="mb-2 text-center sm:mb-6 text-slate-400 sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
             Robotics & Embedded Systems

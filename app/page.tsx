@@ -56,9 +56,7 @@ export default function Home() {
           <ProjectSection
             title={
               <>
-                Systematic Alpha Research
-                <br />
-                & Quantitative Strategy Development
+              Quantitative Research & Development
               </>
             }
           >
@@ -72,10 +70,10 @@ export default function Home() {
               icon={<Workflow className="h-6 w-6 text-neutral-400" />}
               title={
                 <a
-                  href="/systematic_alpha_research"
+                  href="/quantitative_research_development"
                   className="text-center break-normal"
                 >
-                  Systematic Alpha Research
+                  Quantitative R&D
                 </a>
               }
               description={null}

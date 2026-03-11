@@ -10,7 +10,7 @@ import PDFModal from "../components/PDFModal";
 import React, { useState } from "react";
 
 
-export default function Resume() {
+export default function Experience_Timeline() {
     const [open, setOpen] = useState(false);
 
   const data = [
@@ -20,9 +20,7 @@ export default function Resume() {
         <div>
           <p className="mb-2 sm:mb-6 text-slate-400 sm:break-normal max-w-full
             text-lg sm:text-lg md:text-3xl lg:text-4xl font-semibold leading-10 tracking-tight">
-            Systematic Alpha Research
-            <br />
-            & Quantitative Strategy Development
+            Quantitative Research & Development
           </p>
           <ul 
             className="list-disc pl-5 space-y-1 mb-2 text-slate-500 lg:text-xl md:text-base lg:max-w-4xl sm:break-normal max-w-full leading-10 tracking-tight">
@@ -97,7 +95,7 @@ export default function Resume() {
         <div>
           <p className="mb-2 sm:mb-6 text-slate-400 sm:break-normal max-w-full
             text-lg sm:text-lg md:text-3xl lg:text-4xl font-semibold leading-10 tracking-tight">
-            Field Service Engineer – Software Team
+            Field Service Engineer — Software & Systems
           </p>
           <ul 
             className="list-disc pl-5 space-y-1 mb-2 text-slate-500 lg:text-xl md:text-base lg:max-w-4xl sm:break-normal max-w-full leading-10 tracking-tight">
@@ -118,7 +116,7 @@ export default function Resume() {
         <div>
           <p className="mb-2 sm:mb-6 text-slate-400 sm:break-normal max-w-full
             text-lg sm:text-lg md:text-3xl lg:text-4xl font-semibold leading-10 tracking-tight">
-            Founder – Owned and operated an e-commerce store
+            Founder — Product Design, CNC Manufacturing, & E-Commerce
           </p>
           <ul 
             className="list-disc pl-5 space-y-1 mb-2 text-slate-500 lg:text-xl md:text-base lg:max-w-4xl sm:break-normal max-w-full leading-10 tracking-tight">

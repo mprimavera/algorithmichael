@@ -19,8 +19,8 @@ import Link from "next/link";
 export function NavbarMenu() {
   const navItems = [
     {
-      name: "Systematic Alpha Research",
-      link: "/systematic_alpha_research",
+      name: "Quantitative R&D",
+      link: "/quantitative_research_development",
     },
     {
       name: "Experience Timeline",
